@@ -1263,7 +1263,7 @@ public class page6Politics extends javax.swing.JFrame {
     private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed
         // TODO add your handling code here:
         
-        if(politics2c.isSelected() == true) {
+        if(politics2a.isSelected() == true) {
             score += 1;
             jPanel11.setBackground(Color.green);
 
@@ -1303,7 +1303,7 @@ public class page6Politics extends javax.swing.JFrame {
 
     private void jButton9ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton9ActionPerformed
         // TODO add your handling code here:
-        if(politics5c.isSelected() == true) {
+        if(politics5b.isSelected() == true) {
             score += 1;
             jPanel14.setBackground(Color.green);
         } else {
@@ -1327,17 +1327,16 @@ public class page6Politics extends javax.swing.JFrame {
 
     private void jButton13ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton13ActionPerformed
         // TODO add your handling code here:
-        if (politics7c.isSelected() == true) {
+        if (politics7b.isSelected() == true) {
             score += 1;
             jPanel16.setBackground(Color.green);
-            
         } else {
             jPanel16.setBackground(Color.red);
         }
         
         
 
-        thankYouPage tyPage = new thankYouPage();
+        thankYouPagePolitics tyPage = new thankYouPagePolitics();
         tyPage.setScore(score);
         tyPage.setLocationRelativeTo(null);
         tyPage.setVisible(true);

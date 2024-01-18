@@ -56,10 +56,10 @@ public class page1 extends javax.swing.JFrame {
         backgroundColor.setBackground(new java.awt.Color(255, 255, 255));
         backgroundColor.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jLabel1.setFont(new java.awt.Font("OCR A Std", 0, 36)); // NOI18N
+        jLabel1.setFont(new java.awt.Font("OCR A Std", 0, 65)); // NOI18N
         jLabel1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel1.setText("QUIZ MANIA");
-        backgroundColor.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(378, 99, -1, -1));
+        backgroundColor.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(220, 130, 540, -1));
 
         buttonsPanel.setBackground(new java.awt.Color(255, 255, 255));
 
@@ -87,17 +87,16 @@ public class page1 extends javax.swing.JFrame {
                 .addContainerGap()
                 .addComponent(jButton1, javax.swing.GroupLayout.PREFERRED_SIZE, 111, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(21, 21, 21)
-                .addComponent(jButton2, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addComponent(jButton2, javax.swing.GroupLayout.DEFAULT_SIZE, 112, Short.MAX_VALUE)
                 .addContainerGap())
         );
         buttonsPanelLayout.setVerticalGroup(
             buttonsPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(buttonsPanelLayout.createSequentialGroup()
-                .addGap(36, 36, 36)
+                .addContainerGap(81, Short.MAX_VALUE)
                 .addGroup(buttonsPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jButton1, javax.swing.GroupLayout.PREFERRED_SIZE, 39, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jButton2, javax.swing.GroupLayout.PREFERRED_SIZE, 39, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addContainerGap(41, Short.MAX_VALUE))
+                    .addComponent(jButton2, javax.swing.GroupLayout.PREFERRED_SIZE, 39, javax.swing.GroupLayout.PREFERRED_SIZE)))
         );
 
         backgroundColor.add(buttonsPanel, new org.netbeans.lib.awtextra.AbsoluteConstraints(378, 161, 256, -1));

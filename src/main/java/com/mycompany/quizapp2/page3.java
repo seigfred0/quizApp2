@@ -202,6 +202,11 @@ public class page3 extends javax.swing.JFrame {
         jButton2.setBackground(new java.awt.Color(255, 153, 153));
         jButton2.setFont(new java.awt.Font("OCR A Std", 0, 12)); // NOI18N
         jButton2.setText("Geography");
+        jButton2.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton2ActionPerformed(evt);
+            }
+        });
 
         jButton3.setFont(new java.awt.Font("OCR A Std", 0, 12)); // NOI18N
         jButton3.setText("Technology");
@@ -297,6 +302,10 @@ public class page3 extends javax.swing.JFrame {
 
     private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed
         // TODO add your handling code here:
+        page5Technology pg5 = new page5Technology();
+        pg5.setLocationRelativeTo(null);
+        pg5.setVisible(true);
+        dispose();
     }//GEN-LAST:event_jButton3ActionPerformed
 
     private void jButton5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton5ActionPerformed
@@ -314,6 +323,14 @@ public class page3 extends javax.swing.JFrame {
         pg7a.setVisible(true);
         dispose();
     }//GEN-LAST:event_jButton4ActionPerformed
+
+    private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
+        // TODO add your handling code here:
+        page4Geography1 pg4 = new page4Geography1();
+        pg4.setLocationRelativeTo(null);
+        pg4.setVisible(true);
+        dispose();
+    }//GEN-LAST:event_jButton2ActionPerformed
 
     /**
      * @param args the command line arguments
