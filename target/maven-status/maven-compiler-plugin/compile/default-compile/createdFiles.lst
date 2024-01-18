@@ -2,6 +2,7 @@ com\mycompany\quizapp2\page3.class
 com\mycompany\quizapp2\page7Riddles$20.class
 com\mycompany\quizapp2\page7Riddles$10.class
 com\mycompany\quizapp2\page7Riddles$30.class
+com\mycompany\quizapp2\riddleSummary$2.class
 com\mycompany\quizapp2\page7Riddles$8.class
 com\mycompany\quizapp2\page1$3.class
 com\mycompany\quizapp2\page7Riddles$5.class
@@ -15,12 +16,11 @@ com\mycompany\quizapp2\page7Riddles$16.class
 com\mycompany\quizapp2\page7Riddles$4.class
 com\mycompany\quizapp2\page7Riddles$7.class
 com\mycompany\quizapp2\page7Riddles$21.class
+com\mycompany\quizapp2\riddleSummary$1.class
 com\mycompany\quizapp2\page3$2.class
 com\mycompany\quizapp2\page7Riddles$13.class
-com\mycompany\quizapp2\page5Technology.class
 com\mycompany\quizapp2\page7Riddles$1.class
 com\mycompany\quizapp2\page1$2.class
-com\mycompany\quizapp2\page6Politics$1.class
 com\mycompany\quizapp2\page7Riddles$33.class
 com\mycompany\quizapp2\page7Riddles$28.class
 com\mycompany\quizapp2\page4Geography.class
@@ -29,6 +29,7 @@ com\mycompany\quizapp2\page4Geography$1.class
 com\mycompany\quizapp2\page7Riddles$3.class
 com\mycompany\quizapp2\page1$1.class
 com\mycompany\quizapp2\page7Riddles$15.class
+com\mycompany\quizapp2\page3$4.class
 com\mycompany\quizapp2\page1.class
 com\mycompany\quizapp2\QuizApp2.class
 com\mycompany\quizapp2\page7Riddles$22.class
@@ -42,13 +43,12 @@ com\mycompany\quizapp2\page7Riddles$2.class
 com\mycompany\quizapp2\page2.class
 com\mycompany\quizapp2\page7Riddles$9.class
 com\mycompany\quizapp2\page7Riddles$11.class
-com\mycompany\quizapp2\page6Politics.class
 com\mycompany\quizapp2\page7Riddles$26.class
 com\mycompany\quizapp2\page7Riddles$31.class
 com\mycompany\quizapp2\page3$3.class
 com\mycompany\quizapp2\page7Riddles.class
-com\mycompany\quizapp2\page5Technology$1.class
 com\mycompany\quizapp2\page2$2.class
+com\mycompany\quizapp2\riddleSummary.class
 com\mycompany\quizapp2\page7Riddles$18.class
 com\mycompany\quizapp2\page7Riddles$23.class
 com\mycompany\quizapp2\page7Riddles$6.class

@@ -12,6 +12,8 @@ import java.awt.Color;
  */
 public class page7Riddles extends javax.swing.JFrame {
 
+    private int score = 0;
+
     /**
      * Creates new form page4Geography
      */
@@ -20,7 +22,6 @@ public class page7Riddles extends javax.swing.JFrame {
         setResizable(false);
     }
     
-    private int score;
     
     
 
@@ -358,7 +359,7 @@ public class page7Riddles extends javax.swing.JFrame {
                 .addComponent(jButton2)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addComponent(jPanel17, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(80, Short.MAX_VALUE))
+                .addContainerGap(110, Short.MAX_VALUE))
         );
 
         jTabbedPane1.addTab("tab1", jPanel3);
@@ -1214,7 +1215,7 @@ public class page7Riddles extends javax.swing.JFrame {
 
         jTabbedPane1.addTab("tab7", jPanel9);
 
-        jPanel1.add(jTabbedPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 60, 1000, 550));
+        jPanel1.add(jTabbedPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 30, 1000, 580));
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -1341,6 +1342,10 @@ public class page7Riddles extends javax.swing.JFrame {
         if (riddle1a.isSelected() == true) {
             score += 1;
             jPanel10.setBackground(Color.green);
+            
+          
+            
+            
         } else {
             jPanel10.setBackground(Color.red);
         }
@@ -1354,6 +1359,7 @@ public class page7Riddles extends javax.swing.JFrame {
         if(riddle2c.isSelected() == true) {
             score += 1;
             jPanel11.setBackground(Color.green);
+
         } else {
             jPanel11.setBackground(Color.red);
         }
@@ -1417,15 +1423,24 @@ public class page7Riddles extends javax.swing.JFrame {
         if (riddle7c.isSelected() == true) {
             score += 1;
             jPanel16.setBackground(Color.green);
+            
         } else {
             jPanel16.setBackground(Color.red);
         }
         
         
 
-        
+        thankYouPage tyPage = new thankYouPage();
+        tyPage.setScore(score);
+        tyPage.setLocationRelativeTo(null);
+        tyPage.setVisible(true);
+
+        dispose();  
     }//GEN-LAST:event_jButton13ActionPerformed
 
+    
+    
+    
     /**
      * @param args the command line arguments
      */
