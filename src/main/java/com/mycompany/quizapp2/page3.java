@@ -20,7 +20,7 @@ public class page3 extends javax.swing.JFrame {
     }
     
     public void setName(String name) {
-        nameVariable.setText("Hello " + name + ", choose your topic");
+        nameVariable.setText("Hello " + name + " choose your topic");
     }
 
     /**
@@ -197,7 +197,7 @@ public class page3 extends javax.swing.JFrame {
 
         nameVariable.setFont(new java.awt.Font("OCR A Std", 0, 24)); // NOI18N
         nameVariable.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        nameVariable.setText("Hello name, select your topic");
+        nameVariable.setText("Hello name select your topic");
 
         jButton2.setBackground(new java.awt.Color(255, 153, 153));
         jButton2.setFont(new java.awt.Font("OCR A Std", 0, 12)); // NOI18N

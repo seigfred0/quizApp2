@@ -41,7 +41,13 @@ public class page6Politics extends javax.swing.JFrame {
         riddle5 = new javax.swing.ButtonGroup();
         riddle6 = new javax.swing.ButtonGroup();
         riddle7 = new javax.swing.ButtonGroup();
-        buttonGroup1 = new javax.swing.ButtonGroup();
+        politics1 = new javax.swing.ButtonGroup();
+        politics2 = new javax.swing.ButtonGroup();
+        politics3 = new javax.swing.ButtonGroup();
+        politics4 = new javax.swing.ButtonGroup();
+        politics5 = new javax.swing.ButtonGroup();
+        politics6 = new javax.swing.ButtonGroup();
+        politics7 = new javax.swing.ButtonGroup();
         jPanel1 = new javax.swing.JPanel();
         jPanel2 = new javax.swing.JPanel();
         jPanel10 = new javax.swing.JPanel();
@@ -56,9 +62,9 @@ public class page6Politics extends javax.swing.JFrame {
         jPanel17 = new javax.swing.JPanel();
         jLabel1 = new javax.swing.JLabel();
         jLabel3 = new javax.swing.JLabel();
-        riddle1a = new javax.swing.JRadioButton();
-        riddle1b = new javax.swing.JRadioButton();
-        riddle1a2 = new javax.swing.JRadioButton();
+        politics1a = new javax.swing.JRadioButton();
+        politics1b = new javax.swing.JRadioButton();
+        politics1c = new javax.swing.JRadioButton();
         jButton1 = new javax.swing.JButton();
         jButton2 = new javax.swing.JButton();
         jPanel4 = new javax.swing.JPanel();
@@ -66,9 +72,9 @@ public class page6Politics extends javax.swing.JFrame {
         jPanel19 = new javax.swing.JPanel();
         jLabel2 = new javax.swing.JLabel();
         jLabel4 = new javax.swing.JLabel();
-        riddle2a = new javax.swing.JRadioButton();
-        riddle2b = new javax.swing.JRadioButton();
-        riddle2c = new javax.swing.JRadioButton();
+        politics2a = new javax.swing.JRadioButton();
+        politics2b = new javax.swing.JRadioButton();
+        politics2c = new javax.swing.JRadioButton();
         jButton3 = new javax.swing.JButton();
         jButton4 = new javax.swing.JButton();
         jPanel5 = new javax.swing.JPanel();
@@ -76,9 +82,9 @@ public class page6Politics extends javax.swing.JFrame {
         jPanel21 = new javax.swing.JPanel();
         jLabel5 = new javax.swing.JLabel();
         jLabel6 = new javax.swing.JLabel();
-        riddle3a = new javax.swing.JRadioButton();
-        riddle3b = new javax.swing.JRadioButton();
-        riddle3c = new javax.swing.JRadioButton();
+        politics3a = new javax.swing.JRadioButton();
+        politics3b = new javax.swing.JRadioButton();
+        politics3c = new javax.swing.JRadioButton();
         jButton5 = new javax.swing.JButton();
         jButton6 = new javax.swing.JButton();
         jPanel6 = new javax.swing.JPanel();
@@ -86,9 +92,9 @@ public class page6Politics extends javax.swing.JFrame {
         jPanel23 = new javax.swing.JPanel();
         jLabel7 = new javax.swing.JLabel();
         jLabel8 = new javax.swing.JLabel();
-        riddle4a = new javax.swing.JRadioButton();
-        riddle4b = new javax.swing.JRadioButton();
-        riddle4c = new javax.swing.JRadioButton();
+        politics4a = new javax.swing.JRadioButton();
+        politics4b = new javax.swing.JRadioButton();
+        politics4c = new javax.swing.JRadioButton();
         jButton7 = new javax.swing.JButton();
         jButton8 = new javax.swing.JButton();
         jPanel7 = new javax.swing.JPanel();
@@ -96,9 +102,9 @@ public class page6Politics extends javax.swing.JFrame {
         jPanel25 = new javax.swing.JPanel();
         jLabel9 = new javax.swing.JLabel();
         jLabel10 = new javax.swing.JLabel();
-        riddle5a = new javax.swing.JRadioButton();
-        riddle5b = new javax.swing.JRadioButton();
-        riddle5c = new javax.swing.JRadioButton();
+        politics5a = new javax.swing.JRadioButton();
+        politics5b = new javax.swing.JRadioButton();
+        politics5c = new javax.swing.JRadioButton();
         jButton9 = new javax.swing.JButton();
         jButton10 = new javax.swing.JButton();
         jPanel8 = new javax.swing.JPanel();
@@ -106,9 +112,9 @@ public class page6Politics extends javax.swing.JFrame {
         jPanel27 = new javax.swing.JPanel();
         jLabel11 = new javax.swing.JLabel();
         jLabel12 = new javax.swing.JLabel();
-        riddle6a = new javax.swing.JRadioButton();
-        riddle6b = new javax.swing.JRadioButton();
-        riddle6c = new javax.swing.JRadioButton();
+        politics6a = new javax.swing.JRadioButton();
+        politics6b = new javax.swing.JRadioButton();
+        politics6c = new javax.swing.JRadioButton();
         jButton11 = new javax.swing.JButton();
         jButton12 = new javax.swing.JButton();
         jPanel9 = new javax.swing.JPanel();
@@ -116,9 +122,9 @@ public class page6Politics extends javax.swing.JFrame {
         jPanel29 = new javax.swing.JPanel();
         jLabel13 = new javax.swing.JLabel();
         jLabel14 = new javax.swing.JLabel();
-        riddle7a = new javax.swing.JRadioButton();
-        riddle7b = new javax.swing.JRadioButton();
-        riddle7c = new javax.swing.JRadioButton();
+        politics7a = new javax.swing.JRadioButton();
+        politics7b = new javax.swing.JRadioButton();
+        politics7c = new javax.swing.JRadioButton();
         jButton13 = new javax.swing.JButton();
         jButton14 = new javax.swing.JButton();
 
@@ -236,30 +242,30 @@ public class page6Politics extends javax.swing.JFrame {
         jLabel3.setFont(new java.awt.Font("OCR A Std", 0, 14)); // NOI18N
         jLabel3.setText("Highest Law making body in the Philippines");
 
-        riddles1.add(riddle1a);
-        riddle1a.setFont(new java.awt.Font("OCR A Std", 0, 14)); // NOI18N
-        riddle1a.setText("Congress");
-        riddle1a.addActionListener(new java.awt.event.ActionListener() {
+        politics1.add(politics1a);
+        politics1a.setFont(new java.awt.Font("OCR A Std", 0, 14)); // NOI18N
+        politics1a.setText("Congress");
+        politics1a.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                riddle1aActionPerformed(evt);
+                politics1aActionPerformed(evt);
             }
         });
 
-        riddles1.add(riddle1b);
-        riddle1b.setFont(new java.awt.Font("OCR A Std", 0, 14)); // NOI18N
-        riddle1b.setText("Senate");
-        riddle1b.addActionListener(new java.awt.event.ActionListener() {
+        politics1.add(politics1b);
+        politics1b.setFont(new java.awt.Font("OCR A Std", 0, 14)); // NOI18N
+        politics1b.setText("Senate");
+        politics1b.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                riddle1bActionPerformed(evt);
+                politics1bActionPerformed(evt);
             }
         });
 
-        riddles1.add(riddle1a2);
-        riddle1a2.setFont(new java.awt.Font("OCR A Std", 0, 14)); // NOI18N
-        riddle1a2.setText("Supreme Court");
-        riddle1a2.addActionListener(new java.awt.event.ActionListener() {
+        politics1.add(politics1c);
+        politics1c.setFont(new java.awt.Font("OCR A Std", 0, 14)); // NOI18N
+        politics1c.setText("Supreme Court");
+        politics1c.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                riddle1a2ActionPerformed(evt);
+                politics1cActionPerformed(evt);
             }
         });
 
@@ -291,9 +297,9 @@ public class page6Politics extends javax.swing.JFrame {
                             .addGroup(jPanel17Layout.createSequentialGroup()
                                 .addGap(6, 6, 6)
                                 .addGroup(jPanel17Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addComponent(riddle1a, javax.swing.GroupLayout.PREFERRED_SIZE, 183, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addComponent(riddle1b, javax.swing.GroupLayout.PREFERRED_SIZE, 183, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addComponent(riddle1a2, javax.swing.GroupLayout.PREFERRED_SIZE, 183, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(politics1a, javax.swing.GroupLayout.PREFERRED_SIZE, 183, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(politics1b, javax.swing.GroupLayout.PREFERRED_SIZE, 183, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(politics1c, javax.swing.GroupLayout.PREFERRED_SIZE, 183, javax.swing.GroupLayout.PREFERRED_SIZE)
                                     .addComponent(jButton1))))))
                 .addContainerGap(194, Short.MAX_VALUE))
         );
@@ -305,11 +311,11 @@ public class page6Politics extends javax.swing.JFrame {
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(jLabel3, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(riddle1a, javax.swing.GroupLayout.PREFERRED_SIZE, 33, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(politics1a, javax.swing.GroupLayout.PREFERRED_SIZE, 33, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(riddle1b, javax.swing.GroupLayout.PREFERRED_SIZE, 33, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(politics1b, javax.swing.GroupLayout.PREFERRED_SIZE, 33, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(riddle1a2, javax.swing.GroupLayout.PREFERRED_SIZE, 33, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(politics1c, javax.swing.GroupLayout.PREFERRED_SIZE, 33, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(33, 33, 33)
                 .addComponent(jButton1)
                 .addContainerGap(53, Short.MAX_VALUE))
@@ -359,30 +365,30 @@ public class page6Politics extends javax.swing.JFrame {
         jLabel4.setFont(new java.awt.Font("OCR A Std", 0, 14)); // NOI18N
         jLabel4.setText("Lenght for a member of the House of Representative");
 
-        riddle2.add(riddle2a);
-        riddle2a.setFont(new java.awt.Font("OCR A Std", 0, 14)); // NOI18N
-        riddle2a.setText("3 years");
-        riddle2a.addActionListener(new java.awt.event.ActionListener() {
+        politics2.add(politics2a);
+        politics2a.setFont(new java.awt.Font("OCR A Std", 0, 14)); // NOI18N
+        politics2a.setText("3 years");
+        politics2a.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                riddle2aActionPerformed(evt);
+                politics2aActionPerformed(evt);
             }
         });
 
-        riddle2.add(riddle2b);
-        riddle2b.setFont(new java.awt.Font("OCR A Std", 0, 14)); // NOI18N
-        riddle2b.setText("4 years");
-        riddle2b.addActionListener(new java.awt.event.ActionListener() {
+        politics2.add(politics2b);
+        politics2b.setFont(new java.awt.Font("OCR A Std", 0, 14)); // NOI18N
+        politics2b.setText("4 years");
+        politics2b.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                riddle2bActionPerformed(evt);
+                politics2bActionPerformed(evt);
             }
         });
 
-        riddle2.add(riddle2c);
-        riddle2c.setFont(new java.awt.Font("OCR A Std", 0, 14)); // NOI18N
-        riddle2c.setText("6 years");
-        riddle2c.addActionListener(new java.awt.event.ActionListener() {
+        politics2.add(politics2c);
+        politics2c.setFont(new java.awt.Font("OCR A Std", 0, 14)); // NOI18N
+        politics2c.setText("6 years");
+        politics2c.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                riddle2cActionPerformed(evt);
+                politics2cActionPerformed(evt);
             }
         });
 
@@ -407,9 +413,9 @@ public class page6Politics extends javax.swing.JFrame {
                     .addGroup(jPanel19Layout.createSequentialGroup()
                         .addGap(62, 62, 62)
                         .addGroup(jPanel19Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(riddle2a, javax.swing.GroupLayout.PREFERRED_SIZE, 183, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(riddle2b, javax.swing.GroupLayout.PREFERRED_SIZE, 183, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(riddle2c, javax.swing.GroupLayout.PREFERRED_SIZE, 183, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(politics2a, javax.swing.GroupLayout.PREFERRED_SIZE, 183, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(politics2b, javax.swing.GroupLayout.PREFERRED_SIZE, 183, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(politics2c, javax.swing.GroupLayout.PREFERRED_SIZE, 183, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addComponent(jButton3)))
                     .addGroup(jPanel19Layout.createSequentialGroup()
                         .addGap(31, 31, 31)
@@ -428,11 +434,11 @@ public class page6Politics extends javax.swing.JFrame {
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(jLabel4, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(18, 18, 18)
-                .addComponent(riddle2a, javax.swing.GroupLayout.PREFERRED_SIZE, 33, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(politics2a, javax.swing.GroupLayout.PREFERRED_SIZE, 33, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(riddle2b, javax.swing.GroupLayout.PREFERRED_SIZE, 33, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(politics2b, javax.swing.GroupLayout.PREFERRED_SIZE, 33, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(riddle2c, javax.swing.GroupLayout.PREFERRED_SIZE, 33, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(politics2c, javax.swing.GroupLayout.PREFERRED_SIZE, 33, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(38, 38, 38)
                 .addComponent(jButton3)
                 .addContainerGap(48, Short.MAX_VALUE))
@@ -492,31 +498,31 @@ public class page6Politics extends javax.swing.JFrame {
         jLabel6.setFont(new java.awt.Font("OCR A Std", 0, 14)); // NOI18N
         jLabel6.setText("Gov. body that holds power of judicial review.");
 
-        riddle3.add(riddle3a);
-        riddle3a.setFont(new java.awt.Font("OCR A Std", 0, 14)); // NOI18N
-        riddle3a.setText("Supreme Court");
-        riddle3a.addActionListener(new java.awt.event.ActionListener() {
+        politics3.add(politics3a);
+        politics3a.setFont(new java.awt.Font("OCR A Std", 0, 14)); // NOI18N
+        politics3a.setText("Supreme Court");
+        politics3a.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                riddle3aActionPerformed(evt);
+                politics3aActionPerformed(evt);
             }
         });
 
-        riddle3.add(riddle3b);
-        riddle3b.setFont(new java.awt.Font("OCR A Std", 0, 14)); // NOI18N
-        riddle3b.setText("Senate");
-        riddle3b.setToolTipText("");
-        riddle3b.addActionListener(new java.awt.event.ActionListener() {
+        politics3.add(politics3b);
+        politics3b.setFont(new java.awt.Font("OCR A Std", 0, 14)); // NOI18N
+        politics3b.setText("Senate");
+        politics3b.setToolTipText("");
+        politics3b.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                riddle3bActionPerformed(evt);
+                politics3bActionPerformed(evt);
             }
         });
 
-        riddle3.add(riddle3c);
-        riddle3c.setFont(new java.awt.Font("OCR A Std", 0, 14)); // NOI18N
-        riddle3c.setText("Congress");
-        riddle3c.addActionListener(new java.awt.event.ActionListener() {
+        politics3.add(politics3c);
+        politics3c.setFont(new java.awt.Font("OCR A Std", 0, 14)); // NOI18N
+        politics3c.setText("Congress");
+        politics3c.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                riddle3cActionPerformed(evt);
+                politics3cActionPerformed(evt);
             }
         });
 
@@ -539,9 +545,9 @@ public class page6Politics extends javax.swing.JFrame {
             .addGroup(jPanel21Layout.createSequentialGroup()
                 .addGap(31, 31, 31)
                 .addGroup(jPanel21Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(riddle3a, javax.swing.GroupLayout.PREFERRED_SIZE, 183, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(riddle3b, javax.swing.GroupLayout.PREFERRED_SIZE, 183, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(riddle3c, javax.swing.GroupLayout.PREFERRED_SIZE, 183, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(politics3a, javax.swing.GroupLayout.PREFERRED_SIZE, 183, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(politics3b, javax.swing.GroupLayout.PREFERRED_SIZE, 183, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(politics3c, javax.swing.GroupLayout.PREFERRED_SIZE, 183, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(jButton5)
                     .addComponent(jLabel5, javax.swing.GroupLayout.PREFERRED_SIZE, 249, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(jLabel6, javax.swing.GroupLayout.PREFERRED_SIZE, 630, javax.swing.GroupLayout.PREFERRED_SIZE))
@@ -555,11 +561,11 @@ public class page6Politics extends javax.swing.JFrame {
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(jLabel6, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(riddle3a, javax.swing.GroupLayout.PREFERRED_SIZE, 33, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(politics3a, javax.swing.GroupLayout.PREFERRED_SIZE, 33, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(riddle3b, javax.swing.GroupLayout.PREFERRED_SIZE, 33, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(politics3b, javax.swing.GroupLayout.PREFERRED_SIZE, 33, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(riddle3c, javax.swing.GroupLayout.PREFERRED_SIZE, 33, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(politics3c, javax.swing.GroupLayout.PREFERRED_SIZE, 33, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(31, 31, 31)
                 .addComponent(jButton5)
                 .addContainerGap(55, Short.MAX_VALUE))
@@ -617,30 +623,30 @@ public class page6Politics extends javax.swing.JFrame {
         jLabel8.setFont(new java.awt.Font("OCR A Std", 0, 14)); // NOI18N
         jLabel8.setText("Title give to the head of the Senate");
 
-        riddle4.add(riddle4a);
-        riddle4a.setFont(new java.awt.Font("OCR A Std", 0, 14)); // NOI18N
-        riddle4a.setText("Senate Leader");
-        riddle4a.addActionListener(new java.awt.event.ActionListener() {
+        riddle4.add(politics4a);
+        politics4a.setFont(new java.awt.Font("OCR A Std", 0, 14)); // NOI18N
+        politics4a.setText("Senate Leader");
+        politics4a.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                riddle4aActionPerformed(evt);
+                politics4aActionPerformed(evt);
             }
         });
 
-        riddle4.add(riddle4b);
-        riddle4b.setFont(new java.awt.Font("OCR A Std", 0, 14)); // NOI18N
-        riddle4b.setText("Senate President");
-        riddle4b.addActionListener(new java.awt.event.ActionListener() {
+        riddle4.add(politics4b);
+        politics4b.setFont(new java.awt.Font("OCR A Std", 0, 14)); // NOI18N
+        politics4b.setText("Senate President");
+        politics4b.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                riddle4bActionPerformed(evt);
+                politics4bActionPerformed(evt);
             }
         });
 
-        riddle4.add(riddle4c);
-        riddle4c.setFont(new java.awt.Font("OCR A Std", 0, 14)); // NOI18N
-        riddle4c.setText("Senate Head");
-        riddle4c.addActionListener(new java.awt.event.ActionListener() {
+        politics4.add(politics4c);
+        politics4c.setFont(new java.awt.Font("OCR A Std", 0, 14)); // NOI18N
+        politics4c.setText("Senate Head");
+        politics4c.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                riddle4cActionPerformed(evt);
+                politics4cActionPerformed(evt);
             }
         });
 
@@ -670,10 +676,10 @@ public class page6Politics extends javax.swing.JFrame {
                     .addGroup(jPanel23Layout.createSequentialGroup()
                         .addGap(62, 62, 62)
                         .addGroup(jPanel23Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(riddle4a, javax.swing.GroupLayout.PREFERRED_SIZE, 183, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(riddle4c, javax.swing.GroupLayout.PREFERRED_SIZE, 183, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(politics4a, javax.swing.GroupLayout.PREFERRED_SIZE, 183, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(politics4c, javax.swing.GroupLayout.PREFERRED_SIZE, 183, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addComponent(jButton7)
-                            .addComponent(riddle4b, javax.swing.GroupLayout.PREFERRED_SIZE, 228, javax.swing.GroupLayout.PREFERRED_SIZE))))
+                            .addComponent(politics4b, javax.swing.GroupLayout.PREFERRED_SIZE, 228, javax.swing.GroupLayout.PREFERRED_SIZE))))
                 .addContainerGap(87, Short.MAX_VALUE))
         );
         jPanel23Layout.setVerticalGroup(
@@ -684,11 +690,11 @@ public class page6Politics extends javax.swing.JFrame {
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addComponent(jLabel8, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 42, Short.MAX_VALUE)
-                .addComponent(riddle4a, javax.swing.GroupLayout.PREFERRED_SIZE, 33, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(politics4a, javax.swing.GroupLayout.PREFERRED_SIZE, 33, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(riddle4b, javax.swing.GroupLayout.PREFERRED_SIZE, 33, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(politics4b, javax.swing.GroupLayout.PREFERRED_SIZE, 33, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(riddle4c, javax.swing.GroupLayout.PREFERRED_SIZE, 33, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(politics4c, javax.swing.GroupLayout.PREFERRED_SIZE, 33, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(33, 33, 33)
                 .addComponent(jButton7)
                 .addGap(42, 42, 42))
@@ -748,30 +754,30 @@ public class page6Politics extends javax.swing.JFrame {
         jLabel10.setFont(new java.awt.Font("OCR A Std", 0, 14)); // NOI18N
         jLabel10.setText("In 1972, a martial law was decalred by..");
 
-        riddle5.add(riddle5a);
-        riddle5a.setFont(new java.awt.Font("OCR A Std", 0, 14)); // NOI18N
-        riddle5a.setText("Corazon Aquino");
-        riddle5a.addActionListener(new java.awt.event.ActionListener() {
+        politics5.add(politics5a);
+        politics5a.setFont(new java.awt.Font("OCR A Std", 0, 14)); // NOI18N
+        politics5a.setText("Corazon Aquino");
+        politics5a.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                riddle5aActionPerformed(evt);
+                politics5aActionPerformed(evt);
             }
         });
 
-        riddle5.add(riddle5b);
-        riddle5b.setFont(new java.awt.Font("OCR A Std", 0, 14)); // NOI18N
-        riddle5b.setText("Ferdinand Marcos");
-        riddle5b.addActionListener(new java.awt.event.ActionListener() {
+        politics5.add(politics5b);
+        politics5b.setFont(new java.awt.Font("OCR A Std", 0, 14)); // NOI18N
+        politics5b.setText("Ferdinand Marcos");
+        politics5b.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                riddle5bActionPerformed(evt);
+                politics5bActionPerformed(evt);
             }
         });
 
-        riddle5.add(riddle5c);
-        riddle5c.setFont(new java.awt.Font("OCR A Std", 0, 14)); // NOI18N
-        riddle5c.setText("Diosdado Macapagal");
-        riddle5c.addActionListener(new java.awt.event.ActionListener() {
+        politics5.add(politics5c);
+        politics5c.setFont(new java.awt.Font("OCR A Std", 0, 14)); // NOI18N
+        politics5c.setText("Diosdado Macapagal");
+        politics5c.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                riddle5cActionPerformed(evt);
+                politics5cActionPerformed(evt);
             }
         });
 
@@ -803,10 +809,10 @@ public class page6Politics extends javax.swing.JFrame {
                             .addGroup(jPanel25Layout.createSequentialGroup()
                                 .addGap(6, 6, 6)
                                 .addGroup(jPanel25Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addComponent(riddle5a, javax.swing.GroupLayout.PREFERRED_SIZE, 183, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(politics5a, javax.swing.GroupLayout.PREFERRED_SIZE, 183, javax.swing.GroupLayout.PREFERRED_SIZE)
                                     .addComponent(jButton9)
-                                    .addComponent(riddle5b, javax.swing.GroupLayout.PREFERRED_SIZE, 280, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addComponent(riddle5c, javax.swing.GroupLayout.PREFERRED_SIZE, 256, javax.swing.GroupLayout.PREFERRED_SIZE))))))
+                                    .addComponent(politics5b, javax.swing.GroupLayout.PREFERRED_SIZE, 280, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(politics5c, javax.swing.GroupLayout.PREFERRED_SIZE, 256, javax.swing.GroupLayout.PREFERRED_SIZE))))))
                 .addContainerGap(194, Short.MAX_VALUE))
         );
         jPanel25Layout.setVerticalGroup(
@@ -817,11 +823,11 @@ public class page6Politics extends javax.swing.JFrame {
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(jLabel10, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(riddle5a, javax.swing.GroupLayout.PREFERRED_SIZE, 33, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(politics5a, javax.swing.GroupLayout.PREFERRED_SIZE, 33, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(riddle5b, javax.swing.GroupLayout.PREFERRED_SIZE, 33, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(politics5b, javax.swing.GroupLayout.PREFERRED_SIZE, 33, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(riddle5c, javax.swing.GroupLayout.PREFERRED_SIZE, 33, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(politics5c, javax.swing.GroupLayout.PREFERRED_SIZE, 33, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(28, 28, 28)
                 .addComponent(jButton9)
                 .addContainerGap(58, Short.MAX_VALUE))
@@ -883,30 +889,30 @@ public class page6Politics extends javax.swing.JFrame {
         jLabel12.setFont(new java.awt.Font("OCR A Std", 0, 14)); // NOI18N
         jLabel12.setText("Which body has the power to impeach the President");
 
-        riddle6.add(riddle6a);
-        riddle6a.setFont(new java.awt.Font("OCR A Std", 0, 14)); // NOI18N
-        riddle6a.setText("Senate");
-        riddle6a.addActionListener(new java.awt.event.ActionListener() {
+        politics6.add(politics6a);
+        politics6a.setFont(new java.awt.Font("OCR A Std", 0, 14)); // NOI18N
+        politics6a.setText("Senate");
+        politics6a.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                riddle6aActionPerformed(evt);
+                politics6aActionPerformed(evt);
             }
         });
 
-        riddle6.add(riddle6b);
-        riddle6b.setFont(new java.awt.Font("OCR A Std", 0, 14)); // NOI18N
-        riddle6b.setText("Supreme Court");
-        riddle6b.addActionListener(new java.awt.event.ActionListener() {
+        politics6.add(politics6b);
+        politics6b.setFont(new java.awt.Font("OCR A Std", 0, 14)); // NOI18N
+        politics6b.setText("Supreme Court");
+        politics6b.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                riddle6bActionPerformed(evt);
+                politics6bActionPerformed(evt);
             }
         });
 
-        riddle6.add(riddle6c);
-        riddle6c.setFont(new java.awt.Font("OCR A Std", 0, 14)); // NOI18N
-        riddle6c.setText("House of Representative");
-        riddle6c.addActionListener(new java.awt.event.ActionListener() {
+        politics6.add(politics6c);
+        politics6c.setFont(new java.awt.Font("OCR A Std", 0, 14)); // NOI18N
+        politics6c.setText("House of Representative");
+        politics6c.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                riddle6cActionPerformed(evt);
+                politics6cActionPerformed(evt);
             }
         });
 
@@ -931,10 +937,10 @@ public class page6Politics extends javax.swing.JFrame {
                     .addGroup(jPanel27Layout.createSequentialGroup()
                         .addGap(62, 62, 62)
                         .addGroup(jPanel27Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(riddle6a, javax.swing.GroupLayout.PREFERRED_SIZE, 183, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(riddle6b, javax.swing.GroupLayout.PREFERRED_SIZE, 183, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(politics6a, javax.swing.GroupLayout.PREFERRED_SIZE, 183, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(politics6b, javax.swing.GroupLayout.PREFERRED_SIZE, 183, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addComponent(jButton11)
-                            .addComponent(riddle6c, javax.swing.GroupLayout.PREFERRED_SIZE, 299, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                            .addComponent(politics6c, javax.swing.GroupLayout.PREFERRED_SIZE, 299, javax.swing.GroupLayout.PREFERRED_SIZE)))
                     .addGroup(jPanel27Layout.createSequentialGroup()
                         .addGap(31, 31, 31)
                         .addGroup(jPanel27Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -952,11 +958,11 @@ public class page6Politics extends javax.swing.JFrame {
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(jLabel12, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(riddle6a, javax.swing.GroupLayout.PREFERRED_SIZE, 33, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(politics6a, javax.swing.GroupLayout.PREFERRED_SIZE, 33, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(riddle6b, javax.swing.GroupLayout.PREFERRED_SIZE, 33, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(politics6b, javax.swing.GroupLayout.PREFERRED_SIZE, 33, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(riddle6c, javax.swing.GroupLayout.PREFERRED_SIZE, 33, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(politics6c, javax.swing.GroupLayout.PREFERRED_SIZE, 33, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(18, 18, 18)
                 .addComponent(jButton11)
                 .addContainerGap(68, Short.MAX_VALUE))
@@ -1016,30 +1022,30 @@ public class page6Politics extends javax.swing.JFrame {
         jLabel14.setFont(new java.awt.Font("OCR A Std", 0, 12)); // NOI18N
         jLabel14.setText("How many senators are there in the Philippine Senate?");
 
-        riddle7.add(riddle7a);
-        riddle7a.setFont(new java.awt.Font("OCR A Std", 0, 14)); // NOI18N
-        riddle7a.setText("12");
-        riddle7a.addActionListener(new java.awt.event.ActionListener() {
+        politics7.add(politics7a);
+        politics7a.setFont(new java.awt.Font("OCR A Std", 0, 14)); // NOI18N
+        politics7a.setText("12");
+        politics7a.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                riddle7aActionPerformed(evt);
+                politics7aActionPerformed(evt);
             }
         });
 
-        riddle7.add(riddle7b);
-        riddle7b.setFont(new java.awt.Font("OCR A Std", 0, 14)); // NOI18N
-        riddle7b.setText("24");
-        riddle7b.addActionListener(new java.awt.event.ActionListener() {
+        politics7.add(politics7b);
+        politics7b.setFont(new java.awt.Font("OCR A Std", 0, 14)); // NOI18N
+        politics7b.setText("24");
+        politics7b.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                riddle7bActionPerformed(evt);
+                politics7bActionPerformed(evt);
             }
         });
 
-        riddle7.add(riddle7c);
-        riddle7c.setFont(new java.awt.Font("OCR A Std", 0, 14)); // NOI18N
-        riddle7c.setText("16");
-        riddle7c.addActionListener(new java.awt.event.ActionListener() {
+        politics7.add(politics7c);
+        politics7c.setFont(new java.awt.Font("OCR A Std", 0, 14)); // NOI18N
+        politics7c.setText("16");
+        politics7c.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                riddle7cActionPerformed(evt);
+                politics7cActionPerformed(evt);
             }
         });
 
@@ -1064,9 +1070,9 @@ public class page6Politics extends javax.swing.JFrame {
                     .addGroup(jPanel29Layout.createSequentialGroup()
                         .addGap(62, 62, 62)
                         .addGroup(jPanel29Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(riddle7a, javax.swing.GroupLayout.PREFERRED_SIZE, 183, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(riddle7b, javax.swing.GroupLayout.PREFERRED_SIZE, 183, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(riddle7c, javax.swing.GroupLayout.PREFERRED_SIZE, 183, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(politics7a, javax.swing.GroupLayout.PREFERRED_SIZE, 183, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(politics7b, javax.swing.GroupLayout.PREFERRED_SIZE, 183, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(politics7c, javax.swing.GroupLayout.PREFERRED_SIZE, 183, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addComponent(jButton13)))
                     .addGroup(jPanel29Layout.createSequentialGroup()
                         .addGap(31, 31, 31)
@@ -1083,11 +1089,11 @@ public class page6Politics extends javax.swing.JFrame {
                 .addGap(18, 18, 18)
                 .addComponent(jLabel14)
                 .addGap(41, 41, 41)
-                .addComponent(riddle7a, javax.swing.GroupLayout.PREFERRED_SIZE, 33, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(politics7a, javax.swing.GroupLayout.PREFERRED_SIZE, 33, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(riddle7b, javax.swing.GroupLayout.PREFERRED_SIZE, 33, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(politics7b, javax.swing.GroupLayout.PREFERRED_SIZE, 33, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(riddle7c, javax.swing.GroupLayout.PREFERRED_SIZE, 33, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(politics7c, javax.swing.GroupLayout.PREFERRED_SIZE, 33, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(18, 18, 18)
                 .addComponent(jButton13)
                 .addContainerGap(68, Short.MAX_VALUE))
@@ -1152,95 +1158,95 @@ public class page6Politics extends javax.swing.JFrame {
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
-    private void riddle1aActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_riddle1aActionPerformed
+    private void politics1aActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_politics1aActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_riddle1aActionPerformed
+    }//GEN-LAST:event_politics1aActionPerformed
 
-    private void riddle1bActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_riddle1bActionPerformed
+    private void politics1bActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_politics1bActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_riddle1bActionPerformed
+    }//GEN-LAST:event_politics1bActionPerformed
 
-    private void riddle1a2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_riddle1a2ActionPerformed
+    private void politics1cActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_politics1cActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_riddle1a2ActionPerformed
+    }//GEN-LAST:event_politics1cActionPerformed
 
-    private void riddle2aActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_riddle2aActionPerformed
+    private void politics2aActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_politics2aActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_riddle2aActionPerformed
+    }//GEN-LAST:event_politics2aActionPerformed
 
-    private void riddle2bActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_riddle2bActionPerformed
+    private void politics2bActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_politics2bActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_riddle2bActionPerformed
+    }//GEN-LAST:event_politics2bActionPerformed
 
-    private void riddle2cActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_riddle2cActionPerformed
+    private void politics2cActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_politics2cActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_riddle2cActionPerformed
+    }//GEN-LAST:event_politics2cActionPerformed
 
-    private void riddle3aActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_riddle3aActionPerformed
+    private void politics3aActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_politics3aActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_riddle3aActionPerformed
+    }//GEN-LAST:event_politics3aActionPerformed
 
-    private void riddle3bActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_riddle3bActionPerformed
+    private void politics3bActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_politics3bActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_riddle3bActionPerformed
+    }//GEN-LAST:event_politics3bActionPerformed
 
-    private void riddle3cActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_riddle3cActionPerformed
+    private void politics3cActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_politics3cActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_riddle3cActionPerformed
+    }//GEN-LAST:event_politics3cActionPerformed
 
-    private void riddle4aActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_riddle4aActionPerformed
+    private void politics4aActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_politics4aActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_riddle4aActionPerformed
+    }//GEN-LAST:event_politics4aActionPerformed
 
-    private void riddle4bActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_riddle4bActionPerformed
+    private void politics4bActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_politics4bActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_riddle4bActionPerformed
+    }//GEN-LAST:event_politics4bActionPerformed
 
-    private void riddle4cActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_riddle4cActionPerformed
+    private void politics4cActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_politics4cActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_riddle4cActionPerformed
+    }//GEN-LAST:event_politics4cActionPerformed
 
-    private void riddle5aActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_riddle5aActionPerformed
+    private void politics5aActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_politics5aActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_riddle5aActionPerformed
+    }//GEN-LAST:event_politics5aActionPerformed
 
-    private void riddle5bActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_riddle5bActionPerformed
+    private void politics5bActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_politics5bActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_riddle5bActionPerformed
+    }//GEN-LAST:event_politics5bActionPerformed
 
-    private void riddle5cActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_riddle5cActionPerformed
+    private void politics5cActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_politics5cActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_riddle5cActionPerformed
+    }//GEN-LAST:event_politics5cActionPerformed
 
-    private void riddle6aActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_riddle6aActionPerformed
+    private void politics6aActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_politics6aActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_riddle6aActionPerformed
+    }//GEN-LAST:event_politics6aActionPerformed
 
-    private void riddle6bActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_riddle6bActionPerformed
+    private void politics6bActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_politics6bActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_riddle6bActionPerformed
+    }//GEN-LAST:event_politics6bActionPerformed
 
-    private void riddle6cActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_riddle6cActionPerformed
+    private void politics6cActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_politics6cActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_riddle6cActionPerformed
+    }//GEN-LAST:event_politics6cActionPerformed
 
-    private void riddle7aActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_riddle7aActionPerformed
+    private void politics7aActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_politics7aActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_riddle7aActionPerformed
+    }//GEN-LAST:event_politics7aActionPerformed
 
-    private void riddle7bActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_riddle7bActionPerformed
+    private void politics7bActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_politics7bActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_riddle7bActionPerformed
+    }//GEN-LAST:event_politics7bActionPerformed
 
-    private void riddle7cActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_riddle7cActionPerformed
+    private void politics7cActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_politics7cActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_riddle7cActionPerformed
+    }//GEN-LAST:event_politics7cActionPerformed
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
         // TODO add your handling code here:
         
         
-        if (riddle1a.isSelected() == true) {
+        if (politics1a.isSelected() == true) {
             score += 1;
             jPanel10.setBackground(Color.green);
             
@@ -1257,7 +1263,7 @@ public class page6Politics extends javax.swing.JFrame {
     private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed
         // TODO add your handling code here:
         
-        if(riddle2c.isSelected() == true) {
+        if(politics2c.isSelected() == true) {
             score += 1;
             jPanel11.setBackground(Color.green);
 
@@ -1272,7 +1278,7 @@ public class page6Politics extends javax.swing.JFrame {
 
     private void jButton5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton5ActionPerformed
         // TODO add your handling code here:
-        if(riddle3d.isSelected() == true) {
+        if(politics3a.isSelected() == true) {
             score += 1;
             jPanel12.setBackground(Color.green);
         } else {
@@ -1285,7 +1291,7 @@ public class page6Politics extends javax.swing.JFrame {
 
     private void jButton7ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton7ActionPerformed
         // TODO add your handling code here:
-         if(riddle4b.isSelected() == true) {
+         if(politics4b.isSelected() == true) {
             score += 1;
             jPanel13.setBackground(Color.green);
         } else {
@@ -1297,7 +1303,7 @@ public class page6Politics extends javax.swing.JFrame {
 
     private void jButton9ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton9ActionPerformed
         // TODO add your handling code here:
-        if(riddle5c.isSelected() == true) {
+        if(politics5c.isSelected() == true) {
             score += 1;
             jPanel14.setBackground(Color.green);
         } else {
@@ -1309,7 +1315,7 @@ public class page6Politics extends javax.swing.JFrame {
 
     private void jButton11ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton11ActionPerformed
         // TODO add your handling code here:
-        if (riddle6c.isSelected() == true) {
+        if (politics6c.isSelected() == true) {
             score += 1;
             jPanel15.setBackground(Color.green);
         } else {
@@ -1321,7 +1327,7 @@ public class page6Politics extends javax.swing.JFrame {
 
     private void jButton13ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton13ActionPerformed
         // TODO add your handling code here:
-        if (riddle7c.isSelected() == true) {
+        if (politics7c.isSelected() == true) {
             score += 1;
             jPanel16.setBackground(Color.green);
             
@@ -1385,7 +1391,6 @@ public class page6Politics extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.ButtonGroup buttonGroup1;
     private javax.swing.JButton jButton1;
     private javax.swing.JButton jButton10;
     private javax.swing.JButton jButton11;
@@ -1444,33 +1449,40 @@ public class page6Politics extends javax.swing.JFrame {
     private javax.swing.JPanel jPanel8;
     private javax.swing.JPanel jPanel9;
     private javax.swing.JTabbedPane jTabbedPane1;
-    private javax.swing.JRadioButton riddle1a;
-    private javax.swing.JRadioButton riddle1a2;
-    private javax.swing.JRadioButton riddle1b;
+    private javax.swing.ButtonGroup politics1;
+    private javax.swing.JRadioButton politics1a;
+    private javax.swing.JRadioButton politics1b;
+    private javax.swing.JRadioButton politics1c;
+    private javax.swing.ButtonGroup politics2;
+    private javax.swing.JRadioButton politics2a;
+    private javax.swing.JRadioButton politics2b;
+    private javax.swing.JRadioButton politics2c;
+    private javax.swing.ButtonGroup politics3;
+    private javax.swing.JRadioButton politics3a;
+    private javax.swing.JRadioButton politics3b;
+    private javax.swing.JRadioButton politics3c;
+    private javax.swing.ButtonGroup politics4;
+    private javax.swing.JRadioButton politics4a;
+    private javax.swing.JRadioButton politics4b;
+    private javax.swing.JRadioButton politics4c;
+    private javax.swing.ButtonGroup politics5;
+    private javax.swing.JRadioButton politics5a;
+    private javax.swing.JRadioButton politics5b;
+    private javax.swing.JRadioButton politics5c;
+    private javax.swing.ButtonGroup politics6;
+    private javax.swing.JRadioButton politics6a;
+    private javax.swing.JRadioButton politics6b;
+    private javax.swing.JRadioButton politics6c;
+    private javax.swing.ButtonGroup politics7;
+    private javax.swing.JRadioButton politics7a;
+    private javax.swing.JRadioButton politics7b;
+    private javax.swing.JRadioButton politics7c;
     private javax.swing.ButtonGroup riddle2;
-    private javax.swing.JRadioButton riddle2a;
-    private javax.swing.JRadioButton riddle2b;
-    private javax.swing.JRadioButton riddle2c;
     private javax.swing.ButtonGroup riddle3;
-    private javax.swing.JRadioButton riddle3a;
-    private javax.swing.JRadioButton riddle3b;
-    private javax.swing.JRadioButton riddle3c;
     private javax.swing.ButtonGroup riddle4;
-    private javax.swing.JRadioButton riddle4a;
-    private javax.swing.JRadioButton riddle4b;
-    private javax.swing.JRadioButton riddle4c;
     private javax.swing.ButtonGroup riddle5;
-    private javax.swing.JRadioButton riddle5a;
-    private javax.swing.JRadioButton riddle5b;
-    private javax.swing.JRadioButton riddle5c;
     private javax.swing.ButtonGroup riddle6;
-    private javax.swing.JRadioButton riddle6a;
-    private javax.swing.JRadioButton riddle6b;
-    private javax.swing.JRadioButton riddle6c;
     private javax.swing.ButtonGroup riddle7;
-    private javax.swing.JRadioButton riddle7a;
-    private javax.swing.JRadioButton riddle7b;
-    private javax.swing.JRadioButton riddle7c;
     private javax.swing.ButtonGroup riddles1;
     // End of variables declaration//GEN-END:variables
 }

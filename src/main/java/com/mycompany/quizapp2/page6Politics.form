@@ -16,7 +16,19 @@
     </Component>
     <Component class="javax.swing.ButtonGroup" name="riddle7">
     </Component>
-    <Component class="javax.swing.ButtonGroup" name="buttonGroup1">
+    <Component class="javax.swing.ButtonGroup" name="politics1">
+    </Component>
+    <Component class="javax.swing.ButtonGroup" name="politics2">
+    </Component>
+    <Component class="javax.swing.ButtonGroup" name="politics3">
+    </Component>
+    <Component class="javax.swing.ButtonGroup" name="politics4">
+    </Component>
+    <Component class="javax.swing.ButtonGroup" name="politics5">
+    </Component>
+    <Component class="javax.swing.ButtonGroup" name="politics6">
+    </Component>
+    <Component class="javax.swing.ButtonGroup" name="politics7">
     </Component>
   </NonVisualComponents>
   <Properties>
@@ -271,9 +283,9 @@
                                           <Group type="102" attributes="0">
                                               <EmptySpace min="6" pref="6" max="-2" attributes="0"/>
                                               <Group type="103" groupAlignment="0" attributes="0">
-                                                  <Component id="riddle1a" min="-2" pref="183" max="-2" attributes="0"/>
-                                                  <Component id="riddle1b" min="-2" pref="183" max="-2" attributes="0"/>
-                                                  <Component id="riddle1a2" min="-2" pref="183" max="-2" attributes="0"/>
+                                                  <Component id="politics1a" min="-2" pref="183" max="-2" attributes="0"/>
+                                                  <Component id="politics1b" min="-2" pref="183" max="-2" attributes="0"/>
+                                                  <Component id="politics1c" min="-2" pref="183" max="-2" attributes="0"/>
                                                   <Component id="jButton1" alignment="0" min="-2" max="-2" attributes="0"/>
                                               </Group>
                                           </Group>
@@ -292,11 +304,11 @@
                               <EmptySpace max="-2" attributes="0"/>
                               <Component id="jLabel3" min="-2" pref="30" max="-2" attributes="0"/>
                               <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                              <Component id="riddle1a" min="-2" pref="33" max="-2" attributes="0"/>
+                              <Component id="politics1a" min="-2" pref="33" max="-2" attributes="0"/>
                               <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                              <Component id="riddle1b" min="-2" pref="33" max="-2" attributes="0"/>
+                              <Component id="politics1b" min="-2" pref="33" max="-2" attributes="0"/>
                               <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                              <Component id="riddle1a2" min="-2" pref="33" max="-2" attributes="0"/>
+                              <Component id="politics1c" min="-2" pref="33" max="-2" attributes="0"/>
                               <EmptySpace min="-2" pref="33" max="-2" attributes="0"/>
                               <Component id="jButton1" max="-2" attributes="0"/>
                               <EmptySpace pref="53" max="32767" attributes="0"/>
@@ -321,10 +333,10 @@
                         <Property name="text" type="java.lang.String" value="Highest Law making body in the Philippines"/>
                       </Properties>
                     </Component>
-                    <Component class="javax.swing.JRadioButton" name="riddle1a">
+                    <Component class="javax.swing.JRadioButton" name="politics1a">
                       <Properties>
                         <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
-                          <ComponentRef name="riddles1"/>
+                          <ComponentRef name="politics1"/>
                         </Property>
                         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                           <Font name="OCR A Std" size="14" style="0"/>
@@ -332,13 +344,13 @@
                         <Property name="text" type="java.lang.String" value="Congress"/>
                       </Properties>
                       <Events>
-                        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="riddle1aActionPerformed"/>
+                        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="politics1aActionPerformed"/>
                       </Events>
                     </Component>
-                    <Component class="javax.swing.JRadioButton" name="riddle1b">
+                    <Component class="javax.swing.JRadioButton" name="politics1b">
                       <Properties>
                         <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
-                          <ComponentRef name="riddles1"/>
+                          <ComponentRef name="politics1"/>
                         </Property>
                         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                           <Font name="OCR A Std" size="14" style="0"/>
@@ -346,13 +358,13 @@
                         <Property name="text" type="java.lang.String" value="Senate"/>
                       </Properties>
                       <Events>
-                        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="riddle1bActionPerformed"/>
+                        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="politics1bActionPerformed"/>
                       </Events>
                     </Component>
-                    <Component class="javax.swing.JRadioButton" name="riddle1a2">
+                    <Component class="javax.swing.JRadioButton" name="politics1c">
                       <Properties>
                         <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
-                          <ComponentRef name="riddles1"/>
+                          <ComponentRef name="politics1"/>
                         </Property>
                         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                           <Font name="OCR A Std" size="14" style="0"/>
@@ -360,7 +372,7 @@
                         <Property name="text" type="java.lang.String" value="Supreme Court"/>
                       </Properties>
                       <Events>
-                        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="riddle1a2ActionPerformed"/>
+                        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="politics1cActionPerformed"/>
                       </Events>
                     </Component>
                     <Component class="javax.swing.JButton" name="jButton1">
@@ -486,9 +498,9 @@
                                       <Group type="102" alignment="0" attributes="0">
                                           <EmptySpace min="-2" pref="62" max="-2" attributes="0"/>
                                           <Group type="103" groupAlignment="0" attributes="0">
-                                              <Component id="riddle2a" alignment="0" min="-2" pref="183" max="-2" attributes="0"/>
-                                              <Component id="riddle2b" alignment="0" min="-2" pref="183" max="-2" attributes="0"/>
-                                              <Component id="riddle2c" alignment="0" min="-2" pref="183" max="-2" attributes="0"/>
+                                              <Component id="politics2a" alignment="0" min="-2" pref="183" max="-2" attributes="0"/>
+                                              <Component id="politics2b" alignment="0" min="-2" pref="183" max="-2" attributes="0"/>
+                                              <Component id="politics2c" alignment="0" min="-2" pref="183" max="-2" attributes="0"/>
                                               <Component id="jButton3" alignment="0" min="-2" max="-2" attributes="0"/>
                                           </Group>
                                       </Group>
@@ -515,11 +527,11 @@
                                   <EmptySpace max="-2" attributes="0"/>
                                   <Component id="jLabel4" min="-2" pref="30" max="-2" attributes="0"/>
                                   <EmptySpace type="separate" max="-2" attributes="0"/>
-                                  <Component id="riddle2a" min="-2" pref="33" max="-2" attributes="0"/>
+                                  <Component id="politics2a" min="-2" pref="33" max="-2" attributes="0"/>
                                   <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                                  <Component id="riddle2b" min="-2" pref="33" max="-2" attributes="0"/>
+                                  <Component id="politics2b" min="-2" pref="33" max="-2" attributes="0"/>
                                   <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                                  <Component id="riddle2c" min="-2" pref="33" max="-2" attributes="0"/>
+                                  <Component id="politics2c" min="-2" pref="33" max="-2" attributes="0"/>
                                   <EmptySpace min="-2" pref="38" max="-2" attributes="0"/>
                                   <Component id="jButton3" max="-2" attributes="0"/>
                                   <EmptySpace pref="48" max="32767" attributes="0"/>
@@ -544,10 +556,10 @@
                             <Property name="text" type="java.lang.String" value="Lenght for a member of the House of Representative"/>
                           </Properties>
                         </Component>
-                        <Component class="javax.swing.JRadioButton" name="riddle2a">
+                        <Component class="javax.swing.JRadioButton" name="politics2a">
                           <Properties>
                             <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
-                              <ComponentRef name="riddle2"/>
+                              <ComponentRef name="politics2"/>
                             </Property>
                             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                               <Font name="OCR A Std" size="14" style="0"/>
@@ -555,13 +567,13 @@
                             <Property name="text" type="java.lang.String" value="3 years"/>
                           </Properties>
                           <Events>
-                            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="riddle2aActionPerformed"/>
+                            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="politics2aActionPerformed"/>
                           </Events>
                         </Component>
-                        <Component class="javax.swing.JRadioButton" name="riddle2b">
+                        <Component class="javax.swing.JRadioButton" name="politics2b">
                           <Properties>
                             <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
-                              <ComponentRef name="riddle2"/>
+                              <ComponentRef name="politics2"/>
                             </Property>
                             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                               <Font name="OCR A Std" size="14" style="0"/>
@@ -569,13 +581,13 @@
                             <Property name="text" type="java.lang.String" value="4 years"/>
                           </Properties>
                           <Events>
-                            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="riddle2bActionPerformed"/>
+                            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="politics2bActionPerformed"/>
                           </Events>
                         </Component>
-                        <Component class="javax.swing.JRadioButton" name="riddle2c">
+                        <Component class="javax.swing.JRadioButton" name="politics2c">
                           <Properties>
                             <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
-                              <ComponentRef name="riddle2"/>
+                              <ComponentRef name="politics2"/>
                             </Property>
                             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                               <Font name="OCR A Std" size="14" style="0"/>
@@ -583,7 +595,7 @@
                             <Property name="text" type="java.lang.String" value="6 years"/>
                           </Properties>
                           <Events>
-                            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="riddle2cActionPerformed"/>
+                            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="politics2cActionPerformed"/>
                           </Events>
                         </Component>
                         <Component class="javax.swing.JButton" name="jButton3">
@@ -701,9 +713,9 @@
                               <Group type="102" alignment="0" attributes="0">
                                   <EmptySpace min="-2" pref="31" max="-2" attributes="0"/>
                                   <Group type="103" groupAlignment="0" attributes="0">
-                                      <Component id="riddle3a" alignment="0" min="-2" pref="183" max="-2" attributes="0"/>
-                                      <Component id="riddle3b" alignment="0" min="-2" pref="183" max="-2" attributes="0"/>
-                                      <Component id="riddle3c" alignment="0" min="-2" pref="183" max="-2" attributes="0"/>
+                                      <Component id="politics3a" alignment="0" min="-2" pref="183" max="-2" attributes="0"/>
+                                      <Component id="politics3b" alignment="0" min="-2" pref="183" max="-2" attributes="0"/>
+                                      <Component id="politics3c" alignment="0" min="-2" pref="183" max="-2" attributes="0"/>
                                       <Component id="jButton5" alignment="0" min="-2" max="-2" attributes="0"/>
                                       <Component id="jLabel5" min="-2" pref="249" max="-2" attributes="0"/>
                                       <Component id="jLabel6" min="-2" pref="630" max="-2" attributes="0"/>
@@ -720,11 +732,11 @@
                                   <EmptySpace max="-2" attributes="0"/>
                                   <Component id="jLabel6" min="-2" pref="30" max="-2" attributes="0"/>
                                   <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                                  <Component id="riddle3a" min="-2" pref="33" max="-2" attributes="0"/>
+                                  <Component id="politics3a" min="-2" pref="33" max="-2" attributes="0"/>
                                   <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                                  <Component id="riddle3b" min="-2" pref="33" max="-2" attributes="0"/>
+                                  <Component id="politics3b" min="-2" pref="33" max="-2" attributes="0"/>
                                   <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                                  <Component id="riddle3c" min="-2" pref="33" max="-2" attributes="0"/>
+                                  <Component id="politics3c" min="-2" pref="33" max="-2" attributes="0"/>
                                   <EmptySpace min="-2" pref="31" max="-2" attributes="0"/>
                                   <Component id="jButton5" max="-2" attributes="0"/>
                                   <EmptySpace pref="55" max="32767" attributes="0"/>
@@ -749,10 +761,10 @@
                             <Property name="text" type="java.lang.String" value="Gov. body that holds power of judicial review."/>
                           </Properties>
                         </Component>
-                        <Component class="javax.swing.JRadioButton" name="riddle3a">
+                        <Component class="javax.swing.JRadioButton" name="politics3a">
                           <Properties>
                             <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
-                              <ComponentRef name="riddle3"/>
+                              <ComponentRef name="politics3"/>
                             </Property>
                             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                               <Font name="OCR A Std" size="14" style="0"/>
@@ -760,13 +772,13 @@
                             <Property name="text" type="java.lang.String" value="Supreme Court"/>
                           </Properties>
                           <Events>
-                            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="riddle3aActionPerformed"/>
+                            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="politics3aActionPerformed"/>
                           </Events>
                         </Component>
-                        <Component class="javax.swing.JRadioButton" name="riddle3b">
+                        <Component class="javax.swing.JRadioButton" name="politics3b">
                           <Properties>
                             <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
-                              <ComponentRef name="riddle3"/>
+                              <ComponentRef name="politics3"/>
                             </Property>
                             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                               <Font name="OCR A Std" size="14" style="0"/>
@@ -775,13 +787,13 @@
                             <Property name="toolTipText" type="java.lang.String" value=""/>
                           </Properties>
                           <Events>
-                            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="riddle3bActionPerformed"/>
+                            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="politics3bActionPerformed"/>
                           </Events>
                         </Component>
-                        <Component class="javax.swing.JRadioButton" name="riddle3c">
+                        <Component class="javax.swing.JRadioButton" name="politics3c">
                           <Properties>
                             <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
-                              <ComponentRef name="riddle3"/>
+                              <ComponentRef name="politics3"/>
                             </Property>
                             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                               <Font name="OCR A Std" size="14" style="0"/>
@@ -789,7 +801,7 @@
                             <Property name="text" type="java.lang.String" value="Congress"/>
                           </Properties>
                           <Events>
-                            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="riddle3cActionPerformed"/>
+                            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="politics3cActionPerformed"/>
                           </Events>
                         </Component>
                         <Component class="javax.swing.JButton" name="jButton5">
@@ -919,10 +931,10 @@
                                       <Group type="102" alignment="0" attributes="0">
                                           <EmptySpace min="-2" pref="62" max="-2" attributes="0"/>
                                           <Group type="103" groupAlignment="0" attributes="0">
-                                              <Component id="riddle4a" alignment="0" min="-2" pref="183" max="-2" attributes="0"/>
-                                              <Component id="riddle4c" alignment="0" min="-2" pref="183" max="-2" attributes="0"/>
+                                              <Component id="politics4a" alignment="0" min="-2" pref="183" max="-2" attributes="0"/>
+                                              <Component id="politics4c" alignment="0" min="-2" pref="183" max="-2" attributes="0"/>
                                               <Component id="jButton7" alignment="0" min="-2" max="-2" attributes="0"/>
-                                              <Component id="riddle4b" alignment="0" min="-2" pref="228" max="-2" attributes="0"/>
+                                              <Component id="politics4b" alignment="0" min="-2" pref="228" max="-2" attributes="0"/>
                                           </Group>
                                       </Group>
                                   </Group>
@@ -938,11 +950,11 @@
                                   <EmptySpace max="32767" attributes="0"/>
                                   <Component id="jLabel8" min="-2" pref="30" max="-2" attributes="0"/>
                                   <EmptySpace pref="42" max="32767" attributes="0"/>
-                                  <Component id="riddle4a" min="-2" pref="33" max="-2" attributes="0"/>
+                                  <Component id="politics4a" min="-2" pref="33" max="-2" attributes="0"/>
                                   <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                                  <Component id="riddle4b" min="-2" pref="33" max="-2" attributes="0"/>
+                                  <Component id="politics4b" min="-2" pref="33" max="-2" attributes="0"/>
                                   <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                                  <Component id="riddle4c" min="-2" pref="33" max="-2" attributes="0"/>
+                                  <Component id="politics4c" min="-2" pref="33" max="-2" attributes="0"/>
                                   <EmptySpace min="-2" pref="33" max="-2" attributes="0"/>
                                   <Component id="jButton7" max="-2" attributes="0"/>
                                   <EmptySpace min="-2" pref="42" max="-2" attributes="0"/>
@@ -967,7 +979,7 @@
                             <Property name="text" type="java.lang.String" value="Title give to the head of the Senate"/>
                           </Properties>
                         </Component>
-                        <Component class="javax.swing.JRadioButton" name="riddle4a">
+                        <Component class="javax.swing.JRadioButton" name="politics4a">
                           <Properties>
                             <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
                               <ComponentRef name="riddle4"/>
@@ -978,10 +990,10 @@
                             <Property name="text" type="java.lang.String" value="Senate Leader"/>
                           </Properties>
                           <Events>
-                            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="riddle4aActionPerformed"/>
+                            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="politics4aActionPerformed"/>
                           </Events>
                         </Component>
-                        <Component class="javax.swing.JRadioButton" name="riddle4b">
+                        <Component class="javax.swing.JRadioButton" name="politics4b">
                           <Properties>
                             <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
                               <ComponentRef name="riddle4"/>
@@ -992,13 +1004,13 @@
                             <Property name="text" type="java.lang.String" value="Senate President"/>
                           </Properties>
                           <Events>
-                            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="riddle4bActionPerformed"/>
+                            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="politics4bActionPerformed"/>
                           </Events>
                         </Component>
-                        <Component class="javax.swing.JRadioButton" name="riddle4c">
+                        <Component class="javax.swing.JRadioButton" name="politics4c">
                           <Properties>
                             <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
-                              <ComponentRef name="riddle4"/>
+                              <ComponentRef name="politics4"/>
                             </Property>
                             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                               <Font name="OCR A Std" size="14" style="0"/>
@@ -1006,7 +1018,7 @@
                             <Property name="text" type="java.lang.String" value="Senate Head"/>
                           </Properties>
                           <Events>
-                            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="riddle4cActionPerformed"/>
+                            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="politics4cActionPerformed"/>
                           </Events>
                         </Component>
                         <Component class="javax.swing.JButton" name="jButton7">
@@ -1137,10 +1149,10 @@
                                               <Group type="102" alignment="0" attributes="0">
                                                   <EmptySpace min="6" pref="6" max="-2" attributes="0"/>
                                                   <Group type="103" groupAlignment="0" attributes="0">
-                                                      <Component id="riddle5a" alignment="0" min="-2" pref="183" max="-2" attributes="0"/>
+                                                      <Component id="politics5a" alignment="0" min="-2" pref="183" max="-2" attributes="0"/>
                                                       <Component id="jButton9" alignment="0" min="-2" max="-2" attributes="0"/>
-                                                      <Component id="riddle5b" alignment="0" min="-2" pref="280" max="-2" attributes="0"/>
-                                                      <Component id="riddle5c" alignment="0" min="-2" pref="256" max="-2" attributes="0"/>
+                                                      <Component id="politics5b" alignment="0" min="-2" pref="280" max="-2" attributes="0"/>
+                                                      <Component id="politics5c" alignment="0" min="-2" pref="256" max="-2" attributes="0"/>
                                                   </Group>
                                               </Group>
                                           </Group>
@@ -1158,11 +1170,11 @@
                                   <EmptySpace max="-2" attributes="0"/>
                                   <Component id="jLabel10" min="-2" pref="30" max="-2" attributes="0"/>
                                   <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                                  <Component id="riddle5a" min="-2" pref="33" max="-2" attributes="0"/>
+                                  <Component id="politics5a" min="-2" pref="33" max="-2" attributes="0"/>
                                   <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                                  <Component id="riddle5b" min="-2" pref="33" max="-2" attributes="0"/>
+                                  <Component id="politics5b" min="-2" pref="33" max="-2" attributes="0"/>
                                   <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                                  <Component id="riddle5c" min="-2" pref="33" max="-2" attributes="0"/>
+                                  <Component id="politics5c" min="-2" pref="33" max="-2" attributes="0"/>
                                   <EmptySpace min="-2" pref="28" max="-2" attributes="0"/>
                                   <Component id="jButton9" max="-2" attributes="0"/>
                                   <EmptySpace pref="58" max="32767" attributes="0"/>
@@ -1187,10 +1199,10 @@
                             <Property name="text" type="java.lang.String" value="In 1972, a martial law was decalred by.."/>
                           </Properties>
                         </Component>
-                        <Component class="javax.swing.JRadioButton" name="riddle5a">
+                        <Component class="javax.swing.JRadioButton" name="politics5a">
                           <Properties>
                             <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
-                              <ComponentRef name="riddle5"/>
+                              <ComponentRef name="politics5"/>
                             </Property>
                             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                               <Font name="OCR A Std" size="14" style="0"/>
@@ -1198,13 +1210,13 @@
                             <Property name="text" type="java.lang.String" value="Corazon Aquino"/>
                           </Properties>
                           <Events>
-                            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="riddle5aActionPerformed"/>
+                            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="politics5aActionPerformed"/>
                           </Events>
                         </Component>
-                        <Component class="javax.swing.JRadioButton" name="riddle5b">
+                        <Component class="javax.swing.JRadioButton" name="politics5b">
                           <Properties>
                             <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
-                              <ComponentRef name="riddle5"/>
+                              <ComponentRef name="politics5"/>
                             </Property>
                             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                               <Font name="OCR A Std" size="14" style="0"/>
@@ -1212,13 +1224,13 @@
                             <Property name="text" type="java.lang.String" value="Ferdinand Marcos"/>
                           </Properties>
                           <Events>
-                            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="riddle5bActionPerformed"/>
+                            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="politics5bActionPerformed"/>
                           </Events>
                         </Component>
-                        <Component class="javax.swing.JRadioButton" name="riddle5c">
+                        <Component class="javax.swing.JRadioButton" name="politics5c">
                           <Properties>
                             <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
-                              <ComponentRef name="riddle5"/>
+                              <ComponentRef name="politics5"/>
                             </Property>
                             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                               <Font name="OCR A Std" size="14" style="0"/>
@@ -1226,7 +1238,7 @@
                             <Property name="text" type="java.lang.String" value="Diosdado Macapagal"/>
                           </Properties>
                           <Events>
-                            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="riddle5cActionPerformed"/>
+                            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="politics5cActionPerformed"/>
                           </Events>
                         </Component>
                         <Component class="javax.swing.JButton" name="jButton9">
@@ -1351,10 +1363,10 @@
                                       <Group type="102" alignment="0" attributes="0">
                                           <EmptySpace min="-2" pref="62" max="-2" attributes="0"/>
                                           <Group type="103" groupAlignment="0" attributes="0">
-                                              <Component id="riddle6a" alignment="0" min="-2" pref="183" max="-2" attributes="0"/>
-                                              <Component id="riddle6b" alignment="0" min="-2" pref="183" max="-2" attributes="0"/>
+                                              <Component id="politics6a" alignment="0" min="-2" pref="183" max="-2" attributes="0"/>
+                                              <Component id="politics6b" alignment="0" min="-2" pref="183" max="-2" attributes="0"/>
                                               <Component id="jButton11" alignment="0" min="-2" max="-2" attributes="0"/>
-                                              <Component id="riddle6c" alignment="0" min="-2" pref="299" max="-2" attributes="0"/>
+                                              <Component id="politics6c" alignment="0" min="-2" pref="299" max="-2" attributes="0"/>
                                           </Group>
                                       </Group>
                                       <Group type="102" alignment="0" attributes="0">
@@ -1380,11 +1392,11 @@
                                   <EmptySpace max="-2" attributes="0"/>
                                   <Component id="jLabel12" min="-2" pref="30" max="-2" attributes="0"/>
                                   <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                                  <Component id="riddle6a" min="-2" pref="33" max="-2" attributes="0"/>
+                                  <Component id="politics6a" min="-2" pref="33" max="-2" attributes="0"/>
                                   <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                                  <Component id="riddle6b" min="-2" pref="33" max="-2" attributes="0"/>
+                                  <Component id="politics6b" min="-2" pref="33" max="-2" attributes="0"/>
                                   <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                                  <Component id="riddle6c" min="-2" pref="33" max="-2" attributes="0"/>
+                                  <Component id="politics6c" min="-2" pref="33" max="-2" attributes="0"/>
                                   <EmptySpace type="separate" max="-2" attributes="0"/>
                                   <Component id="jButton11" max="-2" attributes="0"/>
                                   <EmptySpace pref="68" max="32767" attributes="0"/>
@@ -1409,10 +1421,10 @@
                             <Property name="text" type="java.lang.String" value="Which body has the power to impeach the President"/>
                           </Properties>
                         </Component>
-                        <Component class="javax.swing.JRadioButton" name="riddle6a">
+                        <Component class="javax.swing.JRadioButton" name="politics6a">
                           <Properties>
                             <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
-                              <ComponentRef name="riddle6"/>
+                              <ComponentRef name="politics6"/>
                             </Property>
                             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                               <Font name="OCR A Std" size="14" style="0"/>
@@ -1420,13 +1432,13 @@
                             <Property name="text" type="java.lang.String" value="Senate"/>
                           </Properties>
                           <Events>
-                            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="riddle6aActionPerformed"/>
+                            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="politics6aActionPerformed"/>
                           </Events>
                         </Component>
-                        <Component class="javax.swing.JRadioButton" name="riddle6b">
+                        <Component class="javax.swing.JRadioButton" name="politics6b">
                           <Properties>
                             <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
-                              <ComponentRef name="riddle6"/>
+                              <ComponentRef name="politics6"/>
                             </Property>
                             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                               <Font name="OCR A Std" size="14" style="0"/>
@@ -1434,13 +1446,13 @@
                             <Property name="text" type="java.lang.String" value="Supreme Court"/>
                           </Properties>
                           <Events>
-                            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="riddle6bActionPerformed"/>
+                            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="politics6bActionPerformed"/>
                           </Events>
                         </Component>
-                        <Component class="javax.swing.JRadioButton" name="riddle6c">
+                        <Component class="javax.swing.JRadioButton" name="politics6c">
                           <Properties>
                             <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
-                              <ComponentRef name="riddle6"/>
+                              <ComponentRef name="politics6"/>
                             </Property>
                             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                               <Font name="OCR A Std" size="14" style="0"/>
@@ -1448,7 +1460,7 @@
                             <Property name="text" type="java.lang.String" value="House of Representative"/>
                           </Properties>
                           <Events>
-                            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="riddle6cActionPerformed"/>
+                            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="politics6cActionPerformed"/>
                           </Events>
                         </Component>
                         <Component class="javax.swing.JButton" name="jButton11">
@@ -1576,9 +1588,9 @@
                                       <Group type="102" alignment="0" attributes="0">
                                           <EmptySpace min="-2" pref="62" max="-2" attributes="0"/>
                                           <Group type="103" groupAlignment="0" attributes="0">
-                                              <Component id="riddle7a" alignment="0" min="-2" pref="183" max="-2" attributes="0"/>
-                                              <Component id="riddle7b" alignment="0" min="-2" pref="183" max="-2" attributes="0"/>
-                                              <Component id="riddle7c" alignment="0" min="-2" pref="183" max="-2" attributes="0"/>
+                                              <Component id="politics7a" alignment="0" min="-2" pref="183" max="-2" attributes="0"/>
+                                              <Component id="politics7b" alignment="0" min="-2" pref="183" max="-2" attributes="0"/>
+                                              <Component id="politics7c" alignment="0" min="-2" pref="183" max="-2" attributes="0"/>
                                               <Component id="jButton13" alignment="0" min="-2" max="-2" attributes="0"/>
                                           </Group>
                                       </Group>
@@ -1602,11 +1614,11 @@
                                   <EmptySpace type="separate" max="-2" attributes="0"/>
                                   <Component id="jLabel14" min="-2" max="-2" attributes="0"/>
                                   <EmptySpace min="-2" pref="41" max="-2" attributes="0"/>
-                                  <Component id="riddle7a" min="-2" pref="33" max="-2" attributes="0"/>
+                                  <Component id="politics7a" min="-2" pref="33" max="-2" attributes="0"/>
                                   <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                                  <Component id="riddle7b" min="-2" pref="33" max="-2" attributes="0"/>
+                                  <Component id="politics7b" min="-2" pref="33" max="-2" attributes="0"/>
                                   <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                                  <Component id="riddle7c" min="-2" pref="33" max="-2" attributes="0"/>
+                                  <Component id="politics7c" min="-2" pref="33" max="-2" attributes="0"/>
                                   <EmptySpace type="separate" max="-2" attributes="0"/>
                                   <Component id="jButton13" max="-2" attributes="0"/>
                                   <EmptySpace pref="68" max="32767" attributes="0"/>
@@ -1631,10 +1643,10 @@
                             <Property name="text" type="java.lang.String" value="How many senators are there in the Philippine Senate?"/>
                           </Properties>
                         </Component>
-                        <Component class="javax.swing.JRadioButton" name="riddle7a">
+                        <Component class="javax.swing.JRadioButton" name="politics7a">
                           <Properties>
                             <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
-                              <ComponentRef name="riddle7"/>
+                              <ComponentRef name="politics7"/>
                             </Property>
                             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                               <Font name="OCR A Std" size="14" style="0"/>
@@ -1642,13 +1654,13 @@
                             <Property name="text" type="java.lang.String" value="12"/>
                           </Properties>
                           <Events>
-                            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="riddle7aActionPerformed"/>
+                            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="politics7aActionPerformed"/>
                           </Events>
                         </Component>
-                        <Component class="javax.swing.JRadioButton" name="riddle7b">
+                        <Component class="javax.swing.JRadioButton" name="politics7b">
                           <Properties>
                             <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
-                              <ComponentRef name="riddle7"/>
+                              <ComponentRef name="politics7"/>
                             </Property>
                             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                               <Font name="OCR A Std" size="14" style="0"/>
@@ -1656,13 +1668,13 @@
                             <Property name="text" type="java.lang.String" value="24"/>
                           </Properties>
                           <Events>
-                            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="riddle7bActionPerformed"/>
+                            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="politics7bActionPerformed"/>
                           </Events>
                         </Component>
-                        <Component class="javax.swing.JRadioButton" name="riddle7c">
+                        <Component class="javax.swing.JRadioButton" name="politics7c">
                           <Properties>
                             <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
-                              <ComponentRef name="riddle7"/>
+                              <ComponentRef name="politics7"/>
                             </Property>
                             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                               <Font name="OCR A Std" size="14" style="0"/>
@@ -1670,7 +1682,7 @@
                             <Property name="text" type="java.lang.String" value="16"/>
                           </Properties>
                           <Events>
-                            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="riddle7cActionPerformed"/>
+                            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="politics7cActionPerformed"/>
                           </Events>
                         </Component>
                         <Component class="javax.swing.JButton" name="jButton13">

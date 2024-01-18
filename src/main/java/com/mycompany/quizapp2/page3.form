@@ -358,7 +358,7 @@
                   <Font name="OCR A Std" size="24" style="0"/>
                 </Property>
                 <Property name="horizontalAlignment" type="int" value="0"/>
-                <Property name="text" type="java.lang.String" value="Hello name, select your topic"/>
+                <Property name="text" type="java.lang.String" value="Hello name select your topic"/>
               </Properties>
             </Component>
             <Component class="javax.swing.JButton" name="jButton2">
