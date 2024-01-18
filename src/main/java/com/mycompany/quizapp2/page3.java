@@ -15,6 +15,8 @@ public class page3 extends javax.swing.JFrame {
      */
     public page3() {
         initComponents();
+        setResizable(false);
+
     }
     
     public void setName(String name) {
@@ -197,6 +199,7 @@ public class page3 extends javax.swing.JFrame {
         nameVariable.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         nameVariable.setText("Hello name, select your topic");
 
+        jButton2.setBackground(new java.awt.Color(255, 153, 153));
         jButton2.setFont(new java.awt.Font("OCR A Std", 0, 12)); // NOI18N
         jButton2.setText("Geography");
 
@@ -211,8 +214,14 @@ public class page3 extends javax.swing.JFrame {
         jButton4.setFont(new java.awt.Font("OCR A Std", 0, 12)); // NOI18N
         jButton4.setText("Politics");
 
+        jButton5.setBackground(new java.awt.Color(153, 204, 255));
         jButton5.setFont(new java.awt.Font("OCR A Std", 0, 12)); // NOI18N
         jButton5.setText("Riddles");
+        jButton5.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton5ActionPerformed(evt);
+            }
+        });
 
         javax.swing.GroupLayout jPanel6Layout = new javax.swing.GroupLayout(jPanel6);
         jPanel6.setLayout(jPanel6Layout);
@@ -233,9 +242,9 @@ public class page3 extends javax.swing.JFrame {
             .addGroup(jPanel6Layout.createSequentialGroup()
                 .addGap(29, 29, 29)
                 .addComponent(nameVariable, javax.swing.GroupLayout.PREFERRED_SIZE, 42, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 20, Short.MAX_VALUE)
                 .addComponent(jButton2, javax.swing.GroupLayout.PREFERRED_SIZE, 32, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(32, 32, 32)
+                .addGap(18, 18, 18)
                 .addComponent(jButton3, javax.swing.GroupLayout.PREFERRED_SIZE, 32, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(18, 18, 18)
                 .addComponent(jButton4, javax.swing.GroupLayout.PREFERRED_SIZE, 32, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -283,6 +292,14 @@ public class page3 extends javax.swing.JFrame {
     private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_jButton3ActionPerformed
+
+    private void jButton5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton5ActionPerformed
+        // TODO add your handling code here:
+        page7Riddles pg7 = new page7Riddles();
+        pg7.setLocationRelativeTo(null);
+        pg7.setVisible(true);
+        dispose();
+    }//GEN-LAST:event_jButton5ActionPerformed
 
     /**
      * @param args the command line arguments
