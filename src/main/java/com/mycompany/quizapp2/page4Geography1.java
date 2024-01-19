@@ -35,6 +35,13 @@ public class page4Geography1 extends javax.swing.JFrame {
         tech5 = new javax.swing.ButtonGroup();
         tech6 = new javax.swing.ButtonGroup();
         tech7 = new javax.swing.ButtonGroup();
+        geo1 = new javax.swing.ButtonGroup();
+        geo2 = new javax.swing.ButtonGroup();
+        geo3 = new javax.swing.ButtonGroup();
+        geo4 = new javax.swing.ButtonGroup();
+        geo5 = new javax.swing.ButtonGroup();
+        geo6 = new javax.swing.ButtonGroup();
+        geo7 = new javax.swing.ButtonGroup();
         jPanel1 = new javax.swing.JPanel();
         jPanel2 = new javax.swing.JPanel();
         jPanel10 = new javax.swing.JPanel();
@@ -49,9 +56,9 @@ public class page4Geography1 extends javax.swing.JFrame {
         jPanel17 = new javax.swing.JPanel();
         jLabel1 = new javax.swing.JLabel();
         jLabel3 = new javax.swing.JLabel();
-        politics1a = new javax.swing.JRadioButton();
-        politics1b = new javax.swing.JRadioButton();
-        politics1c = new javax.swing.JRadioButton();
+        geo1a = new javax.swing.JRadioButton();
+        geo1b = new javax.swing.JRadioButton();
+        geo1c = new javax.swing.JRadioButton();
         jButton1 = new javax.swing.JButton();
         jButton2 = new javax.swing.JButton();
         jPanel4 = new javax.swing.JPanel();
@@ -59,9 +66,9 @@ public class page4Geography1 extends javax.swing.JFrame {
         jPanel19 = new javax.swing.JPanel();
         jLabel2 = new javax.swing.JLabel();
         jLabel4 = new javax.swing.JLabel();
-        politics2a = new javax.swing.JRadioButton();
-        politics2b = new javax.swing.JRadioButton();
-        politics2c = new javax.swing.JRadioButton();
+        geo2a = new javax.swing.JRadioButton();
+        geo2b = new javax.swing.JRadioButton();
+        geo2c = new javax.swing.JRadioButton();
         jButton3 = new javax.swing.JButton();
         jButton4 = new javax.swing.JButton();
         jPanel5 = new javax.swing.JPanel();
@@ -69,9 +76,9 @@ public class page4Geography1 extends javax.swing.JFrame {
         jPanel21 = new javax.swing.JPanel();
         jLabel5 = new javax.swing.JLabel();
         jLabel6 = new javax.swing.JLabel();
-        politics3a = new javax.swing.JRadioButton();
-        politics3b = new javax.swing.JRadioButton();
-        politics3c = new javax.swing.JRadioButton();
+        geo3a = new javax.swing.JRadioButton();
+        geo3b = new javax.swing.JRadioButton();
+        geo3c = new javax.swing.JRadioButton();
         jButton5 = new javax.swing.JButton();
         jButton6 = new javax.swing.JButton();
         jPanel6 = new javax.swing.JPanel();
@@ -79,9 +86,9 @@ public class page4Geography1 extends javax.swing.JFrame {
         jPanel23 = new javax.swing.JPanel();
         jLabel7 = new javax.swing.JLabel();
         jLabel8 = new javax.swing.JLabel();
-        politics4a = new javax.swing.JRadioButton();
-        politics4b = new javax.swing.JRadioButton();
-        politics4c = new javax.swing.JRadioButton();
+        geo4a = new javax.swing.JRadioButton();
+        geo4b = new javax.swing.JRadioButton();
+        geo4c = new javax.swing.JRadioButton();
         jButton7 = new javax.swing.JButton();
         jButton8 = new javax.swing.JButton();
         jPanel7 = new javax.swing.JPanel();
@@ -89,9 +96,9 @@ public class page4Geography1 extends javax.swing.JFrame {
         jPanel25 = new javax.swing.JPanel();
         jLabel9 = new javax.swing.JLabel();
         jLabel10 = new javax.swing.JLabel();
-        politics5a = new javax.swing.JRadioButton();
-        politics5b = new javax.swing.JRadioButton();
-        politics5c = new javax.swing.JRadioButton();
+        geo5a = new javax.swing.JRadioButton();
+        geo5b = new javax.swing.JRadioButton();
+        geo5c = new javax.swing.JRadioButton();
         jButton9 = new javax.swing.JButton();
         jButton10 = new javax.swing.JButton();
         jPanel8 = new javax.swing.JPanel();
@@ -99,9 +106,9 @@ public class page4Geography1 extends javax.swing.JFrame {
         jPanel27 = new javax.swing.JPanel();
         jLabel11 = new javax.swing.JLabel();
         jLabel12 = new javax.swing.JLabel();
-        politics6a = new javax.swing.JRadioButton();
-        politics6b = new javax.swing.JRadioButton();
-        politics6c = new javax.swing.JRadioButton();
+        geo6a = new javax.swing.JRadioButton();
+        geo6b = new javax.swing.JRadioButton();
+        geo6c = new javax.swing.JRadioButton();
         jButton11 = new javax.swing.JButton();
         jButton12 = new javax.swing.JButton();
         jPanel9 = new javax.swing.JPanel();
@@ -109,9 +116,9 @@ public class page4Geography1 extends javax.swing.JFrame {
         jPanel29 = new javax.swing.JPanel();
         jLabel13 = new javax.swing.JLabel();
         jLabel14 = new javax.swing.JLabel();
-        politics7a = new javax.swing.JRadioButton();
-        politics7b = new javax.swing.JRadioButton();
-        politics7c = new javax.swing.JRadioButton();
+        geo7a = new javax.swing.JRadioButton();
+        geo7b = new javax.swing.JRadioButton();
+        geo7c = new javax.swing.JRadioButton();
         jButton13 = new javax.swing.JButton();
         jButton14 = new javax.swing.JButton();
 
@@ -230,30 +237,30 @@ public class page4Geography1 extends javax.swing.JFrame {
         jLabel3.setFont(new java.awt.Font("OCR A Std", 0, 14)); // NOI18N
         jLabel3.setText("Country with the largest population");
 
-        tech1.add(politics1a);
-        politics1a.setFont(new java.awt.Font("OCR A Std", 0, 14)); // NOI18N
-        politics1a.setText("Russia");
-        politics1a.addActionListener(new java.awt.event.ActionListener() {
+        geo1.add(geo1a);
+        geo1a.setFont(new java.awt.Font("OCR A Std", 0, 14)); // NOI18N
+        geo1a.setText("Russia");
+        geo1a.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                politics1aActionPerformed(evt);
+                geo1aActionPerformed(evt);
             }
         });
 
-        tech1.add(politics1b);
-        politics1b.setFont(new java.awt.Font("OCR A Std", 0, 14)); // NOI18N
-        politics1b.setText("China");
-        politics1b.addActionListener(new java.awt.event.ActionListener() {
+        geo1.add(geo1b);
+        geo1b.setFont(new java.awt.Font("OCR A Std", 0, 14)); // NOI18N
+        geo1b.setText("China");
+        geo1b.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                politics1bActionPerformed(evt);
+                geo1bActionPerformed(evt);
             }
         });
 
-        tech1.add(politics1c);
-        politics1c.setFont(new java.awt.Font("OCR A Std", 0, 14)); // NOI18N
-        politics1c.setText("America");
-        politics1c.addActionListener(new java.awt.event.ActionListener() {
+        geo1.add(geo1c);
+        geo1c.setFont(new java.awt.Font("OCR A Std", 0, 14)); // NOI18N
+        geo1c.setText("America");
+        geo1c.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                politics1cActionPerformed(evt);
+                geo1cActionPerformed(evt);
             }
         });
 
@@ -282,9 +289,9 @@ public class page4Geography1 extends javax.swing.JFrame {
                             .addGroup(jPanel17Layout.createSequentialGroup()
                                 .addGap(6, 6, 6)
                                 .addGroup(jPanel17Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addComponent(politics1a, javax.swing.GroupLayout.PREFERRED_SIZE, 183, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addComponent(politics1b, javax.swing.GroupLayout.PREFERRED_SIZE, 183, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addComponent(politics1c, javax.swing.GroupLayout.PREFERRED_SIZE, 183, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(geo1a, javax.swing.GroupLayout.PREFERRED_SIZE, 183, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(geo1b, javax.swing.GroupLayout.PREFERRED_SIZE, 183, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(geo1c, javax.swing.GroupLayout.PREFERRED_SIZE, 183, javax.swing.GroupLayout.PREFERRED_SIZE)
                                     .addComponent(jButton1)))))
                     .addGroup(jPanel17Layout.createSequentialGroup()
                         .addGap(31, 31, 31)
@@ -299,11 +306,11 @@ public class page4Geography1 extends javax.swing.JFrame {
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(jLabel3, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(politics1a, javax.swing.GroupLayout.PREFERRED_SIZE, 33, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(geo1a, javax.swing.GroupLayout.PREFERRED_SIZE, 33, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(politics1b, javax.swing.GroupLayout.PREFERRED_SIZE, 33, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(geo1b, javax.swing.GroupLayout.PREFERRED_SIZE, 33, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(politics1c, javax.swing.GroupLayout.PREFERRED_SIZE, 33, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(geo1c, javax.swing.GroupLayout.PREFERRED_SIZE, 33, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(33, 33, 33)
                 .addComponent(jButton1)
                 .addContainerGap(53, Short.MAX_VALUE))
@@ -353,30 +360,30 @@ public class page4Geography1 extends javax.swing.JFrame {
         jLabel4.setFont(new java.awt.Font("OCR A Std", 0, 14)); // NOI18N
         jLabel4.setText("Which one is not part of the 7 continents.");
 
-        tech2.add(politics2a);
-        politics2a.setFont(new java.awt.Font("OCR A Std", 0, 14)); // NOI18N
-        politics2a.setText("west america");
-        politics2a.addActionListener(new java.awt.event.ActionListener() {
+        geo2.add(geo2a);
+        geo2a.setFont(new java.awt.Font("OCR A Std", 0, 14)); // NOI18N
+        geo2a.setText("west america");
+        geo2a.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                politics2aActionPerformed(evt);
+                geo2aActionPerformed(evt);
             }
         });
 
-        tech2.add(politics2b);
-        politics2b.setFont(new java.awt.Font("OCR A Std", 0, 14)); // NOI18N
-        politics2b.setText("north america");
-        politics2b.addActionListener(new java.awt.event.ActionListener() {
+        geo2.add(geo2b);
+        geo2b.setFont(new java.awt.Font("OCR A Std", 0, 14)); // NOI18N
+        geo2b.setText("north america");
+        geo2b.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                politics2bActionPerformed(evt);
+                geo2bActionPerformed(evt);
             }
         });
 
-        tech2.add(politics2c);
-        politics2c.setFont(new java.awt.Font("OCR A Std", 0, 14)); // NOI18N
-        politics2c.setText("australia");
-        politics2c.addActionListener(new java.awt.event.ActionListener() {
+        geo2.add(geo2c);
+        geo2c.setFont(new java.awt.Font("OCR A Std", 0, 14)); // NOI18N
+        geo2c.setText("australia");
+        geo2c.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                politics2cActionPerformed(evt);
+                geo2cActionPerformed(evt);
             }
         });
 
@@ -401,9 +408,9 @@ public class page4Geography1 extends javax.swing.JFrame {
                     .addGroup(jPanel19Layout.createSequentialGroup()
                         .addGap(62, 62, 62)
                         .addGroup(jPanel19Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(politics2a, javax.swing.GroupLayout.PREFERRED_SIZE, 183, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(politics2b, javax.swing.GroupLayout.PREFERRED_SIZE, 183, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(politics2c, javax.swing.GroupLayout.PREFERRED_SIZE, 183, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(geo2a, javax.swing.GroupLayout.PREFERRED_SIZE, 183, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(geo2b, javax.swing.GroupLayout.PREFERRED_SIZE, 183, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(geo2c, javax.swing.GroupLayout.PREFERRED_SIZE, 183, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addComponent(jButton3)))
                     .addGroup(jPanel19Layout.createSequentialGroup()
                         .addGap(37, 37, 37)
@@ -420,11 +427,11 @@ public class page4Geography1 extends javax.swing.JFrame {
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(jLabel4, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(18, 18, 18)
-                .addComponent(politics2a, javax.swing.GroupLayout.PREFERRED_SIZE, 33, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(geo2a, javax.swing.GroupLayout.PREFERRED_SIZE, 33, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(politics2b, javax.swing.GroupLayout.PREFERRED_SIZE, 33, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(geo2b, javax.swing.GroupLayout.PREFERRED_SIZE, 33, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(politics2c, javax.swing.GroupLayout.PREFERRED_SIZE, 33, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(geo2c, javax.swing.GroupLayout.PREFERRED_SIZE, 33, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(38, 38, 38)
                 .addComponent(jButton3)
                 .addContainerGap(48, Short.MAX_VALUE))
@@ -482,31 +489,31 @@ public class page4Geography1 extends javax.swing.JFrame {
         jLabel6.setFont(new java.awt.Font("OCR A Std", 0, 14)); // NOI18N
         jLabel6.setText("What American City is the Golden Bridge located?");
 
-        tech3.add(politics3a);
-        politics3a.setFont(new java.awt.Font("OCR A Std", 0, 14)); // NOI18N
-        politics3a.setText("Los Angeles");
-        politics3a.addActionListener(new java.awt.event.ActionListener() {
+        geo3.add(geo3a);
+        geo3a.setFont(new java.awt.Font("OCR A Std", 0, 14)); // NOI18N
+        geo3a.setText("Los Angeles");
+        geo3a.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                politics3aActionPerformed(evt);
+                geo3aActionPerformed(evt);
             }
         });
 
-        tech3.add(politics3b);
-        politics3b.setFont(new java.awt.Font("OCR A Std", 0, 14)); // NOI18N
-        politics3b.setText("New York");
-        politics3b.setToolTipText("");
-        politics3b.addActionListener(new java.awt.event.ActionListener() {
+        geo3.add(geo3b);
+        geo3b.setFont(new java.awt.Font("OCR A Std", 0, 14)); // NOI18N
+        geo3b.setText("New York");
+        geo3b.setToolTipText("");
+        geo3b.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                politics3bActionPerformed(evt);
+                geo3bActionPerformed(evt);
             }
         });
 
-        tech3.add(politics3c);
-        politics3c.setFont(new java.awt.Font("OCR A Std", 0, 14)); // NOI18N
-        politics3c.setText("San Francisco");
-        politics3c.addActionListener(new java.awt.event.ActionListener() {
+        geo3.add(geo3c);
+        geo3c.setFont(new java.awt.Font("OCR A Std", 0, 14)); // NOI18N
+        geo3c.setText("San Francisco");
+        geo3c.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                politics3cActionPerformed(evt);
+                geo3cActionPerformed(evt);
             }
         });
 
@@ -529,9 +536,9 @@ public class page4Geography1 extends javax.swing.JFrame {
             .addGroup(jPanel21Layout.createSequentialGroup()
                 .addGap(31, 31, 31)
                 .addGroup(jPanel21Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(politics3a, javax.swing.GroupLayout.PREFERRED_SIZE, 183, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(politics3b, javax.swing.GroupLayout.PREFERRED_SIZE, 183, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(politics3c, javax.swing.GroupLayout.PREFERRED_SIZE, 183, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(geo3a, javax.swing.GroupLayout.PREFERRED_SIZE, 183, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(geo3b, javax.swing.GroupLayout.PREFERRED_SIZE, 183, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(geo3c, javax.swing.GroupLayout.PREFERRED_SIZE, 183, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(jButton5)
                     .addComponent(jLabel6, javax.swing.GroupLayout.PREFERRED_SIZE, 630, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(jLabel5, javax.swing.GroupLayout.PREFERRED_SIZE, 302, javax.swing.GroupLayout.PREFERRED_SIZE))
@@ -545,11 +552,11 @@ public class page4Geography1 extends javax.swing.JFrame {
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(jLabel6, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(politics3a, javax.swing.GroupLayout.PREFERRED_SIZE, 33, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(geo3a, javax.swing.GroupLayout.PREFERRED_SIZE, 33, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(politics3b, javax.swing.GroupLayout.PREFERRED_SIZE, 33, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(geo3b, javax.swing.GroupLayout.PREFERRED_SIZE, 33, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(politics3c, javax.swing.GroupLayout.PREFERRED_SIZE, 33, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(geo3c, javax.swing.GroupLayout.PREFERRED_SIZE, 33, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(31, 31, 31)
                 .addComponent(jButton5)
                 .addContainerGap(55, Short.MAX_VALUE))
@@ -607,30 +614,30 @@ public class page4Geography1 extends javax.swing.JFrame {
         jLabel8.setFont(new java.awt.Font("OCR A Std", 0, 14)); // NOI18N
         jLabel8.setText("What is the capital of Mexico");
 
-        tech4.add(politics4a);
-        politics4a.setFont(new java.awt.Font("OCR A Std", 0, 14)); // NOI18N
-        politics4a.setText("El Salvador");
-        politics4a.addActionListener(new java.awt.event.ActionListener() {
+        geo4.add(geo4a);
+        geo4a.setFont(new java.awt.Font("OCR A Std", 0, 14)); // NOI18N
+        geo4a.setText("El Salvador");
+        geo4a.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                politics4aActionPerformed(evt);
+                geo4aActionPerformed(evt);
             }
         });
 
-        tech4.add(politics4b);
-        politics4b.setFont(new java.awt.Font("OCR A Std", 0, 14)); // NOI18N
-        politics4b.setText("Alcatraz");
-        politics4b.addActionListener(new java.awt.event.ActionListener() {
+        geo4.add(geo4b);
+        geo4b.setFont(new java.awt.Font("OCR A Std", 0, 14)); // NOI18N
+        geo4b.setText("Alcatraz");
+        geo4b.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                politics4bActionPerformed(evt);
+                geo4bActionPerformed(evt);
             }
         });
 
-        tech4.add(politics4c);
-        politics4c.setFont(new java.awt.Font("OCR A Std", 0, 14)); // NOI18N
-        politics4c.setText("Mexico");
-        politics4c.addActionListener(new java.awt.event.ActionListener() {
+        geo4.add(geo4c);
+        geo4c.setFont(new java.awt.Font("OCR A Std", 0, 14)); // NOI18N
+        geo4c.setText("Mexico");
+        geo4c.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                politics4cActionPerformed(evt);
+                geo4cActionPerformed(evt);
             }
         });
 
@@ -660,10 +667,10 @@ public class page4Geography1 extends javax.swing.JFrame {
                     .addGroup(jPanel23Layout.createSequentialGroup()
                         .addGap(62, 62, 62)
                         .addGroup(jPanel23Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(politics4a, javax.swing.GroupLayout.PREFERRED_SIZE, 183, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(politics4c, javax.swing.GroupLayout.PREFERRED_SIZE, 183, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(geo4a, javax.swing.GroupLayout.PREFERRED_SIZE, 183, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(geo4c, javax.swing.GroupLayout.PREFERRED_SIZE, 183, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addComponent(jButton7)
-                            .addComponent(politics4b, javax.swing.GroupLayout.PREFERRED_SIZE, 228, javax.swing.GroupLayout.PREFERRED_SIZE))))
+                            .addComponent(geo4b, javax.swing.GroupLayout.PREFERRED_SIZE, 228, javax.swing.GroupLayout.PREFERRED_SIZE))))
                 .addContainerGap(87, Short.MAX_VALUE))
         );
         jPanel23Layout.setVerticalGroup(
@@ -674,11 +681,11 @@ public class page4Geography1 extends javax.swing.JFrame {
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addComponent(jLabel8, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 42, Short.MAX_VALUE)
-                .addComponent(politics4a, javax.swing.GroupLayout.PREFERRED_SIZE, 33, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(geo4a, javax.swing.GroupLayout.PREFERRED_SIZE, 33, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(politics4b, javax.swing.GroupLayout.PREFERRED_SIZE, 33, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(geo4b, javax.swing.GroupLayout.PREFERRED_SIZE, 33, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(politics4c, javax.swing.GroupLayout.PREFERRED_SIZE, 33, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(geo4c, javax.swing.GroupLayout.PREFERRED_SIZE, 33, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(33, 33, 33)
                 .addComponent(jButton7)
                 .addGap(42, 42, 42))
@@ -736,30 +743,30 @@ public class page4Geography1 extends javax.swing.JFrame {
         jLabel10.setFont(new java.awt.Font("OCR A Std", 0, 14)); // NOI18N
         jLabel10.setText("In 1972, a martial law was decalred by..");
 
-        tech5.add(politics5a);
-        politics5a.setFont(new java.awt.Font("OCR A Std", 0, 14)); // NOI18N
-        politics5a.setText("Corazon Aquino");
-        politics5a.addActionListener(new java.awt.event.ActionListener() {
+        geo5.add(geo5a);
+        geo5a.setFont(new java.awt.Font("OCR A Std", 0, 14)); // NOI18N
+        geo5a.setText("Corazon Aquino");
+        geo5a.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                politics5aActionPerformed(evt);
+                geo5aActionPerformed(evt);
             }
         });
 
-        tech5.add(politics5b);
-        politics5b.setFont(new java.awt.Font("OCR A Std", 0, 14)); // NOI18N
-        politics5b.setText("Ferdinand Marcos");
-        politics5b.addActionListener(new java.awt.event.ActionListener() {
+        geo5.add(geo5b);
+        geo5b.setFont(new java.awt.Font("OCR A Std", 0, 14)); // NOI18N
+        geo5b.setText("Ferdinand Marcos");
+        geo5b.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                politics5bActionPerformed(evt);
+                geo5bActionPerformed(evt);
             }
         });
 
-        tech5.add(politics5c);
-        politics5c.setFont(new java.awt.Font("OCR A Std", 0, 14)); // NOI18N
-        politics5c.setText("Diosdado Macapagal");
-        politics5c.addActionListener(new java.awt.event.ActionListener() {
+        geo5.add(geo5c);
+        geo5c.setFont(new java.awt.Font("OCR A Std", 0, 14)); // NOI18N
+        geo5c.setText("Diosdado Macapagal");
+        geo5c.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                politics5cActionPerformed(evt);
+                geo5cActionPerformed(evt);
             }
         });
 
@@ -788,10 +795,10 @@ public class page4Geography1 extends javax.swing.JFrame {
                             .addGroup(jPanel25Layout.createSequentialGroup()
                                 .addGap(6, 6, 6)
                                 .addGroup(jPanel25Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addComponent(politics5a, javax.swing.GroupLayout.PREFERRED_SIZE, 183, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(geo5a, javax.swing.GroupLayout.PREFERRED_SIZE, 183, javax.swing.GroupLayout.PREFERRED_SIZE)
                                     .addComponent(jButton9)
-                                    .addComponent(politics5b, javax.swing.GroupLayout.PREFERRED_SIZE, 280, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addComponent(politics5c, javax.swing.GroupLayout.PREFERRED_SIZE, 256, javax.swing.GroupLayout.PREFERRED_SIZE)))))
+                                    .addComponent(geo5b, javax.swing.GroupLayout.PREFERRED_SIZE, 280, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(geo5c, javax.swing.GroupLayout.PREFERRED_SIZE, 256, javax.swing.GroupLayout.PREFERRED_SIZE)))))
                     .addGroup(jPanel25Layout.createSequentialGroup()
                         .addGap(31, 31, 31)
                         .addComponent(jLabel9, javax.swing.GroupLayout.PREFERRED_SIZE, 295, javax.swing.GroupLayout.PREFERRED_SIZE)))
@@ -805,11 +812,11 @@ public class page4Geography1 extends javax.swing.JFrame {
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(jLabel10, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(politics5a, javax.swing.GroupLayout.PREFERRED_SIZE, 33, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(geo5a, javax.swing.GroupLayout.PREFERRED_SIZE, 33, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(politics5b, javax.swing.GroupLayout.PREFERRED_SIZE, 33, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(geo5b, javax.swing.GroupLayout.PREFERRED_SIZE, 33, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(politics5c, javax.swing.GroupLayout.PREFERRED_SIZE, 33, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(geo5c, javax.swing.GroupLayout.PREFERRED_SIZE, 33, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(28, 28, 28)
                 .addComponent(jButton9)
                 .addContainerGap(58, Short.MAX_VALUE))
@@ -869,30 +876,30 @@ public class page4Geography1 extends javax.swing.JFrame {
         jLabel12.setFont(new java.awt.Font("OCR A Std", 0, 14)); // NOI18N
         jLabel12.setText("Largest Ocean in the world");
 
-        tech6.add(politics6a);
-        politics6a.setFont(new java.awt.Font("OCR A Std", 0, 14)); // NOI18N
-        politics6a.setText("Pacific ");
-        politics6a.addActionListener(new java.awt.event.ActionListener() {
+        geo6.add(geo6a);
+        geo6a.setFont(new java.awt.Font("OCR A Std", 0, 14)); // NOI18N
+        geo6a.setText("Pacific ");
+        geo6a.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                politics6aActionPerformed(evt);
+                geo6aActionPerformed(evt);
             }
         });
 
-        tech6.add(politics6b);
-        politics6b.setFont(new java.awt.Font("OCR A Std", 0, 14)); // NOI18N
-        politics6b.setText("Atlantic");
-        politics6b.addActionListener(new java.awt.event.ActionListener() {
+        geo6.add(geo6b);
+        geo6b.setFont(new java.awt.Font("OCR A Std", 0, 14)); // NOI18N
+        geo6b.setText("Atlantic");
+        geo6b.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                politics6bActionPerformed(evt);
+                geo6bActionPerformed(evt);
             }
         });
 
-        tech6.add(politics6c);
-        politics6c.setFont(new java.awt.Font("OCR A Std", 0, 14)); // NOI18N
-        politics6c.setText("Artic");
-        politics6c.addActionListener(new java.awt.event.ActionListener() {
+        geo6.add(geo6c);
+        geo6c.setFont(new java.awt.Font("OCR A Std", 0, 14)); // NOI18N
+        geo6c.setText("Artic");
+        geo6c.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                politics6cActionPerformed(evt);
+                geo6cActionPerformed(evt);
             }
         });
 
@@ -917,10 +924,10 @@ public class page4Geography1 extends javax.swing.JFrame {
                     .addGroup(jPanel27Layout.createSequentialGroup()
                         .addGap(62, 62, 62)
                         .addGroup(jPanel27Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(politics6a, javax.swing.GroupLayout.PREFERRED_SIZE, 183, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(politics6b, javax.swing.GroupLayout.PREFERRED_SIZE, 183, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(geo6a, javax.swing.GroupLayout.PREFERRED_SIZE, 183, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(geo6b, javax.swing.GroupLayout.PREFERRED_SIZE, 183, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addComponent(jButton11)
-                            .addComponent(politics6c, javax.swing.GroupLayout.PREFERRED_SIZE, 299, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                            .addComponent(geo6c, javax.swing.GroupLayout.PREFERRED_SIZE, 299, javax.swing.GroupLayout.PREFERRED_SIZE)))
                     .addGroup(jPanel27Layout.createSequentialGroup()
                         .addGap(37, 37, 37)
                         .addGroup(jPanel27Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -936,11 +943,11 @@ public class page4Geography1 extends javax.swing.JFrame {
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(jLabel12, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(politics6a, javax.swing.GroupLayout.PREFERRED_SIZE, 33, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(geo6a, javax.swing.GroupLayout.PREFERRED_SIZE, 33, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(politics6b, javax.swing.GroupLayout.PREFERRED_SIZE, 33, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(geo6b, javax.swing.GroupLayout.PREFERRED_SIZE, 33, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(politics6c, javax.swing.GroupLayout.PREFERRED_SIZE, 33, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(geo6c, javax.swing.GroupLayout.PREFERRED_SIZE, 33, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(18, 18, 18)
                 .addComponent(jButton11)
                 .addContainerGap(68, Short.MAX_VALUE))
@@ -998,30 +1005,30 @@ public class page4Geography1 extends javax.swing.JFrame {
         jLabel14.setFont(new java.awt.Font("OCR A Std", 0, 12)); // NOI18N
         jLabel14.setText("What Country is the Eiffel Tower Located?");
 
-        tech7.add(politics7a);
-        politics7a.setFont(new java.awt.Font("OCR A Std", 0, 14)); // NOI18N
-        politics7a.setText("Paris");
-        politics7a.addActionListener(new java.awt.event.ActionListener() {
+        geo7.add(geo7a);
+        geo7a.setFont(new java.awt.Font("OCR A Std", 0, 14)); // NOI18N
+        geo7a.setText("Paris");
+        geo7a.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                politics7aActionPerformed(evt);
+                geo7aActionPerformed(evt);
             }
         });
 
-        tech7.add(politics7b);
-        politics7b.setFont(new java.awt.Font("OCR A Std", 0, 14)); // NOI18N
-        politics7b.setText("England");
-        politics7b.addActionListener(new java.awt.event.ActionListener() {
+        geo7.add(geo7b);
+        geo7b.setFont(new java.awt.Font("OCR A Std", 0, 14)); // NOI18N
+        geo7b.setText("England");
+        geo7b.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                politics7bActionPerformed(evt);
+                geo7bActionPerformed(evt);
             }
         });
 
-        tech7.add(politics7c);
-        politics7c.setFont(new java.awt.Font("OCR A Std", 0, 14)); // NOI18N
-        politics7c.setText("France");
-        politics7c.addActionListener(new java.awt.event.ActionListener() {
+        geo7.add(geo7c);
+        geo7c.setFont(new java.awt.Font("OCR A Std", 0, 14)); // NOI18N
+        geo7c.setText("France");
+        geo7c.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                politics7cActionPerformed(evt);
+                geo7cActionPerformed(evt);
             }
         });
 
@@ -1046,9 +1053,9 @@ public class page4Geography1 extends javax.swing.JFrame {
                     .addGroup(jPanel29Layout.createSequentialGroup()
                         .addGap(62, 62, 62)
                         .addGroup(jPanel29Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(politics7a, javax.swing.GroupLayout.PREFERRED_SIZE, 183, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(politics7b, javax.swing.GroupLayout.PREFERRED_SIZE, 183, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(politics7c, javax.swing.GroupLayout.PREFERRED_SIZE, 183, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(geo7a, javax.swing.GroupLayout.PREFERRED_SIZE, 183, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(geo7b, javax.swing.GroupLayout.PREFERRED_SIZE, 183, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(geo7c, javax.swing.GroupLayout.PREFERRED_SIZE, 183, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addComponent(jButton13)))
                     .addGroup(jPanel29Layout.createSequentialGroup()
                         .addGap(31, 31, 31)
@@ -1065,11 +1072,11 @@ public class page4Geography1 extends javax.swing.JFrame {
                 .addGap(18, 18, 18)
                 .addComponent(jLabel14)
                 .addGap(41, 41, 41)
-                .addComponent(politics7a, javax.swing.GroupLayout.PREFERRED_SIZE, 33, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(geo7a, javax.swing.GroupLayout.PREFERRED_SIZE, 33, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(politics7b, javax.swing.GroupLayout.PREFERRED_SIZE, 33, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(geo7b, javax.swing.GroupLayout.PREFERRED_SIZE, 33, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(politics7c, javax.swing.GroupLayout.PREFERRED_SIZE, 33, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(geo7c, javax.swing.GroupLayout.PREFERRED_SIZE, 33, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(18, 18, 18)
                 .addComponent(jButton13)
                 .addContainerGap(68, Short.MAX_VALUE))
@@ -1135,74 +1142,101 @@ public class page4Geography1 extends javax.swing.JFrame {
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
-    private void politics1aActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_politics1aActionPerformed
+    private void geo1aActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_geo1aActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_politics1aActionPerformed
+    }//GEN-LAST:event_geo1aActionPerformed
 
-    private void politics1bActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_politics1bActionPerformed
+    private void geo1bActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_geo1bActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_politics1bActionPerformed
+    }//GEN-LAST:event_geo1bActionPerformed
 
-    private void politics1cActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_politics1cActionPerformed
+    private void geo1cActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_geo1cActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_politics1cActionPerformed
+    }//GEN-LAST:event_geo1cActionPerformed
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
         // TODO add your handling code here:
 
-        if (politics1a.isSelected() == true) {
-            score += 1;
-            jPanel10.setBackground(Color.green);
+//        if (geo1b.isSelected() == true) {
+//            score += 1;
+//            jPanel10.setBackground(Color.green);
+//
+//        } else {
+//            jPanel10.setBackground(Color.red);
+//        }
 
-        } else {
-            jPanel10.setBackground(Color.red);
+        boolean isSelected = geo1b.isSelected();
+
+        switch(isSelected ? "selected" : "not_selected") {
+            case "selected":
+                score += 1;
+                jPanel10.setBackground(Color.green);
+                break;
+            case "not_selected":
+                jPanel10.setBackground(Color.red);
+                break;
+            default:
+                // Default case (optional)
+                break;
         }
 
         jTabbedPane1.setSelectedIndex(1);
     }//GEN-LAST:event_jButton1ActionPerformed
 
-    private void politics2aActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_politics2aActionPerformed
+    private void geo2aActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_geo2aActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_politics2aActionPerformed
+    }//GEN-LAST:event_geo2aActionPerformed
 
-    private void politics2bActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_politics2bActionPerformed
+    private void geo2bActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_geo2bActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_politics2bActionPerformed
+    }//GEN-LAST:event_geo2bActionPerformed
 
-    private void politics2cActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_politics2cActionPerformed
+    private void geo2cActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_geo2cActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_politics2cActionPerformed
+    }//GEN-LAST:event_geo2cActionPerformed
 
     private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed
         // TODO add your handling code here:
 
-        if(politics2a.isSelected() == true) {
-            score += 1;
-            jPanel11.setBackground(Color.green);
+//        if(geo2a.isSelected() == true) {
+//            score += 1;
+//            jPanel11.setBackground(Color.green);
+//
+//        } else {
+//            jPanel11.setBackground(Color.red);
+//        }
 
-        } else {
-            jPanel11.setBackground(Color.red);
+        boolean isSelected = geo2a.isSelected();
+
+        switch(isSelected ? "selected" : "not_selected") {
+            case "selected":
+                score += 1;
+                jPanel11.setBackground(Color.green);
+                break;
+            case "not_selected":
+                jPanel11.setBackground(Color.red);
+                break;
         }
 
         jTabbedPane1.setSelectedIndex(2);
 
     }//GEN-LAST:event_jButton3ActionPerformed
 
-    private void politics3aActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_politics3aActionPerformed
+    private void geo3aActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_geo3aActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_politics3aActionPerformed
+    }//GEN-LAST:event_geo3aActionPerformed
 
-    private void politics3bActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_politics3bActionPerformed
+    private void geo3bActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_geo3bActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_politics3bActionPerformed
+    }//GEN-LAST:event_geo3bActionPerformed
 
-    private void politics3cActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_politics3cActionPerformed
+    private void geo3cActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_geo3cActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_politics3cActionPerformed
+    }//GEN-LAST:event_geo3cActionPerformed
 
     private void jButton5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton5ActionPerformed
         // TODO add your handling code here:
-        if(politics3a.isSelected() == true) {
+        if(geo3c.isSelected() == true) {
             score += 1;
             jPanel12.setBackground(Color.green);
         } else {
@@ -1212,21 +1246,21 @@ public class page4Geography1 extends javax.swing.JFrame {
         jTabbedPane1.setSelectedIndex(3);
     }//GEN-LAST:event_jButton5ActionPerformed
 
-    private void politics4aActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_politics4aActionPerformed
+    private void geo4aActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_geo4aActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_politics4aActionPerformed
+    }//GEN-LAST:event_geo4aActionPerformed
 
-    private void politics4bActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_politics4bActionPerformed
+    private void geo4bActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_geo4bActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_politics4bActionPerformed
+    }//GEN-LAST:event_geo4bActionPerformed
 
-    private void politics4cActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_politics4cActionPerformed
+    private void geo4cActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_geo4cActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_politics4cActionPerformed
+    }//GEN-LAST:event_geo4cActionPerformed
 
     private void jButton7ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton7ActionPerformed
         // TODO add your handling code here:
-        if(politics4b.isSelected() == true) {
+        if(geo4c.isSelected() == true) {
             score += 1;
             jPanel13.setBackground(Color.green);
         } else {
@@ -1236,21 +1270,21 @@ public class page4Geography1 extends javax.swing.JFrame {
         jTabbedPane1.setSelectedIndex(4);
     }//GEN-LAST:event_jButton7ActionPerformed
 
-    private void politics5aActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_politics5aActionPerformed
+    private void geo5aActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_geo5aActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_politics5aActionPerformed
+    }//GEN-LAST:event_geo5aActionPerformed
 
-    private void politics5bActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_politics5bActionPerformed
+    private void geo5bActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_geo5bActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_politics5bActionPerformed
+    }//GEN-LAST:event_geo5bActionPerformed
 
-    private void politics5cActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_politics5cActionPerformed
+    private void geo5cActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_geo5cActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_politics5cActionPerformed
+    }//GEN-LAST:event_geo5cActionPerformed
 
     private void jButton9ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton9ActionPerformed
         // TODO add your handling code here:
-        if(politics5b.isSelected() == true) {
+        if(geo5b.isSelected() == true) {
             score += 1;
             jPanel14.setBackground(Color.green);
         } else {
@@ -1260,21 +1294,21 @@ public class page4Geography1 extends javax.swing.JFrame {
         jTabbedPane1.setSelectedIndex(5);
     }//GEN-LAST:event_jButton9ActionPerformed
 
-    private void politics6aActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_politics6aActionPerformed
+    private void geo6aActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_geo6aActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_politics6aActionPerformed
+    }//GEN-LAST:event_geo6aActionPerformed
 
-    private void politics6bActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_politics6bActionPerformed
+    private void geo6bActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_geo6bActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_politics6bActionPerformed
+    }//GEN-LAST:event_geo6bActionPerformed
 
-    private void politics6cActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_politics6cActionPerformed
+    private void geo6cActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_geo6cActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_politics6cActionPerformed
+    }//GEN-LAST:event_geo6cActionPerformed
 
     private void jButton11ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton11ActionPerformed
         // TODO add your handling code here:
-        if (politics6c.isSelected() == true) {
+        if (geo6a.isSelected() == true) {
             score += 1;
             jPanel15.setBackground(Color.green);
         } else {
@@ -1284,31 +1318,31 @@ public class page4Geography1 extends javax.swing.JFrame {
         jTabbedPane1.setSelectedIndex(6);
     }//GEN-LAST:event_jButton11ActionPerformed
 
-    private void politics7aActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_politics7aActionPerformed
+    private void geo7aActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_geo7aActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_politics7aActionPerformed
+    }//GEN-LAST:event_geo7aActionPerformed
 
-    private void politics7bActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_politics7bActionPerformed
+    private void geo7bActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_geo7bActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_politics7bActionPerformed
+    }//GEN-LAST:event_geo7bActionPerformed
 
-    private void politics7cActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_politics7cActionPerformed
+    private void geo7cActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_geo7cActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_politics7cActionPerformed
+    }//GEN-LAST:event_geo7cActionPerformed
 
     private void jButton13ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton13ActionPerformed
         // TODO add your handling code here:
-        if (politics7b.isSelected() == true) {
+        if (geo7c.isSelected() == true) {
             score += 1;
             jPanel16.setBackground(Color.green);
         } else {
             jPanel16.setBackground(Color.red);
         }
 
-        thankYouPagePolitics tyPage = new thankYouPagePolitics();
-        tyPage.setScore(score);
-        tyPage.setLocationRelativeTo(null);
-        tyPage.setVisible(true);
+        thankYouPageGeography geoPage = new thankYouPageGeography();
+        geoPage.setScore(score);
+        geoPage.setLocationRelativeTo(null);
+        geoPage.setVisible(true);
 
         dispose();
     }//GEN-LAST:event_jButton13ActionPerformed
@@ -1364,6 +1398,34 @@ public class page4Geography1 extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.ButtonGroup geo1;
+    private javax.swing.JRadioButton geo1a;
+    private javax.swing.JRadioButton geo1b;
+    private javax.swing.JRadioButton geo1c;
+    private javax.swing.ButtonGroup geo2;
+    private javax.swing.JRadioButton geo2a;
+    private javax.swing.JRadioButton geo2b;
+    private javax.swing.JRadioButton geo2c;
+    private javax.swing.ButtonGroup geo3;
+    private javax.swing.JRadioButton geo3a;
+    private javax.swing.JRadioButton geo3b;
+    private javax.swing.JRadioButton geo3c;
+    private javax.swing.ButtonGroup geo4;
+    private javax.swing.JRadioButton geo4a;
+    private javax.swing.JRadioButton geo4b;
+    private javax.swing.JRadioButton geo4c;
+    private javax.swing.ButtonGroup geo5;
+    private javax.swing.JRadioButton geo5a;
+    private javax.swing.JRadioButton geo5b;
+    private javax.swing.JRadioButton geo5c;
+    private javax.swing.ButtonGroup geo6;
+    private javax.swing.JRadioButton geo6a;
+    private javax.swing.JRadioButton geo6b;
+    private javax.swing.JRadioButton geo6c;
+    private javax.swing.ButtonGroup geo7;
+    private javax.swing.JRadioButton geo7a;
+    private javax.swing.JRadioButton geo7b;
+    private javax.swing.JRadioButton geo7c;
     private javax.swing.JButton jButton1;
     private javax.swing.JButton jButton10;
     private javax.swing.JButton jButton11;
@@ -1422,27 +1484,6 @@ public class page4Geography1 extends javax.swing.JFrame {
     private javax.swing.JPanel jPanel8;
     private javax.swing.JPanel jPanel9;
     private javax.swing.JTabbedPane jTabbedPane1;
-    private javax.swing.JRadioButton politics1a;
-    private javax.swing.JRadioButton politics1b;
-    private javax.swing.JRadioButton politics1c;
-    private javax.swing.JRadioButton politics2a;
-    private javax.swing.JRadioButton politics2b;
-    private javax.swing.JRadioButton politics2c;
-    private javax.swing.JRadioButton politics3a;
-    private javax.swing.JRadioButton politics3b;
-    private javax.swing.JRadioButton politics3c;
-    private javax.swing.JRadioButton politics4a;
-    private javax.swing.JRadioButton politics4b;
-    private javax.swing.JRadioButton politics4c;
-    private javax.swing.JRadioButton politics5a;
-    private javax.swing.JRadioButton politics5b;
-    private javax.swing.JRadioButton politics5c;
-    private javax.swing.JRadioButton politics6a;
-    private javax.swing.JRadioButton politics6b;
-    private javax.swing.JRadioButton politics6c;
-    private javax.swing.JRadioButton politics7a;
-    private javax.swing.JRadioButton politics7b;
-    private javax.swing.JRadioButton politics7c;
     private javax.swing.ButtonGroup tech1;
     private javax.swing.ButtonGroup tech2;
     private javax.swing.ButtonGroup tech3;

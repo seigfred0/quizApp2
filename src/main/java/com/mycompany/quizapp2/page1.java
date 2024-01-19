@@ -268,7 +268,7 @@ public class page1 extends javax.swing.JFrame {
         // TODO add your handling code here:
        
         page2 pg2 = new page2();
-        pg2.show();
+        pg2.setVisible(true);
         pg2.setLocationRelativeTo(null);
 
          

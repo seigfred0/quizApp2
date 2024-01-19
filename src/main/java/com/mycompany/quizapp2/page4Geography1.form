@@ -16,6 +16,20 @@
     </Component>
     <Component class="javax.swing.ButtonGroup" name="tech7">
     </Component>
+    <Component class="javax.swing.ButtonGroup" name="geo1">
+    </Component>
+    <Component class="javax.swing.ButtonGroup" name="geo2">
+    </Component>
+    <Component class="javax.swing.ButtonGroup" name="geo3">
+    </Component>
+    <Component class="javax.swing.ButtonGroup" name="geo4">
+    </Component>
+    <Component class="javax.swing.ButtonGroup" name="geo5">
+    </Component>
+    <Component class="javax.swing.ButtonGroup" name="geo6">
+    </Component>
+    <Component class="javax.swing.ButtonGroup" name="geo7">
+    </Component>
   </NonVisualComponents>
   <Properties>
     <Property name="defaultCloseOperation" type="int" value="3"/>
@@ -266,9 +280,9 @@
                                           <Group type="102" alignment="0" attributes="0">
                                               <EmptySpace min="6" pref="6" max="-2" attributes="0"/>
                                               <Group type="103" groupAlignment="0" attributes="0">
-                                                  <Component id="politics1a" alignment="0" min="-2" pref="183" max="-2" attributes="0"/>
-                                                  <Component id="politics1b" alignment="0" min="-2" pref="183" max="-2" attributes="0"/>
-                                                  <Component id="politics1c" alignment="0" min="-2" pref="183" max="-2" attributes="0"/>
+                                                  <Component id="geo1a" alignment="0" min="-2" pref="183" max="-2" attributes="0"/>
+                                                  <Component id="geo1b" alignment="0" min="-2" pref="183" max="-2" attributes="0"/>
+                                                  <Component id="geo1c" alignment="0" min="-2" pref="183" max="-2" attributes="0"/>
                                                   <Component id="jButton1" alignment="0" min="-2" max="-2" attributes="0"/>
                                               </Group>
                                           </Group>
@@ -291,11 +305,11 @@
                               <EmptySpace max="-2" attributes="0"/>
                               <Component id="jLabel3" min="-2" pref="30" max="-2" attributes="0"/>
                               <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                              <Component id="politics1a" min="-2" pref="33" max="-2" attributes="0"/>
+                              <Component id="geo1a" min="-2" pref="33" max="-2" attributes="0"/>
                               <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                              <Component id="politics1b" min="-2" pref="33" max="-2" attributes="0"/>
+                              <Component id="geo1b" min="-2" pref="33" max="-2" attributes="0"/>
                               <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                              <Component id="politics1c" min="-2" pref="33" max="-2" attributes="0"/>
+                              <Component id="geo1c" min="-2" pref="33" max="-2" attributes="0"/>
                               <EmptySpace min="-2" pref="33" max="-2" attributes="0"/>
                               <Component id="jButton1" max="-2" attributes="0"/>
                               <EmptySpace pref="53" max="32767" attributes="0"/>
@@ -320,10 +334,10 @@
                         <Property name="text" type="java.lang.String" value="Country with the largest population"/>
                       </Properties>
                     </Component>
-                    <Component class="javax.swing.JRadioButton" name="politics1a">
+                    <Component class="javax.swing.JRadioButton" name="geo1a">
                       <Properties>
                         <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
-                          <ComponentRef name="tech1"/>
+                          <ComponentRef name="geo1"/>
                         </Property>
                         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                           <Font name="OCR A Std" size="14" style="0"/>
@@ -331,13 +345,13 @@
                         <Property name="text" type="java.lang.String" value="Russia"/>
                       </Properties>
                       <Events>
-                        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="politics1aActionPerformed"/>
+                        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="geo1aActionPerformed"/>
                       </Events>
                     </Component>
-                    <Component class="javax.swing.JRadioButton" name="politics1b">
+                    <Component class="javax.swing.JRadioButton" name="geo1b">
                       <Properties>
                         <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
-                          <ComponentRef name="tech1"/>
+                          <ComponentRef name="geo1"/>
                         </Property>
                         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                           <Font name="OCR A Std" size="14" style="0"/>
@@ -345,13 +359,13 @@
                         <Property name="text" type="java.lang.String" value="China"/>
                       </Properties>
                       <Events>
-                        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="politics1bActionPerformed"/>
+                        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="geo1bActionPerformed"/>
                       </Events>
                     </Component>
-                    <Component class="javax.swing.JRadioButton" name="politics1c">
+                    <Component class="javax.swing.JRadioButton" name="geo1c">
                       <Properties>
                         <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
-                          <ComponentRef name="tech1"/>
+                          <ComponentRef name="geo1"/>
                         </Property>
                         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                           <Font name="OCR A Std" size="14" style="0"/>
@@ -359,7 +373,7 @@
                         <Property name="text" type="java.lang.String" value="America"/>
                       </Properties>
                       <Events>
-                        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="politics1cActionPerformed"/>
+                        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="geo1cActionPerformed"/>
                       </Events>
                     </Component>
                     <Component class="javax.swing.JButton" name="jButton1">
@@ -482,9 +496,9 @@
                                       <Group type="102" alignment="0" attributes="0">
                                           <EmptySpace min="-2" pref="62" max="-2" attributes="0"/>
                                           <Group type="103" groupAlignment="0" attributes="0">
-                                              <Component id="politics2a" alignment="0" min="-2" pref="183" max="-2" attributes="0"/>
-                                              <Component id="politics2b" alignment="0" min="-2" pref="183" max="-2" attributes="0"/>
-                                              <Component id="politics2c" alignment="0" min="-2" pref="183" max="-2" attributes="0"/>
+                                              <Component id="geo2a" alignment="0" min="-2" pref="183" max="-2" attributes="0"/>
+                                              <Component id="geo2b" alignment="0" min="-2" pref="183" max="-2" attributes="0"/>
+                                              <Component id="geo2c" alignment="0" min="-2" pref="183" max="-2" attributes="0"/>
                                               <Component id="jButton3" alignment="0" min="-2" max="-2" attributes="0"/>
                                           </Group>
                                       </Group>
@@ -508,11 +522,11 @@
                                   <EmptySpace max="-2" attributes="0"/>
                                   <Component id="jLabel4" min="-2" pref="30" max="-2" attributes="0"/>
                                   <EmptySpace type="separate" max="-2" attributes="0"/>
-                                  <Component id="politics2a" min="-2" pref="33" max="-2" attributes="0"/>
+                                  <Component id="geo2a" min="-2" pref="33" max="-2" attributes="0"/>
                                   <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                                  <Component id="politics2b" min="-2" pref="33" max="-2" attributes="0"/>
+                                  <Component id="geo2b" min="-2" pref="33" max="-2" attributes="0"/>
                                   <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                                  <Component id="politics2c" min="-2" pref="33" max="-2" attributes="0"/>
+                                  <Component id="geo2c" min="-2" pref="33" max="-2" attributes="0"/>
                                   <EmptySpace min="-2" pref="38" max="-2" attributes="0"/>
                                   <Component id="jButton3" max="-2" attributes="0"/>
                                   <EmptySpace pref="48" max="32767" attributes="0"/>
@@ -537,10 +551,10 @@
                             <Property name="text" type="java.lang.String" value="Which one is not part of the 7 continents."/>
                           </Properties>
                         </Component>
-                        <Component class="javax.swing.JRadioButton" name="politics2a">
+                        <Component class="javax.swing.JRadioButton" name="geo2a">
                           <Properties>
                             <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
-                              <ComponentRef name="tech2"/>
+                              <ComponentRef name="geo2"/>
                             </Property>
                             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                               <Font name="OCR A Std" size="14" style="0"/>
@@ -548,13 +562,13 @@
                             <Property name="text" type="java.lang.String" value="west america"/>
                           </Properties>
                           <Events>
-                            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="politics2aActionPerformed"/>
+                            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="geo2aActionPerformed"/>
                           </Events>
                         </Component>
-                        <Component class="javax.swing.JRadioButton" name="politics2b">
+                        <Component class="javax.swing.JRadioButton" name="geo2b">
                           <Properties>
                             <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
-                              <ComponentRef name="tech2"/>
+                              <ComponentRef name="geo2"/>
                             </Property>
                             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                               <Font name="OCR A Std" size="14" style="0"/>
@@ -562,13 +576,13 @@
                             <Property name="text" type="java.lang.String" value="north america"/>
                           </Properties>
                           <Events>
-                            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="politics2bActionPerformed"/>
+                            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="geo2bActionPerformed"/>
                           </Events>
                         </Component>
-                        <Component class="javax.swing.JRadioButton" name="politics2c">
+                        <Component class="javax.swing.JRadioButton" name="geo2c">
                           <Properties>
                             <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
-                              <ComponentRef name="tech2"/>
+                              <ComponentRef name="geo2"/>
                             </Property>
                             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                               <Font name="OCR A Std" size="14" style="0"/>
@@ -576,7 +590,7 @@
                             <Property name="text" type="java.lang.String" value="australia"/>
                           </Properties>
                           <Events>
-                            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="politics2cActionPerformed"/>
+                            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="geo2cActionPerformed"/>
                           </Events>
                         </Component>
                         <Component class="javax.swing.JButton" name="jButton3">
@@ -694,9 +708,9 @@
                               <Group type="102" alignment="0" attributes="0">
                                   <EmptySpace min="-2" pref="31" max="-2" attributes="0"/>
                                   <Group type="103" groupAlignment="0" attributes="0">
-                                      <Component id="politics3a" alignment="0" min="-2" pref="183" max="-2" attributes="0"/>
-                                      <Component id="politics3b" alignment="0" min="-2" pref="183" max="-2" attributes="0"/>
-                                      <Component id="politics3c" alignment="0" min="-2" pref="183" max="-2" attributes="0"/>
+                                      <Component id="geo3a" alignment="0" min="-2" pref="183" max="-2" attributes="0"/>
+                                      <Component id="geo3b" alignment="0" min="-2" pref="183" max="-2" attributes="0"/>
+                                      <Component id="geo3c" alignment="0" min="-2" pref="183" max="-2" attributes="0"/>
                                       <Component id="jButton5" alignment="0" min="-2" max="-2" attributes="0"/>
                                       <Component id="jLabel6" alignment="0" min="-2" pref="630" max="-2" attributes="0"/>
                                       <Component id="jLabel5" alignment="0" min="-2" pref="302" max="-2" attributes="0"/>
@@ -713,11 +727,11 @@
                                   <EmptySpace max="-2" attributes="0"/>
                                   <Component id="jLabel6" min="-2" pref="30" max="-2" attributes="0"/>
                                   <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                                  <Component id="politics3a" min="-2" pref="33" max="-2" attributes="0"/>
+                                  <Component id="geo3a" min="-2" pref="33" max="-2" attributes="0"/>
                                   <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                                  <Component id="politics3b" min="-2" pref="33" max="-2" attributes="0"/>
+                                  <Component id="geo3b" min="-2" pref="33" max="-2" attributes="0"/>
                                   <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                                  <Component id="politics3c" min="-2" pref="33" max="-2" attributes="0"/>
+                                  <Component id="geo3c" min="-2" pref="33" max="-2" attributes="0"/>
                                   <EmptySpace min="-2" pref="31" max="-2" attributes="0"/>
                                   <Component id="jButton5" max="-2" attributes="0"/>
                                   <EmptySpace pref="55" max="32767" attributes="0"/>
@@ -742,10 +756,10 @@
                             <Property name="text" type="java.lang.String" value="What American City is the Golden Bridge located?"/>
                           </Properties>
                         </Component>
-                        <Component class="javax.swing.JRadioButton" name="politics3a">
+                        <Component class="javax.swing.JRadioButton" name="geo3a">
                           <Properties>
                             <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
-                              <ComponentRef name="tech3"/>
+                              <ComponentRef name="geo3"/>
                             </Property>
                             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                               <Font name="OCR A Std" size="14" style="0"/>
@@ -753,13 +767,13 @@
                             <Property name="text" type="java.lang.String" value="Los Angeles"/>
                           </Properties>
                           <Events>
-                            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="politics3aActionPerformed"/>
+                            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="geo3aActionPerformed"/>
                           </Events>
                         </Component>
-                        <Component class="javax.swing.JRadioButton" name="politics3b">
+                        <Component class="javax.swing.JRadioButton" name="geo3b">
                           <Properties>
                             <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
-                              <ComponentRef name="tech3"/>
+                              <ComponentRef name="geo3"/>
                             </Property>
                             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                               <Font name="OCR A Std" size="14" style="0"/>
@@ -768,13 +782,13 @@
                             <Property name="toolTipText" type="java.lang.String" value=""/>
                           </Properties>
                           <Events>
-                            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="politics3bActionPerformed"/>
+                            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="geo3bActionPerformed"/>
                           </Events>
                         </Component>
-                        <Component class="javax.swing.JRadioButton" name="politics3c">
+                        <Component class="javax.swing.JRadioButton" name="geo3c">
                           <Properties>
                             <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
-                              <ComponentRef name="tech3"/>
+                              <ComponentRef name="geo3"/>
                             </Property>
                             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                               <Font name="OCR A Std" size="14" style="0"/>
@@ -782,7 +796,7 @@
                             <Property name="text" type="java.lang.String" value="San Francisco"/>
                           </Properties>
                           <Events>
-                            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="politics3cActionPerformed"/>
+                            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="geo3cActionPerformed"/>
                           </Events>
                         </Component>
                         <Component class="javax.swing.JButton" name="jButton5">
@@ -909,10 +923,10 @@
                                       <Group type="102" alignment="0" attributes="0">
                                           <EmptySpace min="-2" pref="62" max="-2" attributes="0"/>
                                           <Group type="103" groupAlignment="0" attributes="0">
-                                              <Component id="politics4a" alignment="0" min="-2" pref="183" max="-2" attributes="0"/>
-                                              <Component id="politics4c" alignment="0" min="-2" pref="183" max="-2" attributes="0"/>
+                                              <Component id="geo4a" alignment="0" min="-2" pref="183" max="-2" attributes="0"/>
+                                              <Component id="geo4c" alignment="0" min="-2" pref="183" max="-2" attributes="0"/>
                                               <Component id="jButton7" alignment="0" min="-2" max="-2" attributes="0"/>
-                                              <Component id="politics4b" alignment="0" min="-2" pref="228" max="-2" attributes="0"/>
+                                              <Component id="geo4b" alignment="0" min="-2" pref="228" max="-2" attributes="0"/>
                                           </Group>
                                       </Group>
                                   </Group>
@@ -928,11 +942,11 @@
                                   <EmptySpace max="32767" attributes="0"/>
                                   <Component id="jLabel8" min="-2" pref="30" max="-2" attributes="0"/>
                                   <EmptySpace pref="42" max="32767" attributes="0"/>
-                                  <Component id="politics4a" min="-2" pref="33" max="-2" attributes="0"/>
+                                  <Component id="geo4a" min="-2" pref="33" max="-2" attributes="0"/>
                                   <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                                  <Component id="politics4b" min="-2" pref="33" max="-2" attributes="0"/>
+                                  <Component id="geo4b" min="-2" pref="33" max="-2" attributes="0"/>
                                   <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                                  <Component id="politics4c" min="-2" pref="33" max="-2" attributes="0"/>
+                                  <Component id="geo4c" min="-2" pref="33" max="-2" attributes="0"/>
                                   <EmptySpace min="-2" pref="33" max="-2" attributes="0"/>
                                   <Component id="jButton7" max="-2" attributes="0"/>
                                   <EmptySpace min="-2" pref="42" max="-2" attributes="0"/>
@@ -957,10 +971,10 @@
                             <Property name="text" type="java.lang.String" value="What is the capital of Mexico"/>
                           </Properties>
                         </Component>
-                        <Component class="javax.swing.JRadioButton" name="politics4a">
+                        <Component class="javax.swing.JRadioButton" name="geo4a">
                           <Properties>
                             <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
-                              <ComponentRef name="tech4"/>
+                              <ComponentRef name="geo4"/>
                             </Property>
                             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                               <Font name="OCR A Std" size="14" style="0"/>
@@ -968,13 +982,13 @@
                             <Property name="text" type="java.lang.String" value="El Salvador"/>
                           </Properties>
                           <Events>
-                            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="politics4aActionPerformed"/>
+                            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="geo4aActionPerformed"/>
                           </Events>
                         </Component>
-                        <Component class="javax.swing.JRadioButton" name="politics4b">
+                        <Component class="javax.swing.JRadioButton" name="geo4b">
                           <Properties>
                             <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
-                              <ComponentRef name="tech4"/>
+                              <ComponentRef name="geo4"/>
                             </Property>
                             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                               <Font name="OCR A Std" size="14" style="0"/>
@@ -982,13 +996,13 @@
                             <Property name="text" type="java.lang.String" value="Alcatraz"/>
                           </Properties>
                           <Events>
-                            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="politics4bActionPerformed"/>
+                            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="geo4bActionPerformed"/>
                           </Events>
                         </Component>
-                        <Component class="javax.swing.JRadioButton" name="politics4c">
+                        <Component class="javax.swing.JRadioButton" name="geo4c">
                           <Properties>
                             <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
-                              <ComponentRef name="tech4"/>
+                              <ComponentRef name="geo4"/>
                             </Property>
                             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                               <Font name="OCR A Std" size="14" style="0"/>
@@ -996,7 +1010,7 @@
                             <Property name="text" type="java.lang.String" value="Mexico"/>
                           </Properties>
                           <Events>
-                            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="politics4cActionPerformed"/>
+                            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="geo4cActionPerformed"/>
                           </Events>
                         </Component>
                         <Component class="javax.swing.JButton" name="jButton7">
@@ -1120,10 +1134,10 @@
                                               <Group type="102" alignment="0" attributes="0">
                                                   <EmptySpace min="6" pref="6" max="-2" attributes="0"/>
                                                   <Group type="103" groupAlignment="0" attributes="0">
-                                                      <Component id="politics5a" alignment="0" min="-2" pref="183" max="-2" attributes="0"/>
+                                                      <Component id="geo5a" alignment="0" min="-2" pref="183" max="-2" attributes="0"/>
                                                       <Component id="jButton9" alignment="0" min="-2" max="-2" attributes="0"/>
-                                                      <Component id="politics5b" alignment="0" min="-2" pref="280" max="-2" attributes="0"/>
-                                                      <Component id="politics5c" alignment="0" min="-2" pref="256" max="-2" attributes="0"/>
+                                                      <Component id="geo5b" alignment="0" min="-2" pref="280" max="-2" attributes="0"/>
+                                                      <Component id="geo5c" alignment="0" min="-2" pref="256" max="-2" attributes="0"/>
                                                   </Group>
                                               </Group>
                                           </Group>
@@ -1145,11 +1159,11 @@
                                   <EmptySpace max="-2" attributes="0"/>
                                   <Component id="jLabel10" min="-2" pref="30" max="-2" attributes="0"/>
                                   <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                                  <Component id="politics5a" min="-2" pref="33" max="-2" attributes="0"/>
+                                  <Component id="geo5a" min="-2" pref="33" max="-2" attributes="0"/>
                                   <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                                  <Component id="politics5b" min="-2" pref="33" max="-2" attributes="0"/>
+                                  <Component id="geo5b" min="-2" pref="33" max="-2" attributes="0"/>
                                   <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                                  <Component id="politics5c" min="-2" pref="33" max="-2" attributes="0"/>
+                                  <Component id="geo5c" min="-2" pref="33" max="-2" attributes="0"/>
                                   <EmptySpace min="-2" pref="28" max="-2" attributes="0"/>
                                   <Component id="jButton9" max="-2" attributes="0"/>
                                   <EmptySpace pref="58" max="32767" attributes="0"/>
@@ -1174,10 +1188,10 @@
                             <Property name="text" type="java.lang.String" value="In 1972, a martial law was decalred by.."/>
                           </Properties>
                         </Component>
-                        <Component class="javax.swing.JRadioButton" name="politics5a">
+                        <Component class="javax.swing.JRadioButton" name="geo5a">
                           <Properties>
                             <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
-                              <ComponentRef name="tech5"/>
+                              <ComponentRef name="geo5"/>
                             </Property>
                             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                               <Font name="OCR A Std" size="14" style="0"/>
@@ -1185,13 +1199,13 @@
                             <Property name="text" type="java.lang.String" value="Corazon Aquino"/>
                           </Properties>
                           <Events>
-                            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="politics5aActionPerformed"/>
+                            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="geo5aActionPerformed"/>
                           </Events>
                         </Component>
-                        <Component class="javax.swing.JRadioButton" name="politics5b">
+                        <Component class="javax.swing.JRadioButton" name="geo5b">
                           <Properties>
                             <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
-                              <ComponentRef name="tech5"/>
+                              <ComponentRef name="geo5"/>
                             </Property>
                             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                               <Font name="OCR A Std" size="14" style="0"/>
@@ -1199,13 +1213,13 @@
                             <Property name="text" type="java.lang.String" value="Ferdinand Marcos"/>
                           </Properties>
                           <Events>
-                            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="politics5bActionPerformed"/>
+                            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="geo5bActionPerformed"/>
                           </Events>
                         </Component>
-                        <Component class="javax.swing.JRadioButton" name="politics5c">
+                        <Component class="javax.swing.JRadioButton" name="geo5c">
                           <Properties>
                             <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
-                              <ComponentRef name="tech5"/>
+                              <ComponentRef name="geo5"/>
                             </Property>
                             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                               <Font name="OCR A Std" size="14" style="0"/>
@@ -1213,7 +1227,7 @@
                             <Property name="text" type="java.lang.String" value="Diosdado Macapagal"/>
                           </Properties>
                           <Events>
-                            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="politics5cActionPerformed"/>
+                            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="geo5cActionPerformed"/>
                           </Events>
                         </Component>
                         <Component class="javax.swing.JButton" name="jButton9">
@@ -1335,10 +1349,10 @@
                                       <Group type="102" alignment="0" attributes="0">
                                           <EmptySpace min="-2" pref="62" max="-2" attributes="0"/>
                                           <Group type="103" groupAlignment="0" attributes="0">
-                                              <Component id="politics6a" alignment="0" min="-2" pref="183" max="-2" attributes="0"/>
-                                              <Component id="politics6b" alignment="0" min="-2" pref="183" max="-2" attributes="0"/>
+                                              <Component id="geo6a" alignment="0" min="-2" pref="183" max="-2" attributes="0"/>
+                                              <Component id="geo6b" alignment="0" min="-2" pref="183" max="-2" attributes="0"/>
                                               <Component id="jButton11" alignment="0" min="-2" max="-2" attributes="0"/>
-                                              <Component id="politics6c" alignment="0" min="-2" pref="299" max="-2" attributes="0"/>
+                                              <Component id="geo6c" alignment="0" min="-2" pref="299" max="-2" attributes="0"/>
                                           </Group>
                                       </Group>
                                       <Group type="102" alignment="0" attributes="0">
@@ -1361,11 +1375,11 @@
                                   <EmptySpace max="-2" attributes="0"/>
                                   <Component id="jLabel12" min="-2" pref="30" max="-2" attributes="0"/>
                                   <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                                  <Component id="politics6a" min="-2" pref="33" max="-2" attributes="0"/>
+                                  <Component id="geo6a" min="-2" pref="33" max="-2" attributes="0"/>
                                   <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                                  <Component id="politics6b" min="-2" pref="33" max="-2" attributes="0"/>
+                                  <Component id="geo6b" min="-2" pref="33" max="-2" attributes="0"/>
                                   <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                                  <Component id="politics6c" min="-2" pref="33" max="-2" attributes="0"/>
+                                  <Component id="geo6c" min="-2" pref="33" max="-2" attributes="0"/>
                                   <EmptySpace type="separate" max="-2" attributes="0"/>
                                   <Component id="jButton11" max="-2" attributes="0"/>
                                   <EmptySpace pref="68" max="32767" attributes="0"/>
@@ -1390,10 +1404,10 @@
                             <Property name="text" type="java.lang.String" value="Largest Ocean in the world"/>
                           </Properties>
                         </Component>
-                        <Component class="javax.swing.JRadioButton" name="politics6a">
+                        <Component class="javax.swing.JRadioButton" name="geo6a">
                           <Properties>
                             <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
-                              <ComponentRef name="tech6"/>
+                              <ComponentRef name="geo6"/>
                             </Property>
                             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                               <Font name="OCR A Std" size="14" style="0"/>
@@ -1401,13 +1415,13 @@
                             <Property name="text" type="java.lang.String" value="Pacific "/>
                           </Properties>
                           <Events>
-                            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="politics6aActionPerformed"/>
+                            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="geo6aActionPerformed"/>
                           </Events>
                         </Component>
-                        <Component class="javax.swing.JRadioButton" name="politics6b">
+                        <Component class="javax.swing.JRadioButton" name="geo6b">
                           <Properties>
                             <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
-                              <ComponentRef name="tech6"/>
+                              <ComponentRef name="geo6"/>
                             </Property>
                             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                               <Font name="OCR A Std" size="14" style="0"/>
@@ -1415,13 +1429,13 @@
                             <Property name="text" type="java.lang.String" value="Atlantic"/>
                           </Properties>
                           <Events>
-                            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="politics6bActionPerformed"/>
+                            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="geo6bActionPerformed"/>
                           </Events>
                         </Component>
-                        <Component class="javax.swing.JRadioButton" name="politics6c">
+                        <Component class="javax.swing.JRadioButton" name="geo6c">
                           <Properties>
                             <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
-                              <ComponentRef name="tech6"/>
+                              <ComponentRef name="geo6"/>
                             </Property>
                             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                               <Font name="OCR A Std" size="14" style="0"/>
@@ -1429,7 +1443,7 @@
                             <Property name="text" type="java.lang.String" value="Artic"/>
                           </Properties>
                           <Events>
-                            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="politics6cActionPerformed"/>
+                            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="geo6cActionPerformed"/>
                           </Events>
                         </Component>
                         <Component class="javax.swing.JButton" name="jButton11">
@@ -1558,9 +1572,9 @@
                                       <Group type="102" alignment="0" attributes="0">
                                           <EmptySpace min="-2" pref="62" max="-2" attributes="0"/>
                                           <Group type="103" groupAlignment="0" attributes="0">
-                                              <Component id="politics7a" alignment="0" min="-2" pref="183" max="-2" attributes="0"/>
-                                              <Component id="politics7b" alignment="0" min="-2" pref="183" max="-2" attributes="0"/>
-                                              <Component id="politics7c" alignment="0" min="-2" pref="183" max="-2" attributes="0"/>
+                                              <Component id="geo7a" alignment="0" min="-2" pref="183" max="-2" attributes="0"/>
+                                              <Component id="geo7b" alignment="0" min="-2" pref="183" max="-2" attributes="0"/>
+                                              <Component id="geo7c" alignment="0" min="-2" pref="183" max="-2" attributes="0"/>
                                               <Component id="jButton13" alignment="0" min="-2" max="-2" attributes="0"/>
                                           </Group>
                                       </Group>
@@ -1584,11 +1598,11 @@
                                   <EmptySpace type="separate" max="-2" attributes="0"/>
                                   <Component id="jLabel14" min="-2" max="-2" attributes="0"/>
                                   <EmptySpace min="-2" pref="41" max="-2" attributes="0"/>
-                                  <Component id="politics7a" min="-2" pref="33" max="-2" attributes="0"/>
+                                  <Component id="geo7a" min="-2" pref="33" max="-2" attributes="0"/>
                                   <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                                  <Component id="politics7b" min="-2" pref="33" max="-2" attributes="0"/>
+                                  <Component id="geo7b" min="-2" pref="33" max="-2" attributes="0"/>
                                   <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                                  <Component id="politics7c" min="-2" pref="33" max="-2" attributes="0"/>
+                                  <Component id="geo7c" min="-2" pref="33" max="-2" attributes="0"/>
                                   <EmptySpace type="separate" max="-2" attributes="0"/>
                                   <Component id="jButton13" max="-2" attributes="0"/>
                                   <EmptySpace pref="68" max="32767" attributes="0"/>
@@ -1613,10 +1627,10 @@
                             <Property name="text" type="java.lang.String" value="What Country is the Eiffel Tower Located?"/>
                           </Properties>
                         </Component>
-                        <Component class="javax.swing.JRadioButton" name="politics7a">
+                        <Component class="javax.swing.JRadioButton" name="geo7a">
                           <Properties>
                             <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
-                              <ComponentRef name="tech7"/>
+                              <ComponentRef name="geo7"/>
                             </Property>
                             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                               <Font name="OCR A Std" size="14" style="0"/>
@@ -1624,13 +1638,13 @@
                             <Property name="text" type="java.lang.String" value="Paris"/>
                           </Properties>
                           <Events>
-                            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="politics7aActionPerformed"/>
+                            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="geo7aActionPerformed"/>
                           </Events>
                         </Component>
-                        <Component class="javax.swing.JRadioButton" name="politics7b">
+                        <Component class="javax.swing.JRadioButton" name="geo7b">
                           <Properties>
                             <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
-                              <ComponentRef name="tech7"/>
+                              <ComponentRef name="geo7"/>
                             </Property>
                             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                               <Font name="OCR A Std" size="14" style="0"/>
@@ -1638,13 +1652,13 @@
                             <Property name="text" type="java.lang.String" value="England"/>
                           </Properties>
                           <Events>
-                            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="politics7bActionPerformed"/>
+                            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="geo7bActionPerformed"/>
                           </Events>
                         </Component>
-                        <Component class="javax.swing.JRadioButton" name="politics7c">
+                        <Component class="javax.swing.JRadioButton" name="geo7c">
                           <Properties>
                             <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
-                              <ComponentRef name="tech7"/>
+                              <ComponentRef name="geo7"/>
                             </Property>
                             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                               <Font name="OCR A Std" size="14" style="0"/>
@@ -1652,7 +1666,7 @@
                             <Property name="text" type="java.lang.String" value="France"/>
                           </Properties>
                           <Events>
-                            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="politics7cActionPerformed"/>
+                            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="geo7cActionPerformed"/>
                           </Events>
                         </Component>
                         <Component class="javax.swing.JButton" name="jButton13">
