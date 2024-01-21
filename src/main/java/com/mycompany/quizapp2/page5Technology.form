@@ -266,9 +266,9 @@
                                           <Group type="102" alignment="0" attributes="0">
                                               <EmptySpace min="6" pref="6" max="-2" attributes="0"/>
                                               <Group type="103" groupAlignment="0" attributes="0">
-                                                  <Component id="politics1a" alignment="0" min="-2" pref="183" max="-2" attributes="0"/>
-                                                  <Component id="politics1b" alignment="0" min="-2" pref="183" max="-2" attributes="0"/>
-                                                  <Component id="politics1c" alignment="0" min="-2" pref="183" max="-2" attributes="0"/>
+                                                  <Component id="tech1a" alignment="0" min="-2" pref="183" max="-2" attributes="0"/>
+                                                  <Component id="tech1b" alignment="0" min="-2" pref="183" max="-2" attributes="0"/>
+                                                  <Component id="tech1c" alignment="0" min="-2" pref="183" max="-2" attributes="0"/>
                                                   <Component id="jButton1" alignment="0" min="-2" max="-2" attributes="0"/>
                                               </Group>
                                           </Group>
@@ -291,11 +291,11 @@
                               <EmptySpace max="-2" attributes="0"/>
                               <Component id="jLabel3" min="-2" pref="30" max="-2" attributes="0"/>
                               <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                              <Component id="politics1a" min="-2" pref="33" max="-2" attributes="0"/>
+                              <Component id="tech1a" min="-2" pref="33" max="-2" attributes="0"/>
                               <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                              <Component id="politics1b" min="-2" pref="33" max="-2" attributes="0"/>
+                              <Component id="tech1b" min="-2" pref="33" max="-2" attributes="0"/>
                               <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                              <Component id="politics1c" min="-2" pref="33" max="-2" attributes="0"/>
+                              <Component id="tech1c" min="-2" pref="33" max="-2" attributes="0"/>
                               <EmptySpace min="-2" pref="33" max="-2" attributes="0"/>
                               <Component id="jButton1" max="-2" attributes="0"/>
                               <EmptySpace pref="53" max="32767" attributes="0"/>
@@ -317,58 +317,49 @@
                         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                           <Font name="OCR A Std" size="14" style="0"/>
                         </Property>
-                        <Property name="text" type="java.lang.String" value="Highest Law making body in the Philippines"/>
+                        <Property name="text" type="java.lang.String" value="Popular version control system..."/>
                       </Properties>
                     </Component>
-                    <Component class="javax.swing.JRadioButton" name="politics1a">
+                    <Component class="javax.swing.JRadioButton" name="tech1a">
                       <Properties>
-                        <Property name="model" type="javax.swing.ButtonModel" editor="org.netbeans.modules.form.ComponentChooserEditor">
-                          <ComponentRef name="default"/>
-                        </Property>
                         <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
                           <ComponentRef name="tech1"/>
                         </Property>
                         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                           <Font name="OCR A Std" size="14" style="0"/>
                         </Property>
-                        <Property name="text" type="java.lang.String" value="Paypal"/>
+                        <Property name="text" type="java.lang.String" value="SVN"/>
                       </Properties>
                       <Events>
-                        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="politics1aActionPerformed"/>
+                        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="tech1aActionPerformed"/>
                       </Events>
                     </Component>
-                    <Component class="javax.swing.JRadioButton" name="politics1b">
+                    <Component class="javax.swing.JRadioButton" name="tech1b">
                       <Properties>
-                        <Property name="model" type="javax.swing.ButtonModel" editor="org.netbeans.modules.form.ComponentChooserEditor">
-                          <ComponentRef name="default"/>
-                        </Property>
                         <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
                           <ComponentRef name="tech1"/>
                         </Property>
                         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                           <Font name="OCR A Std" size="14" style="0"/>
                         </Property>
-                        <Property name="text" type="java.lang.String" value="Senate"/>
+                        <Property name="text" type="java.lang.String" value="FTP"/>
                       </Properties>
                       <Events>
-                        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="politics1bActionPerformed"/>
+                        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="tech1bActionPerformed"/>
                       </Events>
                     </Component>
-                    <Component class="javax.swing.JRadioButton" name="politics1c">
+                    <Component class="javax.swing.JRadioButton" name="tech1c">
                       <Properties>
-                        <Property name="model" type="javax.swing.ButtonModel" editor="org.netbeans.modules.form.ComponentChooserEditor">
-                          <ComponentRef name="default"/>
-                        </Property>
                         <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
                           <ComponentRef name="tech1"/>
                         </Property>
                         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                           <Font name="OCR A Std" size="14" style="0"/>
                         </Property>
-                        <Property name="text" type="java.lang.String" value="Supreme Court"/>
+                        <Property name="text" type="java.lang.String" value="Git"/>
                       </Properties>
                       <Events>
-                        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="politics1cActionPerformed"/>
+                        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="tech1cActionPerformed"/>
                       </Events>
                     </Component>
                     <Component class="javax.swing.JButton" name="jButton1">
@@ -491,9 +482,9 @@
                                       <Group type="102" alignment="0" attributes="0">
                                           <EmptySpace min="-2" pref="62" max="-2" attributes="0"/>
                                           <Group type="103" groupAlignment="0" attributes="0">
-                                              <Component id="politics2a" alignment="0" min="-2" pref="183" max="-2" attributes="0"/>
-                                              <Component id="politics2b" alignment="0" min="-2" pref="183" max="-2" attributes="0"/>
-                                              <Component id="politics2c" alignment="0" min="-2" pref="183" max="-2" attributes="0"/>
+                                              <Component id="tech2a" alignment="0" min="-2" pref="183" max="-2" attributes="0"/>
+                                              <Component id="tech2b" alignment="0" min="-2" pref="183" max="-2" attributes="0"/>
+                                              <Component id="tech2c" alignment="0" min="-2" pref="183" max="-2" attributes="0"/>
                                               <Component id="jButton3" alignment="0" min="-2" max="-2" attributes="0"/>
                                           </Group>
                                       </Group>
@@ -517,11 +508,11 @@
                                   <EmptySpace max="-2" attributes="0"/>
                                   <Component id="jLabel4" min="-2" pref="30" max="-2" attributes="0"/>
                                   <EmptySpace type="separate" max="-2" attributes="0"/>
-                                  <Component id="politics2a" min="-2" pref="33" max="-2" attributes="0"/>
+                                  <Component id="tech2a" min="-2" pref="33" max="-2" attributes="0"/>
                                   <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                                  <Component id="politics2b" min="-2" pref="33" max="-2" attributes="0"/>
+                                  <Component id="tech2b" min="-2" pref="33" max="-2" attributes="0"/>
                                   <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                                  <Component id="politics2c" min="-2" pref="33" max="-2" attributes="0"/>
+                                  <Component id="tech2c" min="-2" pref="33" max="-2" attributes="0"/>
                                   <EmptySpace min="-2" pref="38" max="-2" attributes="0"/>
                                   <Component id="jButton3" max="-2" attributes="0"/>
                                   <EmptySpace pref="48" max="32767" attributes="0"/>
@@ -543,10 +534,10 @@
                             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                               <Font name="OCR A Std" size="14" style="0"/>
                             </Property>
-                            <Property name="text" type="java.lang.String" value="Lenght for a member of the House of Representative"/>
+                            <Property name="text" type="java.lang.String" value="What word is often abbreviated as Fn on a keyboard?"/>
                           </Properties>
                         </Component>
-                        <Component class="javax.swing.JRadioButton" name="politics2a">
+                        <Component class="javax.swing.JRadioButton" name="tech2a">
                           <Properties>
                             <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
                               <ComponentRef name="tech2"/>
@@ -554,13 +545,13 @@
                             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                               <Font name="OCR A Std" size="14" style="0"/>
                             </Property>
-                            <Property name="text" type="java.lang.String" value="3 years"/>
+                            <Property name="text" type="java.lang.String" value="alt"/>
                           </Properties>
                           <Events>
-                            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="politics2aActionPerformed"/>
+                            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="tech2aActionPerformed"/>
                           </Events>
                         </Component>
-                        <Component class="javax.swing.JRadioButton" name="politics2b">
+                        <Component class="javax.swing.JRadioButton" name="tech2b">
                           <Properties>
                             <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
                               <ComponentRef name="tech2"/>
@@ -568,13 +559,13 @@
                             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                               <Font name="OCR A Std" size="14" style="0"/>
                             </Property>
-                            <Property name="text" type="java.lang.String" value="4 years"/>
+                            <Property name="text" type="java.lang.String" value="fn"/>
                           </Properties>
                           <Events>
-                            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="politics2bActionPerformed"/>
+                            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="tech2bActionPerformed"/>
                           </Events>
                         </Component>
-                        <Component class="javax.swing.JRadioButton" name="politics2c">
+                        <Component class="javax.swing.JRadioButton" name="tech2c">
                           <Properties>
                             <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
                               <ComponentRef name="tech2"/>
@@ -582,10 +573,10 @@
                             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                               <Font name="OCR A Std" size="14" style="0"/>
                             </Property>
-                            <Property name="text" type="java.lang.String" value="6 years"/>
+                            <Property name="text" type="java.lang.String" value="ctrl"/>
                           </Properties>
                           <Events>
-                            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="politics2cActionPerformed"/>
+                            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="tech2cActionPerformed"/>
                           </Events>
                         </Component>
                         <Component class="javax.swing.JButton" name="jButton3">
@@ -703,9 +694,9 @@
                               <Group type="102" alignment="0" attributes="0">
                                   <EmptySpace min="-2" pref="31" max="-2" attributes="0"/>
                                   <Group type="103" groupAlignment="0" attributes="0">
-                                      <Component id="politics3a" alignment="0" min="-2" pref="183" max="-2" attributes="0"/>
-                                      <Component id="politics3b" alignment="0" min="-2" pref="183" max="-2" attributes="0"/>
-                                      <Component id="politics3c" alignment="0" min="-2" pref="183" max="-2" attributes="0"/>
+                                      <Component id="tech3a" alignment="0" min="-2" pref="183" max="-2" attributes="0"/>
+                                      <Component id="tech3b" alignment="0" min="-2" pref="183" max="-2" attributes="0"/>
+                                      <Component id="tech3c" alignment="0" min="-2" pref="183" max="-2" attributes="0"/>
                                       <Component id="jButton5" alignment="0" min="-2" max="-2" attributes="0"/>
                                       <Component id="jLabel6" alignment="0" min="-2" pref="630" max="-2" attributes="0"/>
                                       <Component id="jLabel5" alignment="0" min="-2" pref="302" max="-2" attributes="0"/>
@@ -722,11 +713,11 @@
                                   <EmptySpace max="-2" attributes="0"/>
                                   <Component id="jLabel6" min="-2" pref="30" max="-2" attributes="0"/>
                                   <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                                  <Component id="politics3a" min="-2" pref="33" max="-2" attributes="0"/>
+                                  <Component id="tech3a" min="-2" pref="33" max="-2" attributes="0"/>
                                   <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                                  <Component id="politics3b" min="-2" pref="33" max="-2" attributes="0"/>
+                                  <Component id="tech3b" min="-2" pref="33" max="-2" attributes="0"/>
                                   <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                                  <Component id="politics3c" min="-2" pref="33" max="-2" attributes="0"/>
+                                  <Component id="tech3c" min="-2" pref="33" max="-2" attributes="0"/>
                                   <EmptySpace min="-2" pref="31" max="-2" attributes="0"/>
                                   <Component id="jButton5" max="-2" attributes="0"/>
                                   <EmptySpace pref="55" max="32767" attributes="0"/>
@@ -748,10 +739,10 @@
                             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                               <Font name="OCR A Std" size="14" style="0"/>
                             </Property>
-                            <Property name="text" type="java.lang.String" value="Gov. body that holds power of judicial review."/>
+                            <Property name="text" type="java.lang.String" value="Whcih company developed Android OS"/>
                           </Properties>
                         </Component>
-                        <Component class="javax.swing.JRadioButton" name="politics3a">
+                        <Component class="javax.swing.JRadioButton" name="tech3a">
                           <Properties>
                             <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
                               <ComponentRef name="tech3"/>
@@ -759,13 +750,13 @@
                             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                               <Font name="OCR A Std" size="14" style="0"/>
                             </Property>
-                            <Property name="text" type="java.lang.String" value="Supreme Court"/>
+                            <Property name="text" type="java.lang.String" value="Google"/>
                           </Properties>
                           <Events>
-                            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="politics3aActionPerformed"/>
+                            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="tech3aActionPerformed"/>
                           </Events>
                         </Component>
-                        <Component class="javax.swing.JRadioButton" name="politics3b">
+                        <Component class="javax.swing.JRadioButton" name="tech3b">
                           <Properties>
                             <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
                               <ComponentRef name="tech3"/>
@@ -773,14 +764,14 @@
                             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                               <Font name="OCR A Std" size="14" style="0"/>
                             </Property>
-                            <Property name="text" type="java.lang.String" value="Senate"/>
+                            <Property name="text" type="java.lang.String" value="Apple"/>
                             <Property name="toolTipText" type="java.lang.String" value=""/>
                           </Properties>
                           <Events>
-                            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="politics3bActionPerformed"/>
+                            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="tech3bActionPerformed"/>
                           </Events>
                         </Component>
-                        <Component class="javax.swing.JRadioButton" name="politics3c">
+                        <Component class="javax.swing.JRadioButton" name="tech3c">
                           <Properties>
                             <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
                               <ComponentRef name="tech3"/>
@@ -788,10 +779,10 @@
                             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                               <Font name="OCR A Std" size="14" style="0"/>
                             </Property>
-                            <Property name="text" type="java.lang.String" value="Congress"/>
+                            <Property name="text" type="java.lang.String" value="Microsoft"/>
                           </Properties>
                           <Events>
-                            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="politics3cActionPerformed"/>
+                            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="tech3cActionPerformed"/>
                           </Events>
                         </Component>
                         <Component class="javax.swing.JButton" name="jButton5">
@@ -911,21 +902,21 @@
                                       <Group type="102" alignment="0" attributes="0">
                                           <EmptySpace min="-2" pref="31" max="-2" attributes="0"/>
                                           <Group type="103" groupAlignment="0" attributes="0">
-                                              <Component id="jLabel8" min="-2" pref="559" max="-2" attributes="0"/>
                                               <Component id="jLabel7" min="-2" pref="316" max="-2" attributes="0"/>
+                                              <Component id="jLabel8" min="-2" pref="613" max="-2" attributes="0"/>
                                           </Group>
                                       </Group>
                                       <Group type="102" alignment="0" attributes="0">
                                           <EmptySpace min="-2" pref="62" max="-2" attributes="0"/>
                                           <Group type="103" groupAlignment="0" attributes="0">
-                                              <Component id="politics4a" alignment="0" min="-2" pref="183" max="-2" attributes="0"/>
-                                              <Component id="politics4c" alignment="0" min="-2" pref="183" max="-2" attributes="0"/>
+                                              <Component id="tech4a" alignment="0" min="-2" pref="183" max="-2" attributes="0"/>
+                                              <Component id="tech4c" alignment="0" min="-2" pref="183" max="-2" attributes="0"/>
                                               <Component id="jButton7" alignment="0" min="-2" max="-2" attributes="0"/>
-                                              <Component id="politics4b" alignment="0" min="-2" pref="228" max="-2" attributes="0"/>
+                                              <Component id="tech4b" alignment="0" min="-2" pref="228" max="-2" attributes="0"/>
                                           </Group>
                                       </Group>
                                   </Group>
-                                  <EmptySpace pref="87" max="32767" attributes="0"/>
+                                  <EmptySpace pref="33" max="32767" attributes="0"/>
                               </Group>
                           </Group>
                         </DimensionLayout>
@@ -937,11 +928,11 @@
                                   <EmptySpace max="32767" attributes="0"/>
                                   <Component id="jLabel8" min="-2" pref="30" max="-2" attributes="0"/>
                                   <EmptySpace pref="42" max="32767" attributes="0"/>
-                                  <Component id="politics4a" min="-2" pref="33" max="-2" attributes="0"/>
+                                  <Component id="tech4a" min="-2" pref="33" max="-2" attributes="0"/>
                                   <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                                  <Component id="politics4b" min="-2" pref="33" max="-2" attributes="0"/>
+                                  <Component id="tech4b" min="-2" pref="33" max="-2" attributes="0"/>
                                   <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                                  <Component id="politics4c" min="-2" pref="33" max="-2" attributes="0"/>
+                                  <Component id="tech4c" min="-2" pref="33" max="-2" attributes="0"/>
                                   <EmptySpace min="-2" pref="33" max="-2" attributes="0"/>
                                   <Component id="jButton7" max="-2" attributes="0"/>
                                   <EmptySpace min="-2" pref="42" max="-2" attributes="0"/>
@@ -963,10 +954,10 @@
                             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                               <Font name="OCR A Std" size="14" style="0"/>
                             </Property>
-                            <Property name="text" type="java.lang.String" value="Title give to the head of the Senate"/>
+                            <Property name="text" type="java.lang.String" value="file format is commonly used for compressed archives? "/>
                           </Properties>
                         </Component>
-                        <Component class="javax.swing.JRadioButton" name="politics4a">
+                        <Component class="javax.swing.JRadioButton" name="tech4a">
                           <Properties>
                             <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
                               <ComponentRef name="tech4"/>
@@ -974,13 +965,13 @@
                             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                               <Font name="OCR A Std" size="14" style="0"/>
                             </Property>
-                            <Property name="text" type="java.lang.String" value="Senate Leader"/>
+                            <Property name="text" type="java.lang.String" value="EXE"/>
                           </Properties>
                           <Events>
-                            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="politics4aActionPerformed"/>
+                            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="tech4aActionPerformed"/>
                           </Events>
                         </Component>
-                        <Component class="javax.swing.JRadioButton" name="politics4b">
+                        <Component class="javax.swing.JRadioButton" name="tech4b">
                           <Properties>
                             <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
                               <ComponentRef name="tech4"/>
@@ -988,13 +979,13 @@
                             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                               <Font name="OCR A Std" size="14" style="0"/>
                             </Property>
-                            <Property name="text" type="java.lang.String" value="Senate President"/>
+                            <Property name="text" type="java.lang.String" value="TAR"/>
                           </Properties>
                           <Events>
-                            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="politics4bActionPerformed"/>
+                            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="tech4bActionPerformed"/>
                           </Events>
                         </Component>
-                        <Component class="javax.swing.JRadioButton" name="politics4c">
+                        <Component class="javax.swing.JRadioButton" name="tech4c">
                           <Properties>
                             <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
                               <ComponentRef name="tech4"/>
@@ -1002,10 +993,10 @@
                             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                               <Font name="OCR A Std" size="14" style="0"/>
                             </Property>
-                            <Property name="text" type="java.lang.String" value="Senate Head"/>
+                            <Property name="text" type="java.lang.String" value="ZIP"/>
                           </Properties>
                           <Events>
-                            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="politics4cActionPerformed"/>
+                            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="tech4cActionPerformed"/>
                           </Events>
                         </Component>
                         <Component class="javax.swing.JButton" name="jButton7">
@@ -1129,10 +1120,10 @@
                                               <Group type="102" alignment="0" attributes="0">
                                                   <EmptySpace min="6" pref="6" max="-2" attributes="0"/>
                                                   <Group type="103" groupAlignment="0" attributes="0">
-                                                      <Component id="politics5a" alignment="0" min="-2" pref="183" max="-2" attributes="0"/>
                                                       <Component id="jButton9" alignment="0" min="-2" max="-2" attributes="0"/>
-                                                      <Component id="politics5b" alignment="0" min="-2" pref="280" max="-2" attributes="0"/>
-                                                      <Component id="politics5c" alignment="0" min="-2" pref="256" max="-2" attributes="0"/>
+                                                      <Component id="tech5b" alignment="0" min="-2" pref="280" max="-2" attributes="0"/>
+                                                      <Component id="tech5c" alignment="0" min="-2" pref="256" max="-2" attributes="0"/>
+                                                      <Component id="tech5a" alignment="0" min="-2" max="-2" attributes="0"/>
                                                   </Group>
                                               </Group>
                                           </Group>
@@ -1154,11 +1145,11 @@
                                   <EmptySpace max="-2" attributes="0"/>
                                   <Component id="jLabel10" min="-2" pref="30" max="-2" attributes="0"/>
                                   <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                                  <Component id="politics5a" min="-2" pref="33" max="-2" attributes="0"/>
+                                  <Component id="tech5a" min="-2" pref="33" max="-2" attributes="0"/>
                                   <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                                  <Component id="politics5b" min="-2" pref="33" max="-2" attributes="0"/>
+                                  <Component id="tech5b" min="-2" pref="33" max="-2" attributes="0"/>
                                   <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                                  <Component id="politics5c" min="-2" pref="33" max="-2" attributes="0"/>
+                                  <Component id="tech5c" min="-2" pref="33" max="-2" attributes="0"/>
                                   <EmptySpace min="-2" pref="28" max="-2" attributes="0"/>
                                   <Component id="jButton9" max="-2" attributes="0"/>
                                   <EmptySpace pref="58" max="32767" attributes="0"/>
@@ -1180,10 +1171,10 @@
                             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                               <Font name="OCR A Std" size="14" style="0"/>
                             </Property>
-                            <Property name="text" type="java.lang.String" value="In 1972, a martial law was decalred by.."/>
+                            <Property name="text" type="java.lang.String" value="What does the acronym URL stand for?"/>
                           </Properties>
                         </Component>
-                        <Component class="javax.swing.JRadioButton" name="politics5a">
+                        <Component class="javax.swing.JRadioButton" name="tech5a">
                           <Properties>
                             <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
                               <ComponentRef name="tech5"/>
@@ -1191,13 +1182,13 @@
                             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                               <Font name="OCR A Std" size="14" style="0"/>
                             </Property>
-                            <Property name="text" type="java.lang.String" value="Corazon Aquino"/>
+                            <Property name="text" type="java.lang.String" value="Uniform Resource Locator "/>
                           </Properties>
                           <Events>
-                            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="politics5aActionPerformed"/>
+                            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="tech5aActionPerformed"/>
                           </Events>
                         </Component>
-                        <Component class="javax.swing.JRadioButton" name="politics5b">
+                        <Component class="javax.swing.JRadioButton" name="tech5b">
                           <Properties>
                             <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
                               <ComponentRef name="tech5"/>
@@ -1205,13 +1196,13 @@
                             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                               <Font name="OCR A Std" size="14" style="0"/>
                             </Property>
-                            <Property name="text" type="java.lang.String" value="Ferdinand Marcos"/>
+                            <Property name="text" type="java.lang.String" value="Universal Record Locator"/>
                           </Properties>
                           <Events>
-                            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="politics5bActionPerformed"/>
+                            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="tech5bActionPerformed"/>
                           </Events>
                         </Component>
-                        <Component class="javax.swing.JRadioButton" name="politics5c">
+                        <Component class="javax.swing.JRadioButton" name="tech5c">
                           <Properties>
                             <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
                               <ComponentRef name="tech5"/>
@@ -1219,10 +1210,10 @@
                             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                               <Font name="OCR A Std" size="14" style="0"/>
                             </Property>
-                            <Property name="text" type="java.lang.String" value="Diosdado Macapagal"/>
+                            <Property name="text" type="java.lang.String" value="Unified Resource Link"/>
                           </Properties>
                           <Events>
-                            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="politics5cActionPerformed"/>
+                            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="tech5cActionPerformed"/>
                           </Events>
                         </Component>
                         <Component class="javax.swing.JButton" name="jButton9">
@@ -1344,10 +1335,10 @@
                                       <Group type="102" alignment="0" attributes="0">
                                           <EmptySpace min="-2" pref="62" max="-2" attributes="0"/>
                                           <Group type="103" groupAlignment="0" attributes="0">
-                                              <Component id="politics6a" alignment="0" min="-2" pref="183" max="-2" attributes="0"/>
-                                              <Component id="politics6b" alignment="0" min="-2" pref="183" max="-2" attributes="0"/>
+                                              <Component id="tech6a" alignment="0" min="-2" pref="183" max="-2" attributes="0"/>
+                                              <Component id="tech6b" alignment="0" min="-2" pref="183" max="-2" attributes="0"/>
                                               <Component id="jButton11" alignment="0" min="-2" max="-2" attributes="0"/>
-                                              <Component id="politics6c" alignment="0" min="-2" pref="299" max="-2" attributes="0"/>
+                                              <Component id="tech6c" alignment="0" min="-2" pref="299" max="-2" attributes="0"/>
                                           </Group>
                                       </Group>
                                       <Group type="102" alignment="0" attributes="0">
@@ -1370,11 +1361,11 @@
                                   <EmptySpace max="-2" attributes="0"/>
                                   <Component id="jLabel12" min="-2" pref="30" max="-2" attributes="0"/>
                                   <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                                  <Component id="politics6a" min="-2" pref="33" max="-2" attributes="0"/>
+                                  <Component id="tech6a" min="-2" pref="33" max="-2" attributes="0"/>
                                   <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                                  <Component id="politics6b" min="-2" pref="33" max="-2" attributes="0"/>
+                                  <Component id="tech6b" min="-2" pref="33" max="-2" attributes="0"/>
                                   <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                                  <Component id="politics6c" min="-2" pref="33" max="-2" attributes="0"/>
+                                  <Component id="tech6c" min="-2" pref="33" max="-2" attributes="0"/>
                                   <EmptySpace type="separate" max="-2" attributes="0"/>
                                   <Component id="jButton11" max="-2" attributes="0"/>
                                   <EmptySpace pref="68" max="32767" attributes="0"/>
@@ -1396,10 +1387,10 @@
                             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                               <Font name="OCR A Std" size="14" style="0"/>
                             </Property>
-                            <Property name="text" type="java.lang.String" value="Which body has the power to impeach the President"/>
+                            <Property name="text" type="java.lang.String" value="programming languageuse for machine learning?"/>
                           </Properties>
                         </Component>
-                        <Component class="javax.swing.JRadioButton" name="politics6a">
+                        <Component class="javax.swing.JRadioButton" name="tech6a">
                           <Properties>
                             <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
                               <ComponentRef name="tech6"/>
@@ -1407,13 +1398,13 @@
                             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                               <Font name="OCR A Std" size="14" style="0"/>
                             </Property>
-                            <Property name="text" type="java.lang.String" value="Senate"/>
+                            <Property name="text" type="java.lang.String" value="Java"/>
                           </Properties>
                           <Events>
-                            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="politics6aActionPerformed"/>
+                            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="tech6aActionPerformed"/>
                           </Events>
                         </Component>
-                        <Component class="javax.swing.JRadioButton" name="politics6b">
+                        <Component class="javax.swing.JRadioButton" name="tech6b">
                           <Properties>
                             <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
                               <ComponentRef name="tech6"/>
@@ -1421,13 +1412,13 @@
                             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                               <Font name="OCR A Std" size="14" style="0"/>
                             </Property>
-                            <Property name="text" type="java.lang.String" value="Supreme Court"/>
+                            <Property name="text" type="java.lang.String" value="Python"/>
                           </Properties>
                           <Events>
-                            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="politics6bActionPerformed"/>
+                            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="tech6bActionPerformed"/>
                           </Events>
                         </Component>
-                        <Component class="javax.swing.JRadioButton" name="politics6c">
+                        <Component class="javax.swing.JRadioButton" name="tech6c">
                           <Properties>
                             <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
                               <ComponentRef name="tech6"/>
@@ -1435,10 +1426,10 @@
                             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                               <Font name="OCR A Std" size="14" style="0"/>
                             </Property>
-                            <Property name="text" type="java.lang.String" value="House of Representative"/>
+                            <Property name="text" type="java.lang.String" value="C++"/>
                           </Properties>
                           <Events>
-                            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="politics6cActionPerformed"/>
+                            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="tech6cActionPerformed"/>
                           </Events>
                         </Component>
                         <Component class="javax.swing.JButton" name="jButton11">
@@ -1567,10 +1558,10 @@
                                       <Group type="102" alignment="0" attributes="0">
                                           <EmptySpace min="-2" pref="62" max="-2" attributes="0"/>
                                           <Group type="103" groupAlignment="0" attributes="0">
-                                              <Component id="politics7a" alignment="0" min="-2" pref="183" max="-2" attributes="0"/>
-                                              <Component id="politics7b" alignment="0" min="-2" pref="183" max="-2" attributes="0"/>
-                                              <Component id="politics7c" alignment="0" min="-2" pref="183" max="-2" attributes="0"/>
+                                              <Component id="tech7a" alignment="0" min="-2" pref="183" max="-2" attributes="0"/>
                                               <Component id="jButton13" alignment="0" min="-2" max="-2" attributes="0"/>
+                                              <Component id="tech7b" alignment="0" min="-2" pref="278" max="-2" attributes="0"/>
+                                              <Component id="tech7c" alignment="0" min="-2" pref="301" max="-2" attributes="0"/>
                                           </Group>
                                       </Group>
                                       <Group type="102" alignment="0" attributes="0">
@@ -1593,11 +1584,11 @@
                                   <EmptySpace type="separate" max="-2" attributes="0"/>
                                   <Component id="jLabel14" min="-2" max="-2" attributes="0"/>
                                   <EmptySpace min="-2" pref="41" max="-2" attributes="0"/>
-                                  <Component id="politics7a" min="-2" pref="33" max="-2" attributes="0"/>
+                                  <Component id="tech7a" min="-2" pref="33" max="-2" attributes="0"/>
                                   <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                                  <Component id="politics7b" min="-2" pref="33" max="-2" attributes="0"/>
+                                  <Component id="tech7b" min="-2" pref="33" max="-2" attributes="0"/>
                                   <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                                  <Component id="politics7c" min="-2" pref="33" max="-2" attributes="0"/>
+                                  <Component id="tech7c" min="-2" pref="33" max="-2" attributes="0"/>
                                   <EmptySpace type="separate" max="-2" attributes="0"/>
                                   <Component id="jButton13" max="-2" attributes="0"/>
                                   <EmptySpace pref="68" max="32767" attributes="0"/>
@@ -1619,10 +1610,10 @@
                             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                               <Font name="OCR A Std" size="12" style="0"/>
                             </Property>
-                            <Property name="text" type="java.lang.String" value="How many senators are there in the Philippine Senate?"/>
+                            <Property name="text" type="java.lang.String" value="cloud computing service provides on-demand computing resources? "/>
                           </Properties>
                         </Component>
-                        <Component class="javax.swing.JRadioButton" name="politics7a">
+                        <Component class="javax.swing.JRadioButton" name="tech7a">
                           <Properties>
                             <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
                               <ComponentRef name="tech7"/>
@@ -1630,13 +1621,13 @@
                             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                               <Font name="OCR A Std" size="14" style="0"/>
                             </Property>
-                            <Property name="text" type="java.lang.String" value="12"/>
+                            <Property name="text" type="java.lang.String" value="Google Docs"/>
                           </Properties>
                           <Events>
-                            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="politics7aActionPerformed"/>
+                            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="tech7aActionPerformed"/>
                           </Events>
                         </Component>
-                        <Component class="javax.swing.JRadioButton" name="politics7b">
+                        <Component class="javax.swing.JRadioButton" name="tech7b">
                           <Properties>
                             <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
                               <ComponentRef name="tech7"/>
@@ -1644,13 +1635,13 @@
                             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                               <Font name="OCR A Std" size="14" style="0"/>
                             </Property>
-                            <Property name="text" type="java.lang.String" value="24"/>
+                            <Property name="text" type="java.lang.String" value="Microsoft Office 365"/>
                           </Properties>
                           <Events>
-                            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="politics7bActionPerformed"/>
+                            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="tech7bActionPerformed"/>
                           </Events>
                         </Component>
-                        <Component class="javax.swing.JRadioButton" name="politics7c">
+                        <Component class="javax.swing.JRadioButton" name="tech7c">
                           <Properties>
                             <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
                               <ComponentRef name="tech7"/>
@@ -1658,10 +1649,10 @@
                             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                               <Font name="OCR A Std" size="14" style="0"/>
                             </Property>
-                            <Property name="text" type="java.lang.String" value="16"/>
+                            <Property name="text" type="java.lang.String" value="Amazon Web Services (AWS)"/>
                           </Properties>
                           <Events>
-                            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="politics7cActionPerformed"/>
+                            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="tech7cActionPerformed"/>
                           </Events>
                         </Component>
                         <Component class="javax.swing.JButton" name="jButton13">

@@ -49,6 +49,7 @@ public class page1 extends javax.swing.JFrame {
         jPanel13 = new javax.swing.JPanel();
         jPanel12 = new javax.swing.JPanel();
         decorUpPanel = new javax.swing.JPanel();
+        jButton3 = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setBackground(new java.awt.Color(255, 255, 255));
@@ -248,6 +249,14 @@ public class page1 extends javax.swing.JFrame {
         decorUpPanel.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
         backgroundColor.add(decorUpPanel, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 1012, -1));
 
+        jButton3.setText("go to test page");
+        jButton3.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton3ActionPerformed(evt);
+            }
+        });
+        backgroundColor.add(jButton3, new org.netbeans.lib.awtextra.AbsoluteConstraints(480, 310, -1, -1));
+
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
@@ -267,12 +276,10 @@ public class page1 extends javax.swing.JFrame {
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
         // TODO add your handling code here:
        
-        page2 pg2 = new page2();
-        pg2.setVisible(true);
-        pg2.setLocationRelativeTo(null);
-
-         
-        dispose();
+        page2 pg2 = new page2(); // call page 2
+        pg2.setVisible(true); // page2 set visible
+        pg2.setLocationRelativeTo(null); // center
+        dispose(); // page 1 delete
 
     }//GEN-LAST:event_jButton1ActionPerformed
 
@@ -281,6 +288,14 @@ public class page1 extends javax.swing.JFrame {
         System.exit(0);
         
     }//GEN-LAST:event_jButton2ActionPerformed
+
+    private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed
+        // TODO add your handling code here:
+        testing test = new testing();
+        test.setVisible(true);
+        test.setLocationRelativeTo(null);
+        dispose();
+    }//GEN-LAST:event_jButton3ActionPerformed
 
     /**
      * @param args the command line arguments
@@ -325,6 +340,7 @@ public class page1 extends javax.swing.JFrame {
     private javax.swing.JPanel decorUpPanel;
     private javax.swing.JButton jButton1;
     private javax.swing.JButton jButton2;
+    private javax.swing.JButton jButton3;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JPanel jPanel10;

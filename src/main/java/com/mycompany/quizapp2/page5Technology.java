@@ -49,9 +49,9 @@ public class page5Technology extends javax.swing.JFrame {
         jPanel17 = new javax.swing.JPanel();
         jLabel1 = new javax.swing.JLabel();
         jLabel3 = new javax.swing.JLabel();
-        politics1a = new javax.swing.JRadioButton();
-        politics1b = new javax.swing.JRadioButton();
-        politics1c = new javax.swing.JRadioButton();
+        tech1a = new javax.swing.JRadioButton();
+        tech1b = new javax.swing.JRadioButton();
+        tech1c = new javax.swing.JRadioButton();
         jButton1 = new javax.swing.JButton();
         jButton2 = new javax.swing.JButton();
         jPanel4 = new javax.swing.JPanel();
@@ -59,9 +59,9 @@ public class page5Technology extends javax.swing.JFrame {
         jPanel19 = new javax.swing.JPanel();
         jLabel2 = new javax.swing.JLabel();
         jLabel4 = new javax.swing.JLabel();
-        politics2a = new javax.swing.JRadioButton();
-        politics2b = new javax.swing.JRadioButton();
-        politics2c = new javax.swing.JRadioButton();
+        tech2a = new javax.swing.JRadioButton();
+        tech2b = new javax.swing.JRadioButton();
+        tech2c = new javax.swing.JRadioButton();
         jButton3 = new javax.swing.JButton();
         jButton4 = new javax.swing.JButton();
         jPanel5 = new javax.swing.JPanel();
@@ -69,9 +69,9 @@ public class page5Technology extends javax.swing.JFrame {
         jPanel21 = new javax.swing.JPanel();
         jLabel5 = new javax.swing.JLabel();
         jLabel6 = new javax.swing.JLabel();
-        politics3a = new javax.swing.JRadioButton();
-        politics3b = new javax.swing.JRadioButton();
-        politics3c = new javax.swing.JRadioButton();
+        tech3a = new javax.swing.JRadioButton();
+        tech3b = new javax.swing.JRadioButton();
+        tech3c = new javax.swing.JRadioButton();
         jButton5 = new javax.swing.JButton();
         jButton6 = new javax.swing.JButton();
         jPanel6 = new javax.swing.JPanel();
@@ -79,9 +79,9 @@ public class page5Technology extends javax.swing.JFrame {
         jPanel23 = new javax.swing.JPanel();
         jLabel7 = new javax.swing.JLabel();
         jLabel8 = new javax.swing.JLabel();
-        politics4a = new javax.swing.JRadioButton();
-        politics4b = new javax.swing.JRadioButton();
-        politics4c = new javax.swing.JRadioButton();
+        tech4a = new javax.swing.JRadioButton();
+        tech4b = new javax.swing.JRadioButton();
+        tech4c = new javax.swing.JRadioButton();
         jButton7 = new javax.swing.JButton();
         jButton8 = new javax.swing.JButton();
         jPanel7 = new javax.swing.JPanel();
@@ -89,9 +89,9 @@ public class page5Technology extends javax.swing.JFrame {
         jPanel25 = new javax.swing.JPanel();
         jLabel9 = new javax.swing.JLabel();
         jLabel10 = new javax.swing.JLabel();
-        politics5a = new javax.swing.JRadioButton();
-        politics5b = new javax.swing.JRadioButton();
-        politics5c = new javax.swing.JRadioButton();
+        tech5a = new javax.swing.JRadioButton();
+        tech5b = new javax.swing.JRadioButton();
+        tech5c = new javax.swing.JRadioButton();
         jButton9 = new javax.swing.JButton();
         jButton10 = new javax.swing.JButton();
         jPanel8 = new javax.swing.JPanel();
@@ -99,9 +99,9 @@ public class page5Technology extends javax.swing.JFrame {
         jPanel27 = new javax.swing.JPanel();
         jLabel11 = new javax.swing.JLabel();
         jLabel12 = new javax.swing.JLabel();
-        politics6a = new javax.swing.JRadioButton();
-        politics6b = new javax.swing.JRadioButton();
-        politics6c = new javax.swing.JRadioButton();
+        tech6a = new javax.swing.JRadioButton();
+        tech6b = new javax.swing.JRadioButton();
+        tech6c = new javax.swing.JRadioButton();
         jButton11 = new javax.swing.JButton();
         jButton12 = new javax.swing.JButton();
         jPanel9 = new javax.swing.JPanel();
@@ -109,9 +109,9 @@ public class page5Technology extends javax.swing.JFrame {
         jPanel29 = new javax.swing.JPanel();
         jLabel13 = new javax.swing.JLabel();
         jLabel14 = new javax.swing.JLabel();
-        politics7a = new javax.swing.JRadioButton();
-        politics7b = new javax.swing.JRadioButton();
-        politics7c = new javax.swing.JRadioButton();
+        tech7a = new javax.swing.JRadioButton();
+        tech7b = new javax.swing.JRadioButton();
+        tech7c = new javax.swing.JRadioButton();
         jButton13 = new javax.swing.JButton();
         jButton14 = new javax.swing.JButton();
 
@@ -228,32 +228,32 @@ public class page5Technology extends javax.swing.JFrame {
         jLabel1.setText("Technology #1");
 
         jLabel3.setFont(new java.awt.Font("OCR A Std", 0, 14)); // NOI18N
-        jLabel3.setText("Highest Law making body in the Philippines");
+        jLabel3.setText("Popular version control system...");
 
-        tech1.add(politics1a);
-        politics1a.setFont(new java.awt.Font("OCR A Std", 0, 14)); // NOI18N
-        politics1a.setText("Paypal");
-        politics1a.addActionListener(new java.awt.event.ActionListener() {
+        tech1.add(tech1a);
+        tech1a.setFont(new java.awt.Font("OCR A Std", 0, 14)); // NOI18N
+        tech1a.setText("SVN");
+        tech1a.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                politics1aActionPerformed(evt);
+                tech1aActionPerformed(evt);
             }
         });
 
-        tech1.add(politics1b);
-        politics1b.setFont(new java.awt.Font("OCR A Std", 0, 14)); // NOI18N
-        politics1b.setText("Senate");
-        politics1b.addActionListener(new java.awt.event.ActionListener() {
+        tech1.add(tech1b);
+        tech1b.setFont(new java.awt.Font("OCR A Std", 0, 14)); // NOI18N
+        tech1b.setText("FTP");
+        tech1b.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                politics1bActionPerformed(evt);
+                tech1bActionPerformed(evt);
             }
         });
 
-        tech1.add(politics1c);
-        politics1c.setFont(new java.awt.Font("OCR A Std", 0, 14)); // NOI18N
-        politics1c.setText("Supreme Court");
-        politics1c.addActionListener(new java.awt.event.ActionListener() {
+        tech1.add(tech1c);
+        tech1c.setFont(new java.awt.Font("OCR A Std", 0, 14)); // NOI18N
+        tech1c.setText("Git");
+        tech1c.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                politics1cActionPerformed(evt);
+                tech1cActionPerformed(evt);
             }
         });
 
@@ -282,9 +282,9 @@ public class page5Technology extends javax.swing.JFrame {
                             .addGroup(jPanel17Layout.createSequentialGroup()
                                 .addGap(6, 6, 6)
                                 .addGroup(jPanel17Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addComponent(politics1a, javax.swing.GroupLayout.PREFERRED_SIZE, 183, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addComponent(politics1b, javax.swing.GroupLayout.PREFERRED_SIZE, 183, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addComponent(politics1c, javax.swing.GroupLayout.PREFERRED_SIZE, 183, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(tech1a, javax.swing.GroupLayout.PREFERRED_SIZE, 183, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(tech1b, javax.swing.GroupLayout.PREFERRED_SIZE, 183, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(tech1c, javax.swing.GroupLayout.PREFERRED_SIZE, 183, javax.swing.GroupLayout.PREFERRED_SIZE)
                                     .addComponent(jButton1)))))
                     .addGroup(jPanel17Layout.createSequentialGroup()
                         .addGap(31, 31, 31)
@@ -299,11 +299,11 @@ public class page5Technology extends javax.swing.JFrame {
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(jLabel3, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(politics1a, javax.swing.GroupLayout.PREFERRED_SIZE, 33, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(tech1a, javax.swing.GroupLayout.PREFERRED_SIZE, 33, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(politics1b, javax.swing.GroupLayout.PREFERRED_SIZE, 33, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(tech1b, javax.swing.GroupLayout.PREFERRED_SIZE, 33, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(politics1c, javax.swing.GroupLayout.PREFERRED_SIZE, 33, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(tech1c, javax.swing.GroupLayout.PREFERRED_SIZE, 33, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(33, 33, 33)
                 .addComponent(jButton1)
                 .addContainerGap(53, Short.MAX_VALUE))
@@ -351,32 +351,32 @@ public class page5Technology extends javax.swing.JFrame {
         jLabel2.setText("Technology #2");
 
         jLabel4.setFont(new java.awt.Font("OCR A Std", 0, 14)); // NOI18N
-        jLabel4.setText("Lenght for a member of the House of Representative");
+        jLabel4.setText("What word is often abbreviated as Fn on a keyboard?");
 
-        tech2.add(politics2a);
-        politics2a.setFont(new java.awt.Font("OCR A Std", 0, 14)); // NOI18N
-        politics2a.setText("3 years");
-        politics2a.addActionListener(new java.awt.event.ActionListener() {
+        tech2.add(tech2a);
+        tech2a.setFont(new java.awt.Font("OCR A Std", 0, 14)); // NOI18N
+        tech2a.setText("alt");
+        tech2a.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                politics2aActionPerformed(evt);
+                tech2aActionPerformed(evt);
             }
         });
 
-        tech2.add(politics2b);
-        politics2b.setFont(new java.awt.Font("OCR A Std", 0, 14)); // NOI18N
-        politics2b.setText("4 years");
-        politics2b.addActionListener(new java.awt.event.ActionListener() {
+        tech2.add(tech2b);
+        tech2b.setFont(new java.awt.Font("OCR A Std", 0, 14)); // NOI18N
+        tech2b.setText("fn");
+        tech2b.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                politics2bActionPerformed(evt);
+                tech2bActionPerformed(evt);
             }
         });
 
-        tech2.add(politics2c);
-        politics2c.setFont(new java.awt.Font("OCR A Std", 0, 14)); // NOI18N
-        politics2c.setText("6 years");
-        politics2c.addActionListener(new java.awt.event.ActionListener() {
+        tech2.add(tech2c);
+        tech2c.setFont(new java.awt.Font("OCR A Std", 0, 14)); // NOI18N
+        tech2c.setText("ctrl");
+        tech2c.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                politics2cActionPerformed(evt);
+                tech2cActionPerformed(evt);
             }
         });
 
@@ -401,9 +401,9 @@ public class page5Technology extends javax.swing.JFrame {
                     .addGroup(jPanel19Layout.createSequentialGroup()
                         .addGap(62, 62, 62)
                         .addGroup(jPanel19Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(politics2a, javax.swing.GroupLayout.PREFERRED_SIZE, 183, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(politics2b, javax.swing.GroupLayout.PREFERRED_SIZE, 183, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(politics2c, javax.swing.GroupLayout.PREFERRED_SIZE, 183, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(tech2a, javax.swing.GroupLayout.PREFERRED_SIZE, 183, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(tech2b, javax.swing.GroupLayout.PREFERRED_SIZE, 183, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(tech2c, javax.swing.GroupLayout.PREFERRED_SIZE, 183, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addComponent(jButton3)))
                     .addGroup(jPanel19Layout.createSequentialGroup()
                         .addGap(37, 37, 37)
@@ -420,11 +420,11 @@ public class page5Technology extends javax.swing.JFrame {
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(jLabel4, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(18, 18, 18)
-                .addComponent(politics2a, javax.swing.GroupLayout.PREFERRED_SIZE, 33, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(tech2a, javax.swing.GroupLayout.PREFERRED_SIZE, 33, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(politics2b, javax.swing.GroupLayout.PREFERRED_SIZE, 33, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(tech2b, javax.swing.GroupLayout.PREFERRED_SIZE, 33, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(politics2c, javax.swing.GroupLayout.PREFERRED_SIZE, 33, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(tech2c, javax.swing.GroupLayout.PREFERRED_SIZE, 33, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(38, 38, 38)
                 .addComponent(jButton3)
                 .addContainerGap(48, Short.MAX_VALUE))
@@ -480,33 +480,33 @@ public class page5Technology extends javax.swing.JFrame {
         jLabel5.setText("Technology #3");
 
         jLabel6.setFont(new java.awt.Font("OCR A Std", 0, 14)); // NOI18N
-        jLabel6.setText("Gov. body that holds power of judicial review.");
+        jLabel6.setText("Whcih company developed Android OS");
 
-        tech3.add(politics3a);
-        politics3a.setFont(new java.awt.Font("OCR A Std", 0, 14)); // NOI18N
-        politics3a.setText("Supreme Court");
-        politics3a.addActionListener(new java.awt.event.ActionListener() {
+        tech3.add(tech3a);
+        tech3a.setFont(new java.awt.Font("OCR A Std", 0, 14)); // NOI18N
+        tech3a.setText("Google");
+        tech3a.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                politics3aActionPerformed(evt);
+                tech3aActionPerformed(evt);
             }
         });
 
-        tech3.add(politics3b);
-        politics3b.setFont(new java.awt.Font("OCR A Std", 0, 14)); // NOI18N
-        politics3b.setText("Senate");
-        politics3b.setToolTipText("");
-        politics3b.addActionListener(new java.awt.event.ActionListener() {
+        tech3.add(tech3b);
+        tech3b.setFont(new java.awt.Font("OCR A Std", 0, 14)); // NOI18N
+        tech3b.setText("Apple");
+        tech3b.setToolTipText("");
+        tech3b.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                politics3bActionPerformed(evt);
+                tech3bActionPerformed(evt);
             }
         });
 
-        tech3.add(politics3c);
-        politics3c.setFont(new java.awt.Font("OCR A Std", 0, 14)); // NOI18N
-        politics3c.setText("Congress");
-        politics3c.addActionListener(new java.awt.event.ActionListener() {
+        tech3.add(tech3c);
+        tech3c.setFont(new java.awt.Font("OCR A Std", 0, 14)); // NOI18N
+        tech3c.setText("Microsoft");
+        tech3c.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                politics3cActionPerformed(evt);
+                tech3cActionPerformed(evt);
             }
         });
 
@@ -529,9 +529,9 @@ public class page5Technology extends javax.swing.JFrame {
             .addGroup(jPanel21Layout.createSequentialGroup()
                 .addGap(31, 31, 31)
                 .addGroup(jPanel21Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(politics3a, javax.swing.GroupLayout.PREFERRED_SIZE, 183, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(politics3b, javax.swing.GroupLayout.PREFERRED_SIZE, 183, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(politics3c, javax.swing.GroupLayout.PREFERRED_SIZE, 183, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(tech3a, javax.swing.GroupLayout.PREFERRED_SIZE, 183, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(tech3b, javax.swing.GroupLayout.PREFERRED_SIZE, 183, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(tech3c, javax.swing.GroupLayout.PREFERRED_SIZE, 183, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(jButton5)
                     .addComponent(jLabel6, javax.swing.GroupLayout.PREFERRED_SIZE, 630, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(jLabel5, javax.swing.GroupLayout.PREFERRED_SIZE, 302, javax.swing.GroupLayout.PREFERRED_SIZE))
@@ -545,11 +545,11 @@ public class page5Technology extends javax.swing.JFrame {
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(jLabel6, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(politics3a, javax.swing.GroupLayout.PREFERRED_SIZE, 33, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(tech3a, javax.swing.GroupLayout.PREFERRED_SIZE, 33, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(politics3b, javax.swing.GroupLayout.PREFERRED_SIZE, 33, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(tech3b, javax.swing.GroupLayout.PREFERRED_SIZE, 33, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(politics3c, javax.swing.GroupLayout.PREFERRED_SIZE, 33, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(tech3c, javax.swing.GroupLayout.PREFERRED_SIZE, 33, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(31, 31, 31)
                 .addComponent(jButton5)
                 .addContainerGap(55, Short.MAX_VALUE))
@@ -605,32 +605,32 @@ public class page5Technology extends javax.swing.JFrame {
         jLabel7.setText("Technology #4");
 
         jLabel8.setFont(new java.awt.Font("OCR A Std", 0, 14)); // NOI18N
-        jLabel8.setText("Title give to the head of the Senate");
+        jLabel8.setText("file format is commonly used for compressed archives? ");
 
-        tech4.add(politics4a);
-        politics4a.setFont(new java.awt.Font("OCR A Std", 0, 14)); // NOI18N
-        politics4a.setText("Senate Leader");
-        politics4a.addActionListener(new java.awt.event.ActionListener() {
+        tech4.add(tech4a);
+        tech4a.setFont(new java.awt.Font("OCR A Std", 0, 14)); // NOI18N
+        tech4a.setText("EXE");
+        tech4a.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                politics4aActionPerformed(evt);
+                tech4aActionPerformed(evt);
             }
         });
 
-        tech4.add(politics4b);
-        politics4b.setFont(new java.awt.Font("OCR A Std", 0, 14)); // NOI18N
-        politics4b.setText("Senate President");
-        politics4b.addActionListener(new java.awt.event.ActionListener() {
+        tech4.add(tech4b);
+        tech4b.setFont(new java.awt.Font("OCR A Std", 0, 14)); // NOI18N
+        tech4b.setText("TAR");
+        tech4b.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                politics4bActionPerformed(evt);
+                tech4bActionPerformed(evt);
             }
         });
 
-        tech4.add(politics4c);
-        politics4c.setFont(new java.awt.Font("OCR A Std", 0, 14)); // NOI18N
-        politics4c.setText("Senate Head");
-        politics4c.addActionListener(new java.awt.event.ActionListener() {
+        tech4.add(tech4c);
+        tech4c.setFont(new java.awt.Font("OCR A Std", 0, 14)); // NOI18N
+        tech4c.setText("ZIP");
+        tech4c.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                politics4cActionPerformed(evt);
+                tech4cActionPerformed(evt);
             }
         });
 
@@ -655,16 +655,16 @@ public class page5Technology extends javax.swing.JFrame {
                     .addGroup(jPanel23Layout.createSequentialGroup()
                         .addGap(31, 31, 31)
                         .addGroup(jPanel23Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(jLabel8, javax.swing.GroupLayout.PREFERRED_SIZE, 559, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(jLabel7, javax.swing.GroupLayout.PREFERRED_SIZE, 316, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                            .addComponent(jLabel7, javax.swing.GroupLayout.PREFERRED_SIZE, 316, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(jLabel8, javax.swing.GroupLayout.PREFERRED_SIZE, 613, javax.swing.GroupLayout.PREFERRED_SIZE)))
                     .addGroup(jPanel23Layout.createSequentialGroup()
                         .addGap(62, 62, 62)
                         .addGroup(jPanel23Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(politics4a, javax.swing.GroupLayout.PREFERRED_SIZE, 183, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(politics4c, javax.swing.GroupLayout.PREFERRED_SIZE, 183, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(tech4a, javax.swing.GroupLayout.PREFERRED_SIZE, 183, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(tech4c, javax.swing.GroupLayout.PREFERRED_SIZE, 183, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addComponent(jButton7)
-                            .addComponent(politics4b, javax.swing.GroupLayout.PREFERRED_SIZE, 228, javax.swing.GroupLayout.PREFERRED_SIZE))))
-                .addContainerGap(87, Short.MAX_VALUE))
+                            .addComponent(tech4b, javax.swing.GroupLayout.PREFERRED_SIZE, 228, javax.swing.GroupLayout.PREFERRED_SIZE))))
+                .addContainerGap(33, Short.MAX_VALUE))
         );
         jPanel23Layout.setVerticalGroup(
             jPanel23Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -674,11 +674,11 @@ public class page5Technology extends javax.swing.JFrame {
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addComponent(jLabel8, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 42, Short.MAX_VALUE)
-                .addComponent(politics4a, javax.swing.GroupLayout.PREFERRED_SIZE, 33, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(tech4a, javax.swing.GroupLayout.PREFERRED_SIZE, 33, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(politics4b, javax.swing.GroupLayout.PREFERRED_SIZE, 33, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(tech4b, javax.swing.GroupLayout.PREFERRED_SIZE, 33, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(politics4c, javax.swing.GroupLayout.PREFERRED_SIZE, 33, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(tech4c, javax.swing.GroupLayout.PREFERRED_SIZE, 33, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(33, 33, 33)
                 .addComponent(jButton7)
                 .addGap(42, 42, 42))
@@ -734,32 +734,32 @@ public class page5Technology extends javax.swing.JFrame {
         jLabel9.setText("Technology #5");
 
         jLabel10.setFont(new java.awt.Font("OCR A Std", 0, 14)); // NOI18N
-        jLabel10.setText("In 1972, a martial law was decalred by..");
+        jLabel10.setText("What does the acronym URL stand for?");
 
-        tech5.add(politics5a);
-        politics5a.setFont(new java.awt.Font("OCR A Std", 0, 14)); // NOI18N
-        politics5a.setText("Corazon Aquino");
-        politics5a.addActionListener(new java.awt.event.ActionListener() {
+        tech5.add(tech5a);
+        tech5a.setFont(new java.awt.Font("OCR A Std", 0, 14)); // NOI18N
+        tech5a.setText("Uniform Resource Locator ");
+        tech5a.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                politics5aActionPerformed(evt);
+                tech5aActionPerformed(evt);
             }
         });
 
-        tech5.add(politics5b);
-        politics5b.setFont(new java.awt.Font("OCR A Std", 0, 14)); // NOI18N
-        politics5b.setText("Ferdinand Marcos");
-        politics5b.addActionListener(new java.awt.event.ActionListener() {
+        tech5.add(tech5b);
+        tech5b.setFont(new java.awt.Font("OCR A Std", 0, 14)); // NOI18N
+        tech5b.setText("Universal Record Locator");
+        tech5b.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                politics5bActionPerformed(evt);
+                tech5bActionPerformed(evt);
             }
         });
 
-        tech5.add(politics5c);
-        politics5c.setFont(new java.awt.Font("OCR A Std", 0, 14)); // NOI18N
-        politics5c.setText("Diosdado Macapagal");
-        politics5c.addActionListener(new java.awt.event.ActionListener() {
+        tech5.add(tech5c);
+        tech5c.setFont(new java.awt.Font("OCR A Std", 0, 14)); // NOI18N
+        tech5c.setText("Unified Resource Link");
+        tech5c.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                politics5cActionPerformed(evt);
+                tech5cActionPerformed(evt);
             }
         });
 
@@ -788,10 +788,10 @@ public class page5Technology extends javax.swing.JFrame {
                             .addGroup(jPanel25Layout.createSequentialGroup()
                                 .addGap(6, 6, 6)
                                 .addGroup(jPanel25Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addComponent(politics5a, javax.swing.GroupLayout.PREFERRED_SIZE, 183, javax.swing.GroupLayout.PREFERRED_SIZE)
                                     .addComponent(jButton9)
-                                    .addComponent(politics5b, javax.swing.GroupLayout.PREFERRED_SIZE, 280, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addComponent(politics5c, javax.swing.GroupLayout.PREFERRED_SIZE, 256, javax.swing.GroupLayout.PREFERRED_SIZE)))))
+                                    .addComponent(tech5b, javax.swing.GroupLayout.PREFERRED_SIZE, 280, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(tech5c, javax.swing.GroupLayout.PREFERRED_SIZE, 256, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(tech5a)))))
                     .addGroup(jPanel25Layout.createSequentialGroup()
                         .addGap(31, 31, 31)
                         .addComponent(jLabel9, javax.swing.GroupLayout.PREFERRED_SIZE, 295, javax.swing.GroupLayout.PREFERRED_SIZE)))
@@ -805,11 +805,11 @@ public class page5Technology extends javax.swing.JFrame {
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(jLabel10, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(politics5a, javax.swing.GroupLayout.PREFERRED_SIZE, 33, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(tech5a, javax.swing.GroupLayout.PREFERRED_SIZE, 33, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(politics5b, javax.swing.GroupLayout.PREFERRED_SIZE, 33, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(tech5b, javax.swing.GroupLayout.PREFERRED_SIZE, 33, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(politics5c, javax.swing.GroupLayout.PREFERRED_SIZE, 33, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(tech5c, javax.swing.GroupLayout.PREFERRED_SIZE, 33, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(28, 28, 28)
                 .addComponent(jButton9)
                 .addContainerGap(58, Short.MAX_VALUE))
@@ -867,32 +867,32 @@ public class page5Technology extends javax.swing.JFrame {
         jLabel11.setText("Technology #6");
 
         jLabel12.setFont(new java.awt.Font("OCR A Std", 0, 14)); // NOI18N
-        jLabel12.setText("Which body has the power to impeach the President");
+        jLabel12.setText("programming languageuse for machine learning?");
 
-        tech6.add(politics6a);
-        politics6a.setFont(new java.awt.Font("OCR A Std", 0, 14)); // NOI18N
-        politics6a.setText("Senate");
-        politics6a.addActionListener(new java.awt.event.ActionListener() {
+        tech6.add(tech6a);
+        tech6a.setFont(new java.awt.Font("OCR A Std", 0, 14)); // NOI18N
+        tech6a.setText("Java");
+        tech6a.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                politics6aActionPerformed(evt);
+                tech6aActionPerformed(evt);
             }
         });
 
-        tech6.add(politics6b);
-        politics6b.setFont(new java.awt.Font("OCR A Std", 0, 14)); // NOI18N
-        politics6b.setText("Supreme Court");
-        politics6b.addActionListener(new java.awt.event.ActionListener() {
+        tech6.add(tech6b);
+        tech6b.setFont(new java.awt.Font("OCR A Std", 0, 14)); // NOI18N
+        tech6b.setText("Python");
+        tech6b.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                politics6bActionPerformed(evt);
+                tech6bActionPerformed(evt);
             }
         });
 
-        tech6.add(politics6c);
-        politics6c.setFont(new java.awt.Font("OCR A Std", 0, 14)); // NOI18N
-        politics6c.setText("House of Representative");
-        politics6c.addActionListener(new java.awt.event.ActionListener() {
+        tech6.add(tech6c);
+        tech6c.setFont(new java.awt.Font("OCR A Std", 0, 14)); // NOI18N
+        tech6c.setText("C++");
+        tech6c.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                politics6cActionPerformed(evt);
+                tech6cActionPerformed(evt);
             }
         });
 
@@ -917,10 +917,10 @@ public class page5Technology extends javax.swing.JFrame {
                     .addGroup(jPanel27Layout.createSequentialGroup()
                         .addGap(62, 62, 62)
                         .addGroup(jPanel27Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(politics6a, javax.swing.GroupLayout.PREFERRED_SIZE, 183, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(politics6b, javax.swing.GroupLayout.PREFERRED_SIZE, 183, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(tech6a, javax.swing.GroupLayout.PREFERRED_SIZE, 183, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(tech6b, javax.swing.GroupLayout.PREFERRED_SIZE, 183, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addComponent(jButton11)
-                            .addComponent(politics6c, javax.swing.GroupLayout.PREFERRED_SIZE, 299, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                            .addComponent(tech6c, javax.swing.GroupLayout.PREFERRED_SIZE, 299, javax.swing.GroupLayout.PREFERRED_SIZE)))
                     .addGroup(jPanel27Layout.createSequentialGroup()
                         .addGap(37, 37, 37)
                         .addGroup(jPanel27Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -936,11 +936,11 @@ public class page5Technology extends javax.swing.JFrame {
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(jLabel12, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(politics6a, javax.swing.GroupLayout.PREFERRED_SIZE, 33, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(tech6a, javax.swing.GroupLayout.PREFERRED_SIZE, 33, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(politics6b, javax.swing.GroupLayout.PREFERRED_SIZE, 33, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(tech6b, javax.swing.GroupLayout.PREFERRED_SIZE, 33, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(politics6c, javax.swing.GroupLayout.PREFERRED_SIZE, 33, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(tech6c, javax.swing.GroupLayout.PREFERRED_SIZE, 33, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(18, 18, 18)
                 .addComponent(jButton11)
                 .addContainerGap(68, Short.MAX_VALUE))
@@ -996,32 +996,32 @@ public class page5Technology extends javax.swing.JFrame {
         jLabel13.setText("Technology #7");
 
         jLabel14.setFont(new java.awt.Font("OCR A Std", 0, 12)); // NOI18N
-        jLabel14.setText("How many senators are there in the Philippine Senate?");
+        jLabel14.setText("cloud computing service provides on-demand computing resources? ");
 
-        tech7.add(politics7a);
-        politics7a.setFont(new java.awt.Font("OCR A Std", 0, 14)); // NOI18N
-        politics7a.setText("12");
-        politics7a.addActionListener(new java.awt.event.ActionListener() {
+        tech7.add(tech7a);
+        tech7a.setFont(new java.awt.Font("OCR A Std", 0, 14)); // NOI18N
+        tech7a.setText("Google Docs");
+        tech7a.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                politics7aActionPerformed(evt);
+                tech7aActionPerformed(evt);
             }
         });
 
-        tech7.add(politics7b);
-        politics7b.setFont(new java.awt.Font("OCR A Std", 0, 14)); // NOI18N
-        politics7b.setText("24");
-        politics7b.addActionListener(new java.awt.event.ActionListener() {
+        tech7.add(tech7b);
+        tech7b.setFont(new java.awt.Font("OCR A Std", 0, 14)); // NOI18N
+        tech7b.setText("Microsoft Office 365");
+        tech7b.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                politics7bActionPerformed(evt);
+                tech7bActionPerformed(evt);
             }
         });
 
-        tech7.add(politics7c);
-        politics7c.setFont(new java.awt.Font("OCR A Std", 0, 14)); // NOI18N
-        politics7c.setText("16");
-        politics7c.addActionListener(new java.awt.event.ActionListener() {
+        tech7.add(tech7c);
+        tech7c.setFont(new java.awt.Font("OCR A Std", 0, 14)); // NOI18N
+        tech7c.setText("Amazon Web Services (AWS)");
+        tech7c.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                politics7cActionPerformed(evt);
+                tech7cActionPerformed(evt);
             }
         });
 
@@ -1046,10 +1046,10 @@ public class page5Technology extends javax.swing.JFrame {
                     .addGroup(jPanel29Layout.createSequentialGroup()
                         .addGap(62, 62, 62)
                         .addGroup(jPanel29Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(politics7a, javax.swing.GroupLayout.PREFERRED_SIZE, 183, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(politics7b, javax.swing.GroupLayout.PREFERRED_SIZE, 183, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(politics7c, javax.swing.GroupLayout.PREFERRED_SIZE, 183, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(jButton13)))
+                            .addComponent(tech7a, javax.swing.GroupLayout.PREFERRED_SIZE, 183, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(jButton13)
+                            .addComponent(tech7b, javax.swing.GroupLayout.PREFERRED_SIZE, 278, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(tech7c, javax.swing.GroupLayout.PREFERRED_SIZE, 301, javax.swing.GroupLayout.PREFERRED_SIZE)))
                     .addGroup(jPanel29Layout.createSequentialGroup()
                         .addGap(31, 31, 31)
                         .addGroup(jPanel29Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -1065,11 +1065,11 @@ public class page5Technology extends javax.swing.JFrame {
                 .addGap(18, 18, 18)
                 .addComponent(jLabel14)
                 .addGap(41, 41, 41)
-                .addComponent(politics7a, javax.swing.GroupLayout.PREFERRED_SIZE, 33, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(tech7a, javax.swing.GroupLayout.PREFERRED_SIZE, 33, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(politics7b, javax.swing.GroupLayout.PREFERRED_SIZE, 33, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(tech7b, javax.swing.GroupLayout.PREFERRED_SIZE, 33, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(politics7c, javax.swing.GroupLayout.PREFERRED_SIZE, 33, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(tech7c, javax.swing.GroupLayout.PREFERRED_SIZE, 33, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(18, 18, 18)
                 .addComponent(jButton13)
                 .addContainerGap(68, Short.MAX_VALUE))
@@ -1135,22 +1135,22 @@ public class page5Technology extends javax.swing.JFrame {
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
-    private void politics1aActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_politics1aActionPerformed
+    private void tech1aActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_tech1aActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_politics1aActionPerformed
+    }//GEN-LAST:event_tech1aActionPerformed
 
-    private void politics1bActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_politics1bActionPerformed
+    private void tech1bActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_tech1bActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_politics1bActionPerformed
+    }//GEN-LAST:event_tech1bActionPerformed
 
-    private void politics1cActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_politics1cActionPerformed
+    private void tech1cActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_tech1cActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_politics1cActionPerformed
+    }//GEN-LAST:event_tech1cActionPerformed
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
         // TODO add your handling code here:
 
-        if (politics1a.isSelected() == true) {
+        if (tech1c.isSelected() == true) {
             score += 1;
             jPanel10.setBackground(Color.green);
 
@@ -1161,22 +1161,22 @@ public class page5Technology extends javax.swing.JFrame {
         jTabbedPane1.setSelectedIndex(1);
     }//GEN-LAST:event_jButton1ActionPerformed
 
-    private void politics2aActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_politics2aActionPerformed
+    private void tech2aActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_tech2aActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_politics2aActionPerformed
+    }//GEN-LAST:event_tech2aActionPerformed
 
-    private void politics2bActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_politics2bActionPerformed
+    private void tech2bActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_tech2bActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_politics2bActionPerformed
+    }//GEN-LAST:event_tech2bActionPerformed
 
-    private void politics2cActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_politics2cActionPerformed
+    private void tech2cActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_tech2cActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_politics2cActionPerformed
+    }//GEN-LAST:event_tech2cActionPerformed
 
     private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed
         // TODO add your handling code here:
 
-        if(politics2a.isSelected() == true) {
+        if(tech2b.isSelected() == true) {
             score += 1;
             jPanel11.setBackground(Color.green);
 
@@ -1188,21 +1188,21 @@ public class page5Technology extends javax.swing.JFrame {
 
     }//GEN-LAST:event_jButton3ActionPerformed
 
-    private void politics3aActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_politics3aActionPerformed
+    private void tech3aActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_tech3aActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_politics3aActionPerformed
+    }//GEN-LAST:event_tech3aActionPerformed
 
-    private void politics3bActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_politics3bActionPerformed
+    private void tech3bActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_tech3bActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_politics3bActionPerformed
+    }//GEN-LAST:event_tech3bActionPerformed
 
-    private void politics3cActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_politics3cActionPerformed
+    private void tech3cActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_tech3cActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_politics3cActionPerformed
+    }//GEN-LAST:event_tech3cActionPerformed
 
     private void jButton5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton5ActionPerformed
         // TODO add your handling code here:
-        if(politics3a.isSelected() == true) {
+        if(tech3a.isSelected() == true) {
             score += 1;
             jPanel12.setBackground(Color.green);
         } else {
@@ -1212,21 +1212,21 @@ public class page5Technology extends javax.swing.JFrame {
         jTabbedPane1.setSelectedIndex(3);
     }//GEN-LAST:event_jButton5ActionPerformed
 
-    private void politics4aActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_politics4aActionPerformed
+    private void tech4aActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_tech4aActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_politics4aActionPerformed
+    }//GEN-LAST:event_tech4aActionPerformed
 
-    private void politics4bActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_politics4bActionPerformed
+    private void tech4bActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_tech4bActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_politics4bActionPerformed
+    }//GEN-LAST:event_tech4bActionPerformed
 
-    private void politics4cActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_politics4cActionPerformed
+    private void tech4cActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_tech4cActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_politics4cActionPerformed
+    }//GEN-LAST:event_tech4cActionPerformed
 
     private void jButton7ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton7ActionPerformed
         // TODO add your handling code here:
-        if(politics4b.isSelected() == true) {
+        if(tech4c.isSelected() == true) {
             score += 1;
             jPanel13.setBackground(Color.green);
         } else {
@@ -1236,21 +1236,21 @@ public class page5Technology extends javax.swing.JFrame {
         jTabbedPane1.setSelectedIndex(4);
     }//GEN-LAST:event_jButton7ActionPerformed
 
-    private void politics5aActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_politics5aActionPerformed
+    private void tech5aActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_tech5aActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_politics5aActionPerformed
+    }//GEN-LAST:event_tech5aActionPerformed
 
-    private void politics5bActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_politics5bActionPerformed
+    private void tech5bActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_tech5bActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_politics5bActionPerformed
+    }//GEN-LAST:event_tech5bActionPerformed
 
-    private void politics5cActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_politics5cActionPerformed
+    private void tech5cActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_tech5cActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_politics5cActionPerformed
+    }//GEN-LAST:event_tech5cActionPerformed
 
     private void jButton9ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton9ActionPerformed
         // TODO add your handling code here:
-        if(politics5b.isSelected() == true) {
+        if(tech5b.isSelected() == true) {
             score += 1;
             jPanel14.setBackground(Color.green);
         } else {
@@ -1260,21 +1260,21 @@ public class page5Technology extends javax.swing.JFrame {
         jTabbedPane1.setSelectedIndex(5);
     }//GEN-LAST:event_jButton9ActionPerformed
 
-    private void politics6aActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_politics6aActionPerformed
+    private void tech6aActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_tech6aActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_politics6aActionPerformed
+    }//GEN-LAST:event_tech6aActionPerformed
 
-    private void politics6bActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_politics6bActionPerformed
+    private void tech6bActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_tech6bActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_politics6bActionPerformed
+    }//GEN-LAST:event_tech6bActionPerformed
 
-    private void politics6cActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_politics6cActionPerformed
+    private void tech6cActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_tech6cActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_politics6cActionPerformed
+    }//GEN-LAST:event_tech6cActionPerformed
 
     private void jButton11ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton11ActionPerformed
         // TODO add your handling code here:
-        if (politics6c.isSelected() == true) {
+        if (tech6c.isSelected() == true) {
             score += 1;
             jPanel15.setBackground(Color.green);
         } else {
@@ -1284,21 +1284,21 @@ public class page5Technology extends javax.swing.JFrame {
         jTabbedPane1.setSelectedIndex(6);
     }//GEN-LAST:event_jButton11ActionPerformed
 
-    private void politics7aActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_politics7aActionPerformed
+    private void tech7aActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_tech7aActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_politics7aActionPerformed
+    }//GEN-LAST:event_tech7aActionPerformed
 
-    private void politics7bActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_politics7bActionPerformed
+    private void tech7bActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_tech7bActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_politics7bActionPerformed
+    }//GEN-LAST:event_tech7bActionPerformed
 
-    private void politics7cActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_politics7cActionPerformed
+    private void tech7cActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_tech7cActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_politics7cActionPerformed
+    }//GEN-LAST:event_tech7cActionPerformed
 
     private void jButton13ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton13ActionPerformed
         // TODO add your handling code here:
-        if (politics7b.isSelected() == true) {
+        if (tech7c.isSelected() == true) {
             score += 1;
             jPanel16.setBackground(Color.green);
         } else {
@@ -1410,33 +1410,33 @@ public class page5Technology extends javax.swing.JFrame {
     private javax.swing.JPanel jPanel8;
     private javax.swing.JPanel jPanel9;
     private javax.swing.JTabbedPane jTabbedPane1;
-    private javax.swing.JRadioButton politics1a;
-    private javax.swing.JRadioButton politics1b;
-    private javax.swing.JRadioButton politics1c;
-    private javax.swing.JRadioButton politics2a;
-    private javax.swing.JRadioButton politics2b;
-    private javax.swing.JRadioButton politics2c;
-    private javax.swing.JRadioButton politics3a;
-    private javax.swing.JRadioButton politics3b;
-    private javax.swing.JRadioButton politics3c;
-    private javax.swing.JRadioButton politics4a;
-    private javax.swing.JRadioButton politics4b;
-    private javax.swing.JRadioButton politics4c;
-    private javax.swing.JRadioButton politics5a;
-    private javax.swing.JRadioButton politics5b;
-    private javax.swing.JRadioButton politics5c;
-    private javax.swing.JRadioButton politics6a;
-    private javax.swing.JRadioButton politics6b;
-    private javax.swing.JRadioButton politics6c;
-    private javax.swing.JRadioButton politics7a;
-    private javax.swing.JRadioButton politics7b;
-    private javax.swing.JRadioButton politics7c;
     private javax.swing.ButtonGroup tech1;
+    private javax.swing.JRadioButton tech1a;
+    private javax.swing.JRadioButton tech1b;
+    private javax.swing.JRadioButton tech1c;
     private javax.swing.ButtonGroup tech2;
+    private javax.swing.JRadioButton tech2a;
+    private javax.swing.JRadioButton tech2b;
+    private javax.swing.JRadioButton tech2c;
     private javax.swing.ButtonGroup tech3;
+    private javax.swing.JRadioButton tech3a;
+    private javax.swing.JRadioButton tech3b;
+    private javax.swing.JRadioButton tech3c;
     private javax.swing.ButtonGroup tech4;
+    private javax.swing.JRadioButton tech4a;
+    private javax.swing.JRadioButton tech4b;
+    private javax.swing.JRadioButton tech4c;
     private javax.swing.ButtonGroup tech5;
+    private javax.swing.JRadioButton tech5a;
+    private javax.swing.JRadioButton tech5b;
+    private javax.swing.JRadioButton tech5c;
     private javax.swing.ButtonGroup tech6;
+    private javax.swing.JRadioButton tech6a;
+    private javax.swing.JRadioButton tech6b;
+    private javax.swing.JRadioButton tech6c;
     private javax.swing.ButtonGroup tech7;
+    private javax.swing.JRadioButton tech7a;
+    private javax.swing.JRadioButton tech7b;
+    private javax.swing.JRadioButton tech7c;
     // End of variables declaration//GEN-END:variables
 }

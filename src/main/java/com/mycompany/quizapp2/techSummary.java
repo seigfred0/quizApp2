@@ -8,40 +8,34 @@ package com.mycompany.quizapp2;
  *
  * @author Seigfred
  */
-public class geoSummary extends javax.swing.JFrame {
+public class techSummary extends javax.swing.JFrame {
 
     private javax.swing.JLabel[] answerLabels;
 
     /**
      * Creates new form page8Summary
      */
-    public geoSummary() {
+    public techSummary() {
         initComponents();
         setResizable(false);
+        
+        
         getLabels();
         showAns();
     }
     
-    private void getLabels() {
-        answerLabels = new javax.swing.JLabel[]{ans1, ans2, ans3, ans4, ans5, ans6, ans7};
-    }
+        private void getLabels() {
+            answerLabels = new javax.swing.JLabel[]{ans1, ans2, ans3, ans4, ans5, ans6, ans7};
+        }
     
     private void showAns() {
         // Replace these sample answers with your actual answers
-        String[] answers = {"Coutnry with the largest population == China", 
-            "The more you take, the more you leave behind. What am I? == Footsteps", 
-            "I'm tall when I'm young, and short when I'm old. What am I? == Candle", 
-            "What comes once in a minute, twice in a moment, but never in a thousand years? == Letter 'M'",
-            "What has a head, a tail, but no body? == A COIN", 
-            "I speak without a mouth and hear without ears. What am I? == An echo",
-            "The person who makes it doesn't need it. The person who buys it doesn't use it. THe person who uses it doesn't know it. What is it? == A Coffin"};
+        String[] answers = {"Which of the following is a popular version control == Git", "Index 1"};
 
-        int i = 0;
-        do {
+        for (int i = 0; i < Math.min(answers.length, answerLabels.length); i++) {
             answerLabels[i].setText(answers[i]);
-            i++;
-        } while (i < Math.min(answers.length, answerLabels.length));
-
+            
+        }
     }
     
     
@@ -298,9 +292,9 @@ public class geoSummary extends javax.swing.JFrame {
                 .addComponent(ans2, javax.swing.GroupLayout.PREFERRED_SIZE, 26, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(14, 14, 14)
                 .addComponent(ans3, javax.swing.GroupLayout.PREFERRED_SIZE, 26, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(14, 14, 14)
+                .addGap(16, 16, 16)
                 .addComponent(ans4, javax.swing.GroupLayout.PREFERRED_SIZE, 26, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(14, 14, 14)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addComponent(ans5, javax.swing.GroupLayout.PREFERRED_SIZE, 26, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(14, 14, 14)
                 .addComponent(ans6, javax.swing.GroupLayout.PREFERRED_SIZE, 26, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -329,10 +323,10 @@ public class geoSummary extends javax.swing.JFrame {
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
         // TODO add your handling code here:
-        thankYouPageGeography geoPage = new thankYouPageGeography();
+        thankYouPage tyPage = new thankYouPage();
        
-        geoPage.setLocationRelativeTo(null);
-        geoPage.setVisible(true);
+        tyPage.setLocationRelativeTo(null);
+        tyPage.setVisible(true);
         dispose();
     }//GEN-LAST:event_jButton1ActionPerformed
 
@@ -353,13 +347,13 @@ public class geoSummary extends javax.swing.JFrame {
                 }
             }
         } catch (ClassNotFoundException ex) {
-            java.util.logging.Logger.getLogger(geoSummary.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(techSummary.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (InstantiationException ex) {
-            java.util.logging.Logger.getLogger(geoSummary.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(techSummary.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (IllegalAccessException ex) {
-            java.util.logging.Logger.getLogger(geoSummary.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(techSummary.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (javax.swing.UnsupportedLookAndFeelException ex) {
-            java.util.logging.Logger.getLogger(geoSummary.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(techSummary.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         }
         //</editor-fold>
         //</editor-fold>
@@ -369,7 +363,7 @@ public class geoSummary extends javax.swing.JFrame {
         /* Create and display the form */
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
-                new geoSummary().setVisible(true);
+                new techSummary().setVisible(true);
             }
         });
     }

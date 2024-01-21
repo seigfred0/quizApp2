@@ -18,13 +18,15 @@ public class riddleSummary extends javax.swing.JFrame {
     public riddleSummary() {
         initComponents();
         setResizable(false);
+        
+        
         getLabels();
         showAns();
     }
     
-    private void getLabels() {
-        answerLabels = new javax.swing.JLabel[]{ans1, ans2, ans3, ans4, ans5, ans6, ans7};
-    }
+        private void getLabels() {
+            answerLabels = new javax.swing.JLabel[]{ans1, ans2, ans3, ans4, ans5, ans6, ans7};
+        }
     
     private void showAns() {
         // Replace these sample answers with your actual answers
